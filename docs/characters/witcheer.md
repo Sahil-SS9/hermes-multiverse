@@ -22,13 +22,19 @@ The source sheet depicts cream-white feathers, an orange bill, large black shade
 
 The sheet labels Witcheer a compact "Luck Merchant" aligned with a fictional "House of Gold" and assigns a "Fortune Cane" that can tilt probability for a price. Its cunning trickster characterization and luck-based ability are fan-created sheet lore, not personal facts or official Nous Research canon.
 
+## Rigged 3D model
+
+The updated NRCU Vault links [Witcheer-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Witcheer-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **21,751,189 bytes** and SHA-256 `b319cd50ab8c14f5bd96892b194d816213251691d291e155f1030bd605c5f61c`.
+
+Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
 ## Accepted style omission
 
 Eight styles are current. A hyper-realistic version is intentionally absent and is an accepted omission, not an accidental gap or an instruction to generate another asset.
 
 ## Deliberate unknowns
 
-The catalogue does not establish a public handle, real-world role, in-universe species beyond the duck-like design, further affiliations, story history, creator permissions, or a confirmed relationship with Kainan beyond the recorded screen interaction.
+The catalogue does not establish a public handle, real-world role, in-universe species beyond the duck-like design, further affiliations, story history, creator permissions, a confirmed relationship with Kainan beyond the recorded screen interaction, or whether the external rig precisely matches every current style sheet.
 
 ## Rights and provenance
 

@@ -24,9 +24,15 @@ The NRCU video log places Teknium at about **01:50** in [*Thank You Nous Researc
 
 Teknium also appears in the archived scene descriptions for [ASK HERMES](../scenes/ask-hermes.md), [The Campfire](../scenes/campfire.md), [The Carnival Party](../scenes/carnival.md), and [The Beach Finale](../scenes/beach-finale.md). ASK HERMES records a conflicting red face covering from an unavailable legacy image; the discrepancy remains unresolved. The [Tekpunk production record](../music-videos/tekpunk-one-more-prompt.md) contains a creator-supplied "leaked from Teknium's hard disk" joke, not a confirmed appearance.
 
+## Rigged 3D model
+
+The updated NRCU Vault links [Teknium-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Teknium-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **18,623,006 bytes** and SHA-256 `bb08b497b5d682cf4176c16432e491e894e8c2fd151c40563487bb65d290994b`.
+
+Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
 ## Deliberate unknowns
 
-The catalogue does not establish Teknium's public biography, exact real-world role, whether every legacy scene belongs to one continuity, or how the mask discrepancy should be resolved.
+The catalogue does not establish Teknium's public biography, exact real-world role, whether every legacy scene belongs to one continuity, how the mask discrepancy should be resolved, or whether the external rig precisely matches every current style sheet.
 
 ## Rights and provenance
 

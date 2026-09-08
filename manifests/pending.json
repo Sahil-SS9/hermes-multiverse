@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release": "v0.1.0-wip",
+  "release": "v0.2.0-wip",
   "documentation_only": [
     {
       "slug": "emozilla",
@@ -9,6 +9,31 @@
     {
       "slug": "ggb",
       "reason": "documentation-only; excluded from style generation in this release"
+    }
+  ],
+  "source_only": [
+    {
+      "slug": "doge-man",
+      "design_status": "source-only-model-preview",
+      "missing_styles": [
+        "anime",
+        "rick-and-morty",
+        "disney",
+        "mecha",
+        "chibi",
+        "gothic",
+        "claymation-stop-motion",
+        "hyper-realistic",
+        "ink-pen-sketch"
+      ],
+      "reason": "3D model preview and source record exist; no approved multi-view identity sheet or style set"
+    }
+  ],
+  "reference_reconciliation": [
+    {
+      "slug": "nousgirl",
+      "design_status": "upstream-reference-reconciliation-pending",
+      "reason": "new upstream selected portrait and studies must be reconciled with the current canonical multi-view sheet"
     }
   ],
   "rights_pending": [
@@ -47,6 +72,8 @@
   ],
   "summary": {
     "documentation_only": 2,
+    "source_only": 1,
+    "reference_reconciliation": 1,
     "rights_pending_characters": 1,
     "rights_pending_styles": 3,
     "accepted_omissions": 1,

@@ -165,5 +165,16 @@
       }
     }
   ],
-  "accepted_omissions": []
+  "accepted_omissions": [],
+  "external_models": [
+    {
+      "bytes": 41451999,
+      "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/TurboFit-rigged.zip",
+      "format": "ZIP containing GLB",
+      "name": "TurboFit-rigged.zip",
+      "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+      "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+      "sha256": "9b62d700d68c46dc8778d5cf088b3fbfc532c43d6843c49ee9e6bd6b79614cfe"
+    }
+  ]
 }

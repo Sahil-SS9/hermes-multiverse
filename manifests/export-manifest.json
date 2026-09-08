@@ -1,15 +1,18 @@
 {
   "schema_version": 1,
-  "release": "v0.1.0-wip",
+  "release": "v0.2.0-wip",
   "counts": {
-    "characters": 33,
-    "profiles": 33,
+    "characters": 34,
+    "profiles": 34,
+    "repository_files": 402,
     "style_sheets": 277,
     "target_styles": 9,
     "characters_with_all_target_styles": 29,
     "documentation_only_characters": 2,
+    "source_only_characters": 1,
     "scene_documents": 4,
-    "music_video_documents": 3
+    "music_video_documents": 3,
+    "reference_documents": 1
   },
   "target_styles": [
     "anime",
@@ -23,7 +26,7 @@
     "ink-pen-sketch"
   ],
   "release_bundle": {
-    "filename": "hermes-multiverse-v0.1.0-wip-full-resolution.zip",
+    "filename": "hermes-multiverse-v0.2.0-wip-full-resolution.zip",
     "sha256": "772cfef550c1ffce6b83179d74f18925d7fc18999c5c8269e62cb0e66743d2a1",
     "bytes": 629225858,
     "image_count": 277,
@@ -47,8 +50,8 @@
     },
     {
       "path": "ATTRIBUTION.md",
-      "sha256": "849fd6905854f253d032e47bc26bf9f58e04b50f3138ab7b1ac3eba1029a5a23",
-      "bytes": 6298
+      "sha256": "aaf18ee6dc8a1cf61bcba220a247493106ef8379bc67e5e80717d029ee93c88a",
+      "bytes": 6604
     },
     {
       "path": "CONTRIBUTING.md",
@@ -57,8 +60,8 @@
     },
     {
       "path": "GALLERY.md",
-      "sha256": "e029b64dde2eaf4abb9d923726f0b37119de3b80535aa5765894a13da955e8fa",
-      "bytes": 24504
+      "sha256": "a99dfa4e3d4eeae93957cca939f3c5e43c29517111fdce5cc725ba239723539c",
+      "bytes": 24602
     },
     {
       "path": "LICENSE-CODE",
@@ -67,18 +70,18 @@
     },
     {
       "path": "NOTICE.md",
-      "sha256": "00c5819aeab2c70e4a15f97f6a92e151602ffd9100e6acd4c8a806408ffd4bfc",
-      "bytes": 951
+      "sha256": "7d40efde9809746c0d4c977a58ed9b0caef30437565f7bc30bc44d8d8225d18b",
+      "bytes": 1034
     },
     {
       "path": "README.md",
-      "sha256": "df4990e20d24b17ab3b1fc947e2588652427bbb0d298f3ecba3c83b9b13e3078",
-      "bytes": 1863
+      "sha256": "3e514e272812d56807b894f6f2d964ca0219a7f19354a86f3bc4f90aa5f70965",
+      "bytes": 2068
     },
     {
       "path": "STATUS.md",
-      "sha256": "418e1f0030718c7f39f4c7618530d627252f8476704f6db235fb364d8f7d9140",
-      "bytes": 898
+      "sha256": "ac769f6afe79473dfcf5819c018cae52406bd18c1eaa64472d61813268e57a87",
+      "bytes": 1284
     },
     {
       "path": "characters/123321/README.md",
@@ -149,6 +152,16 @@
       "path": "characters/cthulhu/manifest.json",
       "sha256": "b4ef02023a5a20cda20a6d483a6f80944518da758138799a2c28c49d1aceea5a",
       "bytes": 5327
+    },
+    {
+      "path": "characters/doge-man/README.md",
+      "sha256": "2434dd2e0a3fd105acc44e67473610654ea93ac7488be2f6159a87467dc573c9",
+      "bytes": 297
+    },
+    {
+      "path": "characters/doge-man/manifest.json",
+      "sha256": "f038db8461ddfeca5ffcac52a7068c7af5aaad914dc1ca766467e067d7dffc42",
+      "bytes": 976
     },
     {
       "path": "characters/don-piedro/README.md",
@@ -262,13 +275,13 @@
     },
     {
       "path": "characters/nousgirl/README.md",
-      "sha256": "d14e0d526bed9038c7cb9283854a9d978ea0171352805172a1cc2cd1468d6b7c",
-      "bytes": 718
+      "sha256": "396976fc654cb423109e0d1ba1110619496efe4aee7b1820540a5ae2e4fcade8",
+      "bytes": 748
     },
     {
       "path": "characters/nousgirl/manifest.json",
-      "sha256": "dd821630f6736e8b0e1b1f18bfcb23331dadfddd8074e043ba0a661c467dd3bd",
-      "bytes": 5392
+      "sha256": "bd178d54e89cb8d5e19dd37e04f59681103c98136018d66c93cc3fb412b9cca6",
+      "bytes": 5422
     },
     {
       "path": "characters/quark2world/README.md",
@@ -367,8 +380,8 @@
     },
     {
       "path": "characters/teknium/manifest.json",
-      "sha256": "efda5f2bef0f2f968e839206daa4bc9d0566b8903005be70a28be277b914ffbc",
-      "bytes": 5848
+      "sha256": "acac2442f02e85229c6d0b406caa677fb8a4bdef0502134aa45b68ff3bac71e6",
+      "bytes": 6379
     },
     {
       "path": "characters/tinuviel/README.md",
@@ -397,8 +410,8 @@
     },
     {
       "path": "characters/turbo-fit/manifest.json",
-      "sha256": "e5a5cb008d3fde7af7dd5717c8b2f45451e01aab2b7dccfeef1c4f23098f7913",
-      "bytes": 5431
+      "sha256": "e90431d014d9b64e3ee25e62a2e253738cf9ba153bbd6e7867fdba521db37a01",
+      "bytes": 5964
     },
     {
       "path": "characters/witcheer/README.md",
@@ -407,8 +420,8 @@
     },
     {
       "path": "characters/witcheer/manifest.json",
-      "sha256": "17486ca89dbba90c8f99906972906297086efbc93c1b2d25b0b6ca5c2e3b7ea5",
-      "bytes": 4813
+      "sha256": "bdd56844007f0ec6441118b2e56f197656fd1cbaadd7c948263a9dd311ab73aa",
+      "bytes": 5346
     },
     {
       "path": "docs/characters/123321.md",
@@ -444,6 +457,11 @@
       "path": "docs/characters/cthulhu.md",
       "sha256": "d6974ad801b48065a321a00d41e7b00fad4c25b0aeb68d2643b953adf57cf5d2",
       "bytes": 2218
+    },
+    {
+      "path": "docs/characters/doge-man.md",
+      "sha256": "224d84b193d63c8b644de60457ae38f54ceefa1582804ff3afc3fccd353f0b17",
+      "bytes": 3704
     },
     {
       "path": "docs/characters/don-piedro.md",
@@ -502,8 +520,8 @@
     },
     {
       "path": "docs/characters/nousgirl.md",
-      "sha256": "9bf70e0174da8a4a06b58d005aee8ef50da7e2611b9f299b8304abe39dc55988",
-      "bytes": 2286
+      "sha256": "81246d424bcc65797b8f105df63019feedd43c24c1ca3857db3e75a4ddb82800",
+      "bytes": 4657
     },
     {
       "path": "docs/characters/quark2world.md",
@@ -552,8 +570,8 @@
     },
     {
       "path": "docs/characters/teknium.md",
-      "sha256": "5bf6b4478cb7161b01dec27a82814a7e4f9cfaf96a11d8397e608fcffdea7e82",
-      "bytes": 2817
+      "sha256": "60cdc71a4ec7d4fd9c250f52678034716129203b814414dc0525e2ae33316cb1",
+      "bytes": 3580
     },
     {
       "path": "docs/characters/tinuviel.md",
@@ -567,13 +585,13 @@
     },
     {
       "path": "docs/characters/turbo-fit.md",
-      "sha256": "e1bc86bea5a5b6218f08950abee8b28555defa744ff9163bd0c41d3be5afedc1",
-      "bytes": 2596
+      "sha256": "ac01ddfc8c771bd836fcfe312d6b23924a874fa78a0df1251968170d25f045ee",
+      "bytes": 3361
     },
     {
       "path": "docs/characters/witcheer.md",
-      "sha256": "5a9d2178f44cf6ca295c8aff608101d9d7af30663e66ca33f4f4af38e405997f",
-      "bytes": 2577
+      "sha256": "03c109cbdf16ed3249f1aa6a91ce64ea716a911de629dcb2bfd120ddcb255554",
+      "bytes": 3342
     },
     {
       "path": "docs/music-videos/hermes-sr72.md",
@@ -589,6 +607,11 @@
       "path": "docs/music-videos/thank-you-nous-research-arts-bro.md",
       "sha256": "499cdd46167dd6b5ea2b85217d7506d22ca849da570a0836ce4549f80f605a8b",
       "bytes": 5175
+    },
+    {
+      "path": "docs/references/3d-character-lineup.md",
+      "sha256": "2b41a5b61fbf2ea819252491ae575ac9f2117030a37fad921474a1f6489b788f",
+      "bytes": 2609
     },
     {
       "path": "docs/scenes/ask-hermes.md",
@@ -612,12 +635,12 @@
     },
     {
       "path": "manifests/pending.json",
-      "sha256": "014e2f37a0629f280344d8e070f6198ada55842036ae1ac25b80f86618aac75a",
-      "bytes": 1304
+      "sha256": "01a0659b4ff822db4e4cf707c37174fcbc3f090969709d6938f95241110ceb7e",
+      "bytes": 2087
     },
     {
       "path": "manifests/release-asset.sha256",
-      "sha256": "7bd639701ac076a5c135f36588c408a953d0f0f129c93aa48b27137c2462297b",
+      "sha256": "1663a8c02932e1a09554aab2d5008fde1c40ce0223419e1faa6cdc7914fac554",
       "bytes": 115
     },
     {
@@ -2007,8 +2030,8 @@
     },
     {
       "path": "scripts/verify_repository.py",
-      "sha256": "20c660dc088a2e05d0cd184d83d6935e5e0f93e7aac3c2f27230b00cd2a7554c",
-      "bytes": 35305
+      "sha256": "1154affbfdf13c70dadb960df652d82be3dffe82ed165125a9eb56155804e567",
+      "bytes": 43947
     }
   ]
 }

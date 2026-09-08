@@ -1,6 +1,6 @@
 # NousGirl
 
-- Design status: `established`
+- Design status: `upstream-reference-reconciliation-pending`
 - Rights status: `unknown-not-cleared`
 - Published styles: 9
 - [Character profile](../../docs/characters/nousgirl.md)

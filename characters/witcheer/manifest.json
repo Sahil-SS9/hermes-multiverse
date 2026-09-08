@@ -148,5 +148,16 @@
   ],
   "accepted_omissions": [
     "hyper-realistic"
+  ],
+  "external_models": [
+    {
+      "bytes": 21751189,
+      "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Witcheer-rigged.zip",
+      "format": "ZIP containing GLB",
+      "name": "Witcheer-rigged.zip",
+      "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+      "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+      "sha256": "b319cd50ab8c14f5bd96892b194d816213251691d291e155f1030bd605c5f61c"
+    }
   ]
 }

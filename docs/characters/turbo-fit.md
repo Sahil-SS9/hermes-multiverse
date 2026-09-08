@@ -24,9 +24,15 @@ The video log for [*Thank You Nous Research*](../music-videos/thank-you-nous-res
 
 Turbo Fit also appears in the archived descriptions of [ASK HERMES](../scenes/ask-hermes.md), [The Campfire](../scenes/campfire.md), [The Carnival Party](../scenes/carnival.md), and [The Beach Finale](../scenes/beach-finale.md). These scene pages preserve NRCU lore and disclose unavailable source images where applicable.
 
+## Rigged 3D model
+
+The updated NRCU Vault links [TurboFit-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/TurboFit-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **41,451,999 bytes** and SHA-256 `9b62d700d68c46dc8778d5cf088b3fbfc532c43d6843c49ee9e6bd6b79614cfe`.
+
+Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
 ## Deliberate unknowns
 
-The catalogue does not establish Sovthpaw's public identity, real-world role, equipment ownership, official allegiance, or whether all props and scene descriptions form one approved continuity.
+The catalogue does not establish Sovthpaw's public identity, real-world role, equipment ownership, official allegiance, whether all props and scene descriptions form one approved continuity, or whether the external rig precisely matches every current style sheet.
 
 ## Rights and provenance
 

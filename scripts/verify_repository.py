@@ -28,6 +28,7 @@ EXPECTED_SLUGS = [
     "brooklyn-heartbreaker",
     "coffeeblender",
     "cthulhu",
+    "doge-man",
     "don-piedro",
     "ee-dd",
     "emozilla",
@@ -67,16 +68,21 @@ TARGET_STYLES = [
     "ink-pen-sketch",
 ]
 EXPECTED_COUNTS = {
-    "characters": 33,
-    "profiles": 33,
+    "characters": 34,
+    "profiles": 34,
+    "repository_files": 402,
     "style_sheets": 277,
     "target_styles": 9,
     "characters_with_all_target_styles": 29,
     "documentation_only_characters": 2,
+    "source_only_characters": 1,
     "scene_documents": 4,
     "music_video_documents": 3,
+    "reference_documents": 1,
 }
 DOCUMENTATION_ONLY = ["emozilla", "ggb"]
+SOURCE_ONLY = {"doge-man": "source-only-model-preview"}
+REFERENCE_RECONCILIATION = {"nousgirl": "upstream-reference-reconciliation-pending"}
 PROVISIONAL = ["gille", "quark2world", "suzu"]
 PROVISIONAL_STATUS = "provisional-sheet-conflicts-with-legacy-unknown-status"
 RIGHTS_PENDING = "sudo-nightwing"
@@ -88,6 +94,14 @@ RIGHTS_PENDING_STYLES = [
 ]
 ACCEPTED_OMISSIONS = {"witcheer": ["hyper-realistic"]}
 ADDITIONAL_STYLES = {"sahil": ["samurai"], "teknium": ["punk"]}
+SCENE_DOCUMENTS = ["ask-hermes", "beach-finale", "campfire", "carnival"]
+MUSIC_VIDEO_DOCUMENTS = [
+    "hermes-sr72",
+    "tekpunk-one-more-prompt",
+    "thank-you-nous-research-arts-bro",
+]
+REFERENCE_DOCUMENTS = ["3d-character-lineup"]
+EXPECTED_FILE_COUNT = 402
 REQUIRED_ROOT_FILES = {
     ".gitattributes",
     ".gitignore",
@@ -116,6 +130,62 @@ PUBLIC_MANIFEST_KEYS = {
     "target_styles",
     "published_styles",
     "accepted_omissions",
+    "external_models",
+}
+EXTERNAL_MODEL_KEYS = {
+    "name",
+    "download_url",
+    "release_url",
+    "sha256",
+    "bytes",
+    "format",
+    "rights_note",
+}
+EXPECTED_EXTERNAL_MODELS: dict[str, list[dict[str, object]]] = {
+    "doge-man": [
+        {
+            "bytes": 28395018,
+            "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/DogeMan-rigged.zip",
+            "format": "ZIP containing GLB",
+            "name": "DogeMan-rigged.zip",
+            "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+            "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+            "sha256": "c543dd6a55d18263b6aa212220458a5d2e1a8e73619c3c5436d685335aa0c2ad",
+        }
+    ],
+    "teknium": [
+        {
+            "bytes": 18623006,
+            "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Teknium-rigged.zip",
+            "format": "ZIP containing GLB",
+            "name": "Teknium-rigged.zip",
+            "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+            "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+            "sha256": "bb08b497b5d682cf4176c16432e491e894e8c2fd151c40563487bb65d290994b",
+        }
+    ],
+    "turbo-fit": [
+        {
+            "bytes": 41451999,
+            "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/TurboFit-rigged.zip",
+            "format": "ZIP containing GLB",
+            "name": "TurboFit-rigged.zip",
+            "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+            "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+            "sha256": "9b62d700d68c46dc8778d5cf088b3fbfc532c43d6843c49ee9e6bd6b79614cfe",
+        }
+    ],
+    "witcheer": [
+        {
+            "bytes": 21751189,
+            "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Witcheer-rigged.zip",
+            "format": "ZIP containing GLB",
+            "name": "Witcheer-rigged.zip",
+            "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+            "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+            "sha256": "b319cd50ab8c14f5bd96892b194d816213251691d291e155f1030bd605c5f61c",
+        }
+    ],
 }
 STYLE_RECORD_KEYS = {"style", "preview", "full_resolution"}
 PREVIEW_KEYS = {"path", "sha256", "width", "height"}
@@ -173,10 +243,42 @@ def safe_relative_path(value: object, label: str, errors: list[str]) -> str | No
     return value
 
 
+def expected_styles_for_slug(slug: str) -> set[str]:
+    target = set(TARGET_STYLES)
+    if slug in DOCUMENTATION_ONLY or slug in SOURCE_ONLY:
+        return set()
+    if slug == RIGHTS_PENDING:
+        return target - set(RIGHTS_PENDING_STYLES)
+    if slug == "witcheer":
+        return target - {"hyper-realistic"}
+    return target | set(ADDITIONAL_STYLES.get(slug, []))
+
+
+def expected_repository_paths() -> set[str]:
+    paths = set(REQUIRED_ROOT_FILES)
+    for slug in EXPECTED_SLUGS:
+        paths.update(
+            {
+                f"characters/{slug}/README.md",
+                f"characters/{slug}/manifest.json",
+                f"docs/characters/{slug}.md",
+            }
+        )
+        paths.update(f"previews/{slug}/{style}.webp" for style in expected_styles_for_slug(slug))
+    paths.update(f"docs/scenes/{name}.md" for name in SCENE_DOCUMENTS)
+    paths.update(f"docs/music-videos/{name}.md" for name in MUSIC_VIDEO_DOCUMENTS)
+    paths.update(f"docs/references/{name}.md" for name in REFERENCE_DOCUMENTS)
+    if len(paths) != EXPECTED_FILE_COUNT:
+        raise RuntimeError(
+            f"internal expected-path contract mismatch: {len(paths)} != {EXPECTED_FILE_COUNT}"
+        )
+    return paths
+
+
 def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, object]:
     return {
         "schema_version": 1,
-        "release": "v0.1.0-wip",
+        "release": "v0.2.0-wip",
         "documentation_only": [
             {
                 "slug": "emozilla",
@@ -186,6 +288,21 @@ def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, objec
                 "slug": "ggb",
                 "reason": "documentation-only; excluded from style generation in this release",
             },
+        ],
+        "source_only": [
+            {
+                "slug": "doge-man",
+                "design_status": manifests.get("doge-man", {}).get("design_status"),
+                "missing_styles": TARGET_STYLES,
+                "reason": "3D model preview and source record exist; no approved multi-view identity sheet or style set",
+            }
+        ],
+        "reference_reconciliation": [
+            {
+                "slug": "nousgirl",
+                "design_status": manifests.get("nousgirl", {}).get("design_status"),
+                "reason": "new upstream selected portrait and studies must be reconciled with the current canonical multi-view sheet",
+            }
         ],
         "rights_pending": [
             {
@@ -207,6 +324,8 @@ def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, objec
         ],
         "summary": {
             "documentation_only": 2,
+            "source_only": 1,
+            "reference_reconciliation": 1,
             "rights_pending_characters": 1,
             "rights_pending_styles": 3,
             "accepted_omissions": 1,
@@ -279,6 +398,16 @@ def validate_inventory(root: Path, errors: list[str]) -> list[Path]:
                 errors.append(f"credential or account identifier pattern in {relative_posix}")
             if any(pattern.search(data) for pattern in TOKEN_RES):
                 errors.append(f"credential-shaped token in {relative_posix}")
+    actual_paths = {path.relative_to(root).as_posix() for path in files}
+    expected_paths = expected_repository_paths()
+    if len(actual_paths) != EXPECTED_FILE_COUNT:
+        errors.append(
+            f"repository file count: expected {EXPECTED_FILE_COUNT}, found {len(actual_paths)}"
+        )
+    for relative in sorted(expected_paths - actual_paths):
+        errors.append(f"missing repository file: {relative}")
+    for relative in sorted(actual_paths - expected_paths):
+        errors.append(f"unexpected repository file: {relative}")
     return files
 
 
@@ -325,30 +454,37 @@ def validate_manifests(
     readme_paths = sorted((root / "characters").glob("*/README.md"))
     preview_paths = sorted((root / "previews").glob("*/*.webp"))
     if len(manifest_paths) != EXPECTED_COUNTS["characters"]:
-        errors.append(f"character manifest count: expected 33, found {len(manifest_paths)}")
+        errors.append(
+            f"character manifest count: expected {EXPECTED_COUNTS['characters']}, found {len(manifest_paths)}"
+        )
     if len(profile_paths) != EXPECTED_COUNTS["profiles"]:
-        errors.append(f"profile count: expected 33, found {len(profile_paths)}")
+        errors.append(f"profile count: expected {EXPECTED_COUNTS['profiles']}, found {len(profile_paths)}")
     if len(readme_paths) != EXPECTED_COUNTS["characters"]:
-        errors.append(f"character README count: expected 33, found {len(readme_paths)}")
+        errors.append(
+            f"character README count: expected {EXPECTED_COUNTS['characters']}, found {len(readme_paths)}"
+        )
     if len(preview_paths) != EXPECTED_COUNTS["style_sheets"]:
         errors.append(f"preview count: expected 277, found {len(preview_paths)}")
     scene_count = len(list((root / "docs" / "scenes").glob("*.md")))
     music_count = len(list((root / "docs" / "music-videos").glob("*.md")))
+    reference_count = len(list((root / "docs" / "references").glob("*.md")))
     if scene_count != EXPECTED_COUNTS["scene_documents"]:
         errors.append(f"scene document count: expected 4, found {scene_count}")
     if music_count != EXPECTED_COUNTS["music_video_documents"]:
         errors.append(f"music-video document count: expected 3, found {music_count}")
+    if reference_count != EXPECTED_COUNTS["reference_documents"]:
+        errors.append(f"reference document count: expected 1, found {reference_count}")
 
     manifest_slugs = [path.parent.name for path in manifest_paths]
     profile_slugs = [path.stem for path in profile_paths]
     readme_slugs = [path.parent.name for path in readme_paths]
     preview_relative = [path.relative_to(root).as_posix() for path in preview_paths]
     if manifest_slugs != EXPECTED_SLUGS:
-        errors.append("character manifest slugs do not match the frozen 33-character set")
+        errors.append("character manifest slugs do not match the frozen 34-character set")
     if profile_slugs != EXPECTED_SLUGS:
-        errors.append("profile slugs do not match the frozen 33-character set")
+        errors.append("profile slugs do not match the frozen 34-character set")
     if readme_slugs != EXPECTED_SLUGS:
-        errors.append("character README slugs do not match the frozen 33-character set")
+        errors.append("character README slugs do not match the frozen 34-character set")
 
     manifests: dict[str, dict[str, object]] = {}
     source_hashes: list[str] = []
@@ -367,7 +503,7 @@ def validate_manifests(
             continue
         manifests[slug] = manifest
         actual_keys = set(manifest)
-        required_keys = PUBLIC_MANIFEST_KEYS - {"companions"}
+        required_keys = PUBLIC_MANIFEST_KEYS - {"companions", "external_models"}
         if not required_keys.issubset(actual_keys) or not actual_keys.issubset(PUBLIC_MANIFEST_KEYS):
             errors.append(f"public manifest fields are not allowlisted for {slug}: {sorted(actual_keys)}")
         if manifest.get("schema_version") != 1:
@@ -391,6 +527,45 @@ def validate_manifests(
             or not all(isinstance(item, str) and item for item in companions)
         ):
             errors.append(f"companions must be a string list for {slug}")
+        external_models = manifest.get("external_models")
+        if "external_models" in manifest:
+            if not isinstance(external_models, list):
+                errors.append(f"external_models must be a list for {slug}")
+            else:
+                seen_model_names: set[str] = set()
+                release_prefix = "https://github.com/123mikeyd/nrcu-vault/releases/"
+                for index, model in enumerate(external_models):
+                    label = f"{slug}.external_models[{index}]"
+                    if not isinstance(model, dict) or set(model) != EXTERNAL_MODEL_KEYS:
+                        errors.append(f"invalid external model fields in {label}")
+                        continue
+                    name = model.get("name")
+                    if (
+                        not isinstance(name, str)
+                        or not name.endswith(".zip")
+                        or "/" in name
+                        or "\\" in name
+                        or name in seen_model_names
+                    ):
+                        errors.append(f"invalid external model name in {label}")
+                    else:
+                        seen_model_names.add(name)
+                    for field in ("download_url", "release_url"):
+                        value = model.get(field)
+                        if not isinstance(value, str) or not value.startswith(release_prefix):
+                            errors.append(f"invalid external model {field} in {label}")
+                    digest = model.get("sha256")
+                    if not isinstance(digest, str) or re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+                        errors.append(f"invalid external model sha256 in {label}")
+                    byte_size = model.get("bytes")
+                    if not isinstance(byte_size, int) or isinstance(byte_size, bool) or byte_size <= 0:
+                        errors.append(f"invalid external model byte size in {label}")
+                    for field in ("format", "rights_note"):
+                        value = model.get(field)
+                        if not isinstance(value, str) or not value.strip():
+                            errors.append(f"invalid external model {field} in {label}")
+        if manifest.get("external_models", []) != EXPECTED_EXTERNAL_MODELS.get(slug, []):
+            errors.append(f"approved external model metadata mismatch for {slug}")
         expected_omissions = ACCEPTED_OMISSIONS.get(slug, [])
         if manifest.get("accepted_omissions") != expected_omissions:
             errors.append(f"accepted omissions mismatch for {slug}")
@@ -461,14 +636,7 @@ def validate_manifests(
         actual_additional = seen_styles - target_set
         if actual_additional != expected_additional:
             errors.append(f"additional styles mismatch for {slug}")
-        if slug in DOCUMENTATION_ONLY:
-            expected_styles: set[str] = set()
-        elif slug == RIGHTS_PENDING:
-            expected_styles = target_set - set(RIGHTS_PENDING_STYLES)
-        elif slug == "witcheer":
-            expected_styles = target_set - {"hyper-realistic"}
-        else:
-            expected_styles = target_set | expected_additional
+        expected_styles = expected_styles_for_slug(slug)
         if seen_styles != expected_styles:
             errors.append(f"published style set is inaccurate for {slug}")
 
@@ -488,6 +656,15 @@ def validate_manifests(
     for slug in DOCUMENTATION_ONLY:
         if manifests.get(slug, {}).get("published_styles") != []:
             errors.append(f"documentation-only character has published styles: {slug}")
+    for slug, status in SOURCE_ONLY.items():
+        manifest = manifests.get(slug, {})
+        if manifest.get("design_status") != status:
+            errors.append(f"source-only design status is inaccurate for {slug}")
+        if manifest.get("published_styles") != []:
+            errors.append(f"source-only character has published styles: {slug}")
+    for slug, status in REFERENCE_RECONCILIATION.items():
+        if manifests.get(slug, {}).get("design_status") != status:
+            errors.append(f"reference-reconciliation status is inaccurate for {slug}")
     return manifests, source_hashes, declared_previews, archive_records
 
 
@@ -565,7 +742,7 @@ def validate_export_manifest(root: Path, files: list[Path], errors: list[str]) -
         return None
     if set(raw) != {"schema_version", "release", "counts", "target_styles", "release_bundle", "files"}:
         errors.append("export manifest has unexpected fields")
-    if raw.get("schema_version") != 1 or raw.get("release") != "v0.1.0-wip":
+    if raw.get("schema_version") != 1 or raw.get("release") != "v0.2.0-wip":
         errors.append("export manifest schema/release mismatch")
     if raw.get("counts") != EXPECTED_COUNTS:
         errors.append("export manifest frozen counts mismatch")

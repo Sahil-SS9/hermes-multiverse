@@ -178,5 +178,16 @@
       }
     }
   ],
-  "accepted_omissions": []
+  "accepted_omissions": [],
+  "external_models": [
+    {
+      "bytes": 18623006,
+      "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Teknium-rigged.zip",
+      "format": "ZIP containing GLB",
+      "name": "Teknium-rigged.zip",
+      "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+      "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+      "sha256": "bb08b497b5d682cf4176c16432e491e894e8c2fd151c40563487bb65d290994b"
+    }
+  ]
 }

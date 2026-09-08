@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "slug": "doge-man",
+  "display_name": "Doge Man",
+  "aliases": [
+    "DogeMan"
+  ],
+  "design_status": "source-only-model-preview",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [],
+  "accepted_omissions": [],
+  "external_models": [
+    {
+      "bytes": 28395018,
+      "download_url": "https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/DogeMan-rigged.zip",
+      "format": "ZIP containing GLB",
+      "name": "DogeMan-rigged.zip",
+      "release_url": "https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1",
+      "rights_note": "No additional licence is asserted; the upstream content notice applies.",
+      "sha256": "c543dd6a55d18263b6aa212220458a5d2e1a8e73619c3c5436d685335aa0c2ad"
+    }
+  ]
+}

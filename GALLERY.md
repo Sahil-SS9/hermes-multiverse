@@ -268,6 +268,10 @@ This gallery contains sanitised previews. Full-resolution files are release asse
 
 ![Cthulhu — rick-and-morty](previews/cthulhu/rick-and-morty.webp)
 
+## [Doge Man](docs/characters/doge-man.md)
+
+Source-only; no approved style sheets are published.
+
 ## [Don Piedro](docs/characters/don-piedro.md)
 
 ### anime
