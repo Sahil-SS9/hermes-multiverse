@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "slug": "realtimeuk",
+  "display_name": "realtimeuk",
+  "aliases": [],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/realtimeuk/anime.webp",
+        "sha256": "b1a393fe8488578612ae046cea04b3868b5502a81854067b8b1e08440c31ba72",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/anime/realtimeuk__sheet__anime__v01.png",
+        "sha256": "294e41c96552f1cbf5916b6b88404757e703e35e75d344216fb5edaa24758435",
+        "bytes": 2208686,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/realtimeuk/chibi.webp",
+        "sha256": "6ba8b0531fa75939429ff4fa1390f37fd53d74c668e8bbfc726d9b358ce25741",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/chibi/realtimeuk__sheet__chibi__v01.png",
+        "sha256": "5cfb2e38ca1cbecc34815f0337211780d92fc6a8caa1190e579c91591fdd3a3d",
+        "bytes": 2285902,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/realtimeuk/claymation-stop-motion.webp",
+        "sha256": "c847c9cfd260a91ca04ee3a3e2da42d00c79793b9eea8c8bd991034c80fcc003",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/claymation-stop-motion/realtimeuk__sheet__claymation-stop-motion__v01.png",
+        "sha256": "46bb3aeafff8d872800b5e6dc606711cf472fba0d1b67c1f09b6fca0189f4c9d",
+        "bytes": 2742260,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/realtimeuk/disney.webp",
+        "sha256": "d7de995c14e36e53600453f78c8b6b0d78ec4e26e3c77636c87eb80c95c39d19",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/disney/realtimeuk__sheet__disney__v01.png",
+        "sha256": "1e696a9364433ebce3c94faa45acf3fa524a3198b4ca6754659b23fb7f41f5d9",
+        "bytes": 2219614,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/realtimeuk/gothic.webp",
+        "sha256": "209047e2c79b48a07041ba096b964d87566800d974ab725cdccb3607c438c42a",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/gothic/realtimeuk__sheet__gothic__v01.png",
+        "sha256": "4736d11d8bee4ec0519468b85c9f45847210f4cd498d92554c892de1acba492c",
+        "bytes": 3053035,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/realtimeuk/hyper-realistic.webp",
+        "sha256": "b0ecafa86edb141a86c458b4c0e4bd214afd27a0e335be484265c6760fab672c",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/hyper-realistic/realtimeuk__sheet__hyper-realistic__v01.png",
+        "sha256": "168109043309bd62f81a1fdbebea3db80b27cb44ea234448a3c3c7620805af44",
+        "bytes": 2164508,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/realtimeuk/ink-pen-sketch.webp",
+        "sha256": "7315d7f1691623a19b878ba9c412471b1750d6b01faac213396c562ad820623a",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/ink-pen-sketch/realtimeuk__sheet__ink-pen-sketch__v01.png",
+        "sha256": "17dfe5d833a6f7ce29b98db3f556dd5ef31e65ddb0262d0e625bfc7bf277cd50",
+        "bytes": 3480001,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/realtimeuk/mecha.webp",
+        "sha256": "3a9303dce09251fb0f9f6178dcc74d7b76fd917b547d9a7034cb6d94d784886b",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/mecha/realtimeuk__sheet__mecha__v01.png",
+        "sha256": "55dd930e2665bcc3e80b09f86d87041e1c000482732053515985db56e0dfb4a8",
+        "bytes": 2561900,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/realtimeuk/rick-and-morty.webp",
+        "sha256": "1ec77dc231989a954255caa9968edbe8d8cb98025920f165428b0b3b62c9555f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/realtimeuk/styles/rick-and-morty/realtimeuk__sheet__rick-and-morty__v01.png",
+        "sha256": "4320a2cce2ae747f7b489f443b235960eafe399780e0446b50bdb03387a9aa45",
+        "bytes": 2224904,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

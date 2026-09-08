@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "slug": "noctis",
+  "display_name": "Noctis",
+  "aliases": [],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/noctis/anime.webp",
+        "sha256": "e666e0d3b37bbc68335c25a1e72353ffc5b0023c8d5965e453ef6784d593bcd6",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/anime/noctis__sheet__anime__v01.png",
+        "sha256": "d9f82462bdcdb03a5f0efd165cb1e8ed5adc81ce108db8d7ba914d9ff17757ca",
+        "bytes": 2154731,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/noctis/chibi.webp",
+        "sha256": "fc259ed1a9420e5d672225a4a53df3953b7d3ac277a222cd1c4b3f8a5f187ad7",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/chibi/noctis__sheet__chibi__v01.png",
+        "sha256": "3ccd7ade04e9a79b665fc8f6764a86ec0852ef9420fdc38e6e5923fdc5c6c650",
+        "bytes": 2358305,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/noctis/claymation-stop-motion.webp",
+        "sha256": "680df8c958037d9318661734fde5a62acf26413ee6525bb05e0f78bc099aa01f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/claymation-stop-motion/noctis__sheet__claymation-stop-motion__v01.png",
+        "sha256": "e27d4f9eb069c22104877e5a017544774bcb4138e5909e65bd75abae106525eb",
+        "bytes": 2896717,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/noctis/disney.webp",
+        "sha256": "2a49b344e8b8c9822320e4fe7818c364aed65900d8fd45acdce3788ab05cc39b",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/disney/noctis__sheet__disney__v01.png",
+        "sha256": "f3ab8b876b8e3d1c09b082ae94879ad94671d7c3a5fd531615770c6255c386ab",
+        "bytes": 2306528,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/noctis/gothic.webp",
+        "sha256": "05b41ef6cb79b88f4aa50862d497ab2d95ce03ee76cb8b7f4473a7921508e7fd",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/gothic/noctis__sheet__gothic__v01.png",
+        "sha256": "f3c6a7dcce7e8f5275a3f89016ed0a9eefadc2927ac5ced267a9e196099c609a",
+        "bytes": 2304907,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/noctis/hyper-realistic.webp",
+        "sha256": "1c24fe12bcb1b54852c02991f1dcd0613ea89b34a05eb4376b31c12a558fa2ed",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/hyper-realistic/noctis__sheet__hyper-realistic__v01.png",
+        "sha256": "8e6112e60b134ebd7c9a084f4cec3c60c5e1df508aa7da9fc205a599933f4242",
+        "bytes": 2474104,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/noctis/ink-pen-sketch.webp",
+        "sha256": "6349afa77a55792d6c221c65561f209decdb1b566b88462e1594fb368862c532",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/ink-pen-sketch/noctis__sheet__ink-pen-sketch__v01.png",
+        "sha256": "88ace8793b6f859f66add7a4930a7a05779a342499ddf7a4676360457c568eea",
+        "bytes": 3327479,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/noctis/mecha.webp",
+        "sha256": "98a51a1db4f2264c0d4574b82b91ca714fcd862ae6bda240c32c18deb61a1dcb",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/mecha/noctis__sheet__mecha__v01.png",
+        "sha256": "abd93c25a19ad651004e9386c36130c1e9f0e7d95d35982ab8cb1f1d6bbe60ba",
+        "bytes": 2577484,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/noctis/rick-and-morty.webp",
+        "sha256": "ddf465bbc6c766a416ef126a709b0d6d8ae78dbd1c4b227d3721d065f64b77a0",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/noctis/styles/rick-and-morty/noctis__sheet__rick-and-morty__v01.png",
+        "sha256": "219a391850e6655a8bd64de451b9c3a3702148b430fb1844caac68e3eb1d542a",
+        "bytes": 2135797,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "slug": "suzu",
+  "display_name": "Suzu",
+  "aliases": [],
+  "design_status": "provisional-sheet-conflicts-with-legacy-unknown-status",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/suzu/anime.webp",
+        "sha256": "1443ca6940efd0e3fc99fb49f39b860b20516cfc55f165243471a1cd2004c4c0",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/anime/suzu__sheet__anime__v01.png",
+        "sha256": "d5435def5288b43cf7a2bb0b6f64f83b0908f36640df82f713c1c106aa72417f",
+        "bytes": 2620805,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/suzu/chibi.webp",
+        "sha256": "92b9d8e7a874963c919d4443552e7c1a1fcee4606fc494ebf0e4b59ea6bdb82e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/chibi/suzu__sheet__chibi__v01.png",
+        "sha256": "030ae26f21b136d45f393c7d0bd8fe99f4b327af6cf4a7cc78d6b23e7ab6b296",
+        "bytes": 2780429,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/suzu/claymation-stop-motion.webp",
+        "sha256": "9677a42ad047308170e5330810452d52508f40bd6e566b32e079bb30d10a20c2",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/claymation-stop-motion/suzu__sheet__claymation-stop-motion__v01.png",
+        "sha256": "7ac0169a6f8ea53b8bb018ed2853bd14c3e8d590501afd2570d11c62fd6379f9",
+        "bytes": 2901749,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/suzu/disney.webp",
+        "sha256": "60ed8906c993f98097aaa41cdf94bf2c9b342865d97783c7f828bd2d2503aedc",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/disney/suzu__sheet__disney__v01.png",
+        "sha256": "f74efb12f3fbb90f511b1805783c680a29cd50436ccb76f2d2d2c9f533aaf243",
+        "bytes": 2569313,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/suzu/gothic.webp",
+        "sha256": "d6471e2175bec13d4cd0c0536ec4b4a976c86f7edc5d421781a7b684c1967b8b",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/gothic/suzu__sheet__gothic__v01.png",
+        "sha256": "8daef21dd764876d3cec84cab357139a94a8f13e76b87b0668344157de7ac265",
+        "bytes": 3349701,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/suzu/hyper-realistic.webp",
+        "sha256": "e97d86f94150671bc5b07b794f1d2bd7aab90645d4df378d35fe29bb0af27420",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/hyper-realistic/suzu__sheet__hyper-realistic__v01.png",
+        "sha256": "3086858737ba8863d0075209c60ee5b3119405cce2db3b513684d4de4295cc06",
+        "bytes": 2401255,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/suzu/ink-pen-sketch.webp",
+        "sha256": "6782d12e60fbac2dcca697a3887d3f84dc51d7b879c9c846b391ef4d92bb3f0f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/ink-pen-sketch/suzu__sheet__ink-pen-sketch__v01.png",
+        "sha256": "854f2dfcf9559dcb0853eb820f158955045004ebe41eaa2fafaebf5fa3787e9c",
+        "bytes": 3591238,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/suzu/mecha.webp",
+        "sha256": "e1227c75fb89e7b05dda173955bd22d3aa7b919ca3b9cbfe38a747ecf61c8dbc",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/mecha/suzu__sheet__mecha__v01.png",
+        "sha256": "465c0ad78ccb0929fdfd4e3fa0c3ff87cdddc75f416bb596744e174619910716",
+        "bytes": 2758376,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/suzu/rick-and-morty.webp",
+        "sha256": "f3964409f19ea5047ea016d51dc68774b51d5997d49eab66d32f5b2d5a52c3a6",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/suzu/styles/rick-and-morty/suzu__sheet__rick-and-morty__v01.png",
+        "sha256": "b3876c1dc5867375b77ec8486c9e9ac11bd124786c1a37266a3e8729331750ad",
+        "bytes": 2166516,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

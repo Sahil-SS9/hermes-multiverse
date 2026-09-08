@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "slug": "nousgirl",
+  "display_name": "NousGirl",
+  "aliases": [
+    "Nous Girl",
+    "Nous Smol"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/nousgirl/anime.webp",
+        "sha256": "fca190d4cc04da5adc96b6409b63136fbf5829a97420a7a9f65e8238e5000040",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/anime/nousgirl__sheet__anime__v01.png",
+        "sha256": "693df5d569cc69b3625964ee79c786c2c776c85fd5e4f86cee3065fa09001306",
+        "bytes": 2328555,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/nousgirl/chibi.webp",
+        "sha256": "718a7432ea80de32eff619d018ab08abca8495c7a91e54c9499342bee01a3411",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/chibi/nousgirl__sheet__chibi__v01.png",
+        "sha256": "46a2014031bd48ed869f971e5b4a9cec4137a322e9750b0d3d88effb5fc7905a",
+        "bytes": 2394810,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/nousgirl/claymation-stop-motion.webp",
+        "sha256": "2fc4487c0157b241ff56c5385e24f2f97986f20efb3a8c05b5e62b2626533913",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/claymation-stop-motion/nousgirl__sheet__claymation-stop-motion__v01.png",
+        "sha256": "1771b6c7a28a24c50c27884e83f55cf81d483faea698a8713acdbb8bebb5a882",
+        "bytes": 2678041,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/nousgirl/disney.webp",
+        "sha256": "1d546deb586e95d10035ccfa469321b7d5c3fd745290983124d73b2401433a6b",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/disney/nousgirl__sheet__disney__v01.png",
+        "sha256": "ffb91c13928ebfe5a2c0ad797fc45cff4544a0d1b7c2b045f8dbfdd6aa27c70e",
+        "bytes": 2325688,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/nousgirl/gothic.webp",
+        "sha256": "2404fc38eb6eaed94ecae57d6b015f7786da8550a26738f2e621e68e9e7a4a57",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/gothic/nousgirl__sheet__gothic__v01.png",
+        "sha256": "8ea75e2e9d85280c32fcd8bc40513e0ccaf459d36152656549c9e9752b63cac0",
+        "bytes": 3099301,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/nousgirl/hyper-realistic.webp",
+        "sha256": "84ea19954e8a62bfe9812eab1e7ccd232525fff6b4d9771da3514b15bccb90d4",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/hyper-realistic/nousgirl__sheet__hyper-realistic__v01.png",
+        "sha256": "5ac3f0cbc67596a22d5d2d97ed97d7849bb719279230695d24332ff7177a7982",
+        "bytes": 2122070,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/nousgirl/ink-pen-sketch.webp",
+        "sha256": "b1ace965143dd2889eac52be0aa8769b7faacbbf52fdd3ab4badd544b579f5ae",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/ink-pen-sketch/nousgirl__sheet__ink-pen-sketch__v01.png",
+        "sha256": "0112546b2150a8060293482053b6d611da38ed206993931696e0f006c9033e5b",
+        "bytes": 3101269,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/nousgirl/mecha.webp",
+        "sha256": "4dd671113f00e571b1831d1484fe70150ad4e741766c8398a79c66af7950905e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/mecha/nousgirl__sheet__mecha__v01.png",
+        "sha256": "e79a1bff70085b787090ffbf105634800dbede099ed19ef1d7f6ce8601b456ba",
+        "bytes": 2366030,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/nousgirl/rick-and-morty.webp",
+        "sha256": "d93dc9a580377d8da128eb399a5685c2c9c340702ba215f27c900bac51e05c55",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/nousgirl/styles/rick-and-morty/nousgirl__sheet__rick-and-morty__v01.png",
+        "sha256": "a1a646ef81bde7040c3cc6a0a6976eb6118705e2d413a5f4496237f822476c5f",
+        "bytes": 2069326,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

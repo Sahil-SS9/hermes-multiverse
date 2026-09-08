@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "slug": "emozilla",
+  "display_name": "Jeffrey Quesnelle / Emozilla",
+  "aliases": [
+    "Jeffrey Quesnelle",
+    "The Emo Zilla",
+    "Emo"
+  ],
+  "design_status": "excluded-by-user",
+  "rights_status": "third-party-association-not-reusable",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [],
+  "accepted_omissions": []
+}

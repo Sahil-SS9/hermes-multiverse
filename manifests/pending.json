@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0-wip",
+  "documentation_only": [
+    {
+      "slug": "emozilla",
+      "reason": "documentation-only; associated third-party reference is not reusable"
+    },
+    {
+      "slug": "ggb",
+      "reason": "documentation-only; excluded from style generation in this release"
+    }
+  ],
+  "rights_pending": [
+    {
+      "slug": "sudo-nightwing",
+      "rights_status": "approval-pending-per-profile",
+      "missing_styles": [
+        "claymation-stop-motion",
+        "hyper-realistic",
+        "ink-pen-sketch"
+      ]
+    }
+  ],
+  "accepted_omissions": [
+    {
+      "slug": "witcheer",
+      "styles": [
+        "hyper-realistic"
+      ],
+      "reason": "accepted target-style omission"
+    }
+  ],
+  "provisional_designs": [
+    {
+      "slug": "gille",
+      "design_status": "provisional-sheet-conflicts-with-legacy-unknown-status"
+    },
+    {
+      "slug": "quark2world",
+      "design_status": "provisional-sheet-conflicts-with-legacy-unknown-status"
+    },
+    {
+      "slug": "suzu",
+      "design_status": "provisional-sheet-conflicts-with-legacy-unknown-status"
+    }
+  ],
+  "summary": {
+    "documentation_only": 2,
+    "rights_pending_characters": 1,
+    "rights_pending_styles": 3,
+    "accepted_omissions": 1,
+    "provisional_designs": 3
+  }
+}

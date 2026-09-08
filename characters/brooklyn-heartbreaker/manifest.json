@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "slug": "brooklyn-heartbreaker",
+  "display_name": "Brooklyn / Heartbreaker",
+  "aliases": [
+    "Brooklyn",
+    "Heartbreaker"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/anime.webp",
+        "sha256": "5848dd53ffdf668ec8b0c4d7ec6e5b7147cb316872b18b7c40ba6cc4a1d40a13",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/anime/brooklyn-heartbreaker__sheet__anime__v01.jpeg",
+        "sha256": "2088d80623d35bdf49ad550c56151ea4c890f7cf5240533982c0dc647529a6b1",
+        "bytes": 364958,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/chibi.webp",
+        "sha256": "7956bdb3ec13b55a4a1401a5aae791cdba05623eb1ba647e6f90b04a1f91a3b1",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/chibi/brooklyn-heartbreaker__sheet__chibi__v01.jpeg",
+        "sha256": "4c5534fde0befc2be8362dd285b17f12a56d88d2c1bec692da3a698f2336a995",
+        "bytes": 356094,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/claymation-stop-motion.webp",
+        "sha256": "baa19750b524347b94e548bc1365c9a97731cdd5c9595bc2b82d949d14d33d89",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/claymation-stop-motion/brooklyn-heartbreaker__sheet__claymation-stop-motion__v01.png",
+        "sha256": "e2ae90c088e70e2f77da72040cf49e57f1c706000221bee4a7985216e9e9599b",
+        "bytes": 2759785,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/disney.webp",
+        "sha256": "fa3bcf0f7455fe80184d68819648cd3ab4fb339d56a83093fc1ef3222351ef75",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/disney/brooklyn-heartbreaker__sheet__disney__v01.jpeg",
+        "sha256": "968156d19e923ffead604e5515b886eaad737ad43882906a77af144116301963",
+        "bytes": 294612,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/gothic.webp",
+        "sha256": "9e2f04526f075ee0c6ca06eed28a385b42f8d7a75d73864760748d6aefae7ec0",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/gothic/brooklyn-heartbreaker__sheet__gothic__v01.jpeg",
+        "sha256": "df8068a1b36d01b11d3c7fa6498b2a356217239098e0a4aea0df20a8412d06bf",
+        "bytes": 377851,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/hyper-realistic.webp",
+        "sha256": "e977601fcaa5c352c7f5e08576f2cf4dc0d209f4dcd34845f2a31327ae9ab363",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/hyper-realistic/brooklyn-heartbreaker__sheet__hyper-realistic__v01.png",
+        "sha256": "727426aa72cb5cc6a9275e09a7c0513d8ea10fd9635af84b58b363ff6d474153",
+        "bytes": 2687773,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/ink-pen-sketch.webp",
+        "sha256": "a6e65838e882b70106be22a7e9fa1383dfeb0f5e91cf756759415a86ad1ea571",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/ink-pen-sketch/brooklyn-heartbreaker__sheet__ink-pen-sketch__v01.png",
+        "sha256": "690fabef383ec1ce47fe625559539f0a439fa6f74979c97ead527cd10baf4d74",
+        "bytes": 3600335,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/mecha.webp",
+        "sha256": "5bd724b1d6a2e27ec1bacc4094465c92e13e99642e14e81e1809fec27eeea0d7",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/mecha/brooklyn-heartbreaker__sheet__mecha__v01.jpeg",
+        "sha256": "21a39df195e1c17caa6dbd9c0af5c56f08d92a26f22862df7052a7bd6cf33cba",
+        "bytes": 353867,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/brooklyn-heartbreaker/rick-and-morty.webp",
+        "sha256": "e9703ef82e2082bfeffd875d53d604f6e33a637bb7e9f87ddf408cfb79cbb4ad",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/brooklyn-heartbreaker/styles/rick-and-morty/brooklyn-heartbreaker__sheet__rick-and-morty__v01.jpeg",
+        "sha256": "511475383764719588d4d934afc85d42a35afc91fcbedecf3eb0ce3d60dda7f1",
+        "bytes": 318298,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

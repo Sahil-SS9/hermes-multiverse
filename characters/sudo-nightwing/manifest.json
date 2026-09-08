@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "slug": "sudo-nightwing",
+  "display_name": "sudo-nightwing",
+  "aliases": [
+    "NightWing",
+    "Night Vigil"
+  ],
+  "design_status": "established",
+  "rights_status": "approval-pending-per-profile",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/sudo-nightwing/anime.webp",
+        "sha256": "80e455b263949c41df0596a989d048e54982126708311b6092e5a68fdec16635",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/anime/sudo-nightwing__sheet__anime__v01.png",
+        "sha256": "97d34bda81f9914161730353288e628a148dce4b62543d304ae23c77b437178d",
+        "bytes": 2259781,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/sudo-nightwing/chibi.webp",
+        "sha256": "b08e7133e51a3b33bb04f92122b71a69fcd15580da2b823af1798683ddf5b81a",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/chibi/sudo-nightwing__sheet__chibi__v01.png",
+        "sha256": "ae0d98a89dc979c9d42968bf330ceca7f08867ed13f372f9de822313d82eb43a",
+        "bytes": 2498865,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/sudo-nightwing/disney.webp",
+        "sha256": "5c7712fdbb142c56b4ea04f16f5bb306855ade55da3aea35a15b2291d457a255",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/disney/sudo-nightwing__sheet__disney__v01.png",
+        "sha256": "3b8fe52e76cc1d59661bace0b95a0646142482c226890f132093d4c45dc5e938",
+        "bytes": 2187656,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/sudo-nightwing/gothic.webp",
+        "sha256": "fdf8256d9098c637c449b684f8c9ec8d6c32f0d226a5ad9a7e89c1bda440ca6e",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/gothic/sudo-nightwing__sheet__gothic__v01.png",
+        "sha256": "db72e9b786c2467db7d86010992b1ac258254c64c6d8590e3027c685d7cd8314",
+        "bytes": 2902426,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/sudo-nightwing/mecha.webp",
+        "sha256": "85a8a7f4a8ac812c97f7188387773ad6620bdc886f4bf622e6da24cf818c25ae",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/mecha/sudo-nightwing__sheet__mecha__v01.png",
+        "sha256": "d4bdab5157fa57c39b7411a2284c97c469a10c1f4743e090f5266e721ea83a54",
+        "bytes": 2332369,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/sudo-nightwing/rick-and-morty.webp",
+        "sha256": "9a2a5c60a48587e838db1b27bb5e704aed4ab1524aabe0f8fa72e440fb6df9dd",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/sudo-nightwing/styles/rick-and-morty/sudo-nightwing__sheet__rick-and-morty__v01.png",
+        "sha256": "52e61fa858ecbcc29e7a9a0d82dd265c91e2e12c24fb0695c4abb37e4ba08928",
+        "bytes": 2001740,
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "don-piedro",
+  "display_name": "Don Piedro",
+  "aliases": [
+    "DonPiedro"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/don-piedro/anime.webp",
+        "sha256": "b7e6d8aa7e29b3e7e77b93492ff106df2a81bb0855b7012972d919291b62c479",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/anime/don-piedro__sheet__anime__v01.png",
+        "sha256": "75d422b33dfa35a292d035ae038a9fcfd54d4f926e90e99ce23bbce1e56b3801",
+        "bytes": 374472,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/don-piedro/chibi.webp",
+        "sha256": "5138c1295ecc5f80c97783cfa7ccc38263b26a35204d81d125728fc8a7d9f352",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/chibi/don-piedro__sheet__chibi__v01.png",
+        "sha256": "c67d7ba4d8d2616ae56fd8e771c76838d7465e660ed8f38d757d9837cb027600",
+        "bytes": 342148,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/don-piedro/claymation-stop-motion.webp",
+        "sha256": "19eda6284db4a59b2f3a56c50f6edcd68e3b044bab1242ba356db701ab662ab3",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/claymation-stop-motion/don-piedro__sheet__claymation-stop-motion__v01.png",
+        "sha256": "908f37c8ed83c49f6365d666165d0d4470bc00f610ae4e2c81362f882f570009",
+        "bytes": 2730116,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/don-piedro/disney.webp",
+        "sha256": "a94dfdf587fa9dddc34fc1a0a3f763e2b3f93d80c02a01978b0a4994977e2043",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/disney/don-piedro__sheet__disney__v01.png",
+        "sha256": "d8bded09d8333485d14600aba86d176b277dc44ece2b8649b0211114f0426752",
+        "bytes": 363842,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/don-piedro/gothic.webp",
+        "sha256": "f53db091fff98bc1bbf52e46798671bb15b62e158985336b2b55744a3676315b",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/gothic/don-piedro__sheet__gothic__v01.png",
+        "sha256": "2017c43612f845c1918f0ac6a714ce26e562858b3c255b6c4419a81cbeec8556",
+        "bytes": 425100,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/don-piedro/hyper-realistic.webp",
+        "sha256": "8e38762afb310a657f09d89b962b97b06f689924204a49a69c4922b1f14b320f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/hyper-realistic/don-piedro__sheet__hyper-realistic__v01.png",
+        "sha256": "ff7125c30cd0fc863eab13092bd6136bcb93791c17f1f9fa2b40c69d0bbeb0a1",
+        "bytes": 2343530,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/don-piedro/ink-pen-sketch.webp",
+        "sha256": "7fb04f44056dfc23b80fbbf5ceebe312eb0d7b625dbe2df3d6f4fa2f3f42a502",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/ink-pen-sketch/don-piedro__sheet__ink-pen-sketch__v01.png",
+        "sha256": "03c4ee266b26968392b32f01483f49f2d64df96efc3e3a782a2d5aa3c5a06534",
+        "bytes": 3687998,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/don-piedro/mecha.webp",
+        "sha256": "a36e1529532956033c4b80e5820b2c8dbb5cb1f4a8431a7604f9b57099040a39",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/mecha/don-piedro__sheet__mecha__v01.png",
+        "sha256": "962ad9bd66fcd8762a4d9fd2c9a7cbeb2c31cf452cdd34080a5ec0c51d042b11",
+        "bytes": 419804,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/don-piedro/rick-and-morty.webp",
+        "sha256": "8877206fa7ea72a87881fdaa707d273728ee91cfb9c52d539b26bf2761149a4e",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/don-piedro/styles/rick-and-morty/don-piedro__sheet__rick-and-morty__v01.png",
+        "sha256": "26c998c99d018dda1ce875f175cc67f1d6939a2e2deee00d1c76daba0e215442",
+        "bytes": 346427,
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

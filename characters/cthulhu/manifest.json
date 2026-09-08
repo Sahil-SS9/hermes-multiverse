@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "slug": "cthulhu",
+  "display_name": "Cthulhu",
+  "aliases": [],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/cthulhu/anime.webp",
+        "sha256": "2a8a5ec36f5310dc640e7d23fdbe15e27a7978851af3c8458c28574e7587a139",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/anime/cthulhu__sheet__anime__v01.png",
+        "sha256": "0ca7ed4f6df2576b866f97c8cfbf856b9f7f7e918bd8bc79032428337bed7952",
+        "bytes": 2517052,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/cthulhu/chibi.webp",
+        "sha256": "6d777c2259b7efd2c563927c9637c2eb48ceae19189cbe42475d0111a3323350",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/chibi/cthulhu__sheet__chibi__v01.png",
+        "sha256": "cc162720258b7509e8dd0095483d536eefbf3aa4cbc2d6ceac1c0bc389837b71",
+        "bytes": 2465684,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/cthulhu/claymation-stop-motion.webp",
+        "sha256": "068b76527803dcb81d1e9840368d9f702ec7c79117dd9cea43bfedd3b1c69158",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/claymation-stop-motion/cthulhu__sheet__claymation-stop-motion__v01.png",
+        "sha256": "61de34223de46727368eae732390e24c18f2ff04d98befaa83aeb380d90d7f81",
+        "bytes": 2815181,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/cthulhu/disney.webp",
+        "sha256": "bbf569c54b083b4308a8b59950a7011e0c701fabc6d020536464785be945af10",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/disney/cthulhu__sheet__disney__v01.png",
+        "sha256": "c4d7fa00218a0839d668e406440934a8e124a360d9c6123ed2b59ed7f84fecf8",
+        "bytes": 2271487,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/cthulhu/gothic.webp",
+        "sha256": "0d79b85f0cea5390a497040cc5eb4c173f801de280d0ac98aad1d4f004285494",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/gothic/cthulhu__sheet__gothic__v01.png",
+        "sha256": "05ad6447d5abe92af19decfa9e0e761411cca8a086ab45227af1301134163f0e",
+        "bytes": 3355567,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/cthulhu/hyper-realistic.webp",
+        "sha256": "a079af30643fc85622ce6bcb4d9761c93f96b4e96ac88a06ab3a3c66817e9f4e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/hyper-realistic/cthulhu__sheet__hyper-realistic__v01.png",
+        "sha256": "8674b4740d959ea014f38aca05f2ab5a814f2e04583c515c4ebcfed429dfe094",
+        "bytes": 2464770,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/cthulhu/ink-pen-sketch.webp",
+        "sha256": "2475192b0943def7d468b41e2868ea2de18a91722bf662f8c84ec1a14f3b05d8",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/ink-pen-sketch/cthulhu__sheet__ink-pen-sketch__v01.png",
+        "sha256": "b4e121e35d2eee3610ffd90aa0f9da04f4a687dcb1adfe9e7d4c46516bc48045",
+        "bytes": 3575841,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/cthulhu/mecha.webp",
+        "sha256": "ddb84535ede1f2f34de1b655ea2af0b014ff5590f29c65766da30f9112880810",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/mecha/cthulhu__sheet__mecha__v01.png",
+        "sha256": "504b2a82f35fe88d595ec14232057b2ff4758ca5fe1db04b7a33ea707053d790",
+        "bytes": 3022319,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/cthulhu/rick-and-morty.webp",
+        "sha256": "0f0460851fc864a080a28b089c77b8a72bde015e585ea3fe0de0fa2fd8871523",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/cthulhu/styles/rick-and-morty/cthulhu__sheet__rick-and-morty__v01.png",
+        "sha256": "45f2db309445c483b83dce8d04c6b43449ac7da517b6dc772e4c75ccb2b51cc4",
+        "bytes": 2444633,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

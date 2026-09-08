@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "slug": "i-sneeze-kittens",
+  "display_name": "I Sneeze Kittens",
+  "aliases": [
+    "ISneezeKittens",
+    "ISneezeKIttens"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/anime.webp",
+        "sha256": "d643a36cb63bb3cb180469a00e461b04cb7b5f13ba2fe2af24db1a8e08a35f57",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/anime/i-sneeze-kittens__sheet__anime__v01.png",
+        "sha256": "834da4d401ae8c6417b2fa655e93ce3e7214f743d7835624743d96f42ebe3a77",
+        "bytes": 2525571,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/chibi.webp",
+        "sha256": "06afbfb9b4735c56426a5cb8e7a2c386c6ed6317e03dde4ef8b4ed7028306176",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/chibi/i-sneeze-kittens__sheet__chibi__v01.png",
+        "sha256": "52e51df3cc3da8a3cd154ff27272349e3af47c61f66283a6fe87d4adda05c11f",
+        "bytes": 2619117,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/claymation-stop-motion.webp",
+        "sha256": "20cddbb9bf03e26323993e0056fb54dd9a79bd2125be80a562898977c0a2d8c8",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/claymation-stop-motion/i-sneeze-kittens__sheet__claymation-stop-motion__v01.png",
+        "sha256": "b00a6a07620816be19d0042a6369e8493fe0699934e16285f34e7ddf4938a869",
+        "bytes": 2841478,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/disney.webp",
+        "sha256": "48f44741c4a4b2b8ee9093163eb52933124d254438f8449e4c58cb1e688d0c84",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/disney/i-sneeze-kittens__sheet__disney__v01.png",
+        "sha256": "3b88464696d1bc548aab753b61608f977a3ee07538a84455ebcf0c382eb96429",
+        "bytes": 2633069,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/gothic.webp",
+        "sha256": "30e4eaec37f8641a70e7fa3c20e8372266f0ed27afe805ed684b22eaded03d22",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/gothic/i-sneeze-kittens__sheet__gothic__v01.png",
+        "sha256": "68f0dfc814f9234fa84f798fc5a22dc68b947bada2235b7bcbe99481ccf8f8d9",
+        "bytes": 3201788,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/hyper-realistic.webp",
+        "sha256": "ba641ca4c778091e9761ae1b018117702548e808a0437067deddfc95ff71c563",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/hyper-realistic/i-sneeze-kittens__sheet__hyper-realistic__v01.png",
+        "sha256": "779256540ffa7bcadfe01b9f7666c5964f119fc48314dcec328b5da7c361f831",
+        "bytes": 2569436,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/ink-pen-sketch.webp",
+        "sha256": "3e2bd6c4ecd8a59ca9604bd6b58aa9adddef80f79fcf8c6da83f6c105cdf4a6f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/ink-pen-sketch/i-sneeze-kittens__sheet__ink-pen-sketch__v01.png",
+        "sha256": "3081226aad8991f5c843e48e273eca6f46a20d406c286381a03f47260d392944",
+        "bytes": 3443035,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/mecha.webp",
+        "sha256": "bd44a01ac9dbbae2884f0eb58821a4921efc5a4a1d9ab2d7ab25a14cde09bdc2",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/mecha/i-sneeze-kittens__sheet__mecha__v01.png",
+        "sha256": "5de3218d16dbb120a4c5355845b1c1962537e22ec00aa3fcec6542bd1a9e6504",
+        "bytes": 2803164,
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/i-sneeze-kittens/rick-and-morty.webp",
+        "sha256": "ad4f46e394f76c44e4181984e017ac571f0f16b77d72daaf088d30571c5842e5",
+        "width": 960,
+        "height": 960
+      },
+      "full_resolution": {
+        "archive_path": "characters/i-sneeze-kittens/styles/rick-and-morty/i-sneeze-kittens__sheet__rick-and-morty__v01.png",
+        "sha256": "36e0d35fa6ca864018712f2a257514278383cd2995c8822b1e8830c2d7ca9801",
+        "bytes": 2319350,
+        "width": 1254,
+        "height": 1254
+      }
+    }
+  ],
+  "accepted_omissions": [],
+  "companions": [
+    "Moxie"
+  ]
+}

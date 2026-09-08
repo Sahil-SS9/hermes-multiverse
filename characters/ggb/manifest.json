@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "slug": "ggb",
+  "display_name": "GGB — Gummy Bee",
+  "aliases": [
+    "GGB",
+    "Gummy Bee"
+  ],
+  "design_status": "excluded-by-user",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [],
+  "accepted_omissions": []
+}

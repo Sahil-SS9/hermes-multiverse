@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "tinuviel",
+  "display_name": "Tinuviel — The Starry Wanderer",
+  "aliases": [
+    "Tinuviel"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/tinuviel/anime.webp",
+        "sha256": "2a996b7399645b3bc21c069c6a382a1fd94ad3da1a414e15453cdc4f4257b34f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/anime/tinuviel__sheet__anime__v01.jpeg",
+        "sha256": "f64719bc36875608d15d11cb789b3c61dc3869aae1620c13abf2f1445dbac8a3",
+        "bytes": 409460,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/tinuviel/chibi.webp",
+        "sha256": "5fdaa41c28f16c15d0fc7b7224a359d57c7851cbf566dccb69a551bab54d83d3",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/chibi/tinuviel__sheet__chibi__v01.jpeg",
+        "sha256": "74c5246d93dca103fe06ac2790065ca32f694ee19372e8362cece86cc2e0ead2",
+        "bytes": 368161,
+        "width": 1535,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/tinuviel/claymation-stop-motion.webp",
+        "sha256": "819597383d7caf6c8d6c52815e72345b702eef0d269ce871af90d0137218d1e2",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/claymation-stop-motion/tinuviel__sheet__claymation-stop-motion__v01.png",
+        "sha256": "7f87e7f4a31dbe9c172100db07ea726e636f867562d723dacd7fdf56440308ae",
+        "bytes": 2900923,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/tinuviel/disney.webp",
+        "sha256": "852b50cd9156849ab862bac7d53082cb41493d8a61d38ceeb2453c945ea9bf88",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/disney/tinuviel__sheet__disney__v01.jpeg",
+        "sha256": "b61051325147702f18d2661aa7f87e2f98c840ad1aea6ebee40c46c0fdcf6582",
+        "bytes": 332632,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/tinuviel/gothic.webp",
+        "sha256": "20f8e9ee510a6f529431253f118d8b7835bddc726f9b202d0540aaf33291b405",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/gothic/tinuviel__sheet__gothic__v01.jpeg",
+        "sha256": "29863c0361d37f00b9358e8ce7d578f2c31469f16e1d73193a6bbba68e470bda",
+        "bytes": 397680,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/tinuviel/hyper-realistic.webp",
+        "sha256": "6a0a82440d5a97f31438b51ccbe68c127d0fe5b1ea1a4a082e9a29f616797d6c",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/hyper-realistic/tinuviel__sheet__hyper-realistic__v01.png",
+        "sha256": "fbcb8351b762b7d9291aa53e2ee19510ff3545e49af8c05cb4c1999591d5f232",
+        "bytes": 2722261,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/tinuviel/ink-pen-sketch.webp",
+        "sha256": "367f5cfb71974ea04282f6fc79e3eb96fdca205b03782161b8f95f89864c445c",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/ink-pen-sketch/tinuviel__sheet__ink-pen-sketch__v01.png",
+        "sha256": "8d4858f6cd9892f7f66f64400c8deb6e00f839c730b604a8a72e608b51873ec5",
+        "bytes": 3807907,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/tinuviel/mecha.webp",
+        "sha256": "ec8280da79befcd4383e6e3c8890b9dd257a305b294744367803f6f3bd3628de",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/mecha/tinuviel__sheet__mecha__v01.jpeg",
+        "sha256": "5b5f1bfc211dfea2f3143de5d5f7802608ab5a9903d6e80a838a7a77f0a121b8",
+        "bytes": 404536,
+        "width": 1535,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/tinuviel/rick-and-morty.webp",
+        "sha256": "d1a5f1feb0c8ac4cf673382fb45d45d875509367322b864f9d1b5ac994e842dd",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/tinuviel/styles/rick-and-morty/tinuviel__sheet__rick-and-morty__v01.jpeg",
+        "sha256": "a269fab184f2f06afccc59718fa40e67184b1fe33f170bc0e2513c433dfbe5a0",
+        "bytes": 329989,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

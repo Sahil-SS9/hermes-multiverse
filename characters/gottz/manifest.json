@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "gottz",
+  "display_name": "Gottz",
+  "aliases": [
+    "GottZ"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/gottz/anime.webp",
+        "sha256": "458869792015e456d48a0fc539f74a6b7976d304f363615acb9772bb3ad315e9",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/anime/gottz__sheet__anime__v01.png",
+        "sha256": "d52dfeb3d31195a7784940149aaff8fa44a7e2026edb2652aec58c9098e1fa82",
+        "bytes": 2328506,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/gottz/chibi.webp",
+        "sha256": "4f35972c213e44e167d16af7606f9d97e2a1242eb96e111f27d4eae5ff03efbd",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/chibi/gottz__sheet__chibi__v01.png",
+        "sha256": "314a33926426f53bc985bb81a8da12c9c044d7f32cf5baa978247d98b7cfb0eb",
+        "bytes": 2121590,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/gottz/claymation-stop-motion.webp",
+        "sha256": "c1743405a521bec76953a6d77b999bba60711b9df78c839721460165ca6bd1e9",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/claymation-stop-motion/gottz__sheet__claymation-stop-motion__v01.png",
+        "sha256": "c599403962f6b580adf2eaeba85b2c4f0f9a34212a7287b85194a9fa4a93d894",
+        "bytes": 2907819,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/gottz/disney.webp",
+        "sha256": "39a5addc94cf372438fbf57795742ba0877a8be071b81b44ece047e92061982c",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/disney/gottz__sheet__disney__v01.png",
+        "sha256": "806d76d887cb60ec2f3422636c2989ca7544019e1fd59e9b37745a8faad02dac",
+        "bytes": 2278844,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/gottz/gothic.webp",
+        "sha256": "a3c1f5d92bd9be44c801651c3383c54bf3d64e2703a390309e35f199abdba475",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/gothic/gottz__sheet__gothic__v01.png",
+        "sha256": "1824c0dfd016052cd59d3deb09e91d25708e17b43a95cffe2d83e5437c2201de",
+        "bytes": 2748864,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/gottz/hyper-realistic.webp",
+        "sha256": "590068402abf0cd3f5e376997966bd8816e07473ddfc430ec5b8b5b16ff1c5c0",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/hyper-realistic/gottz__sheet__hyper-realistic__v01.png",
+        "sha256": "db05a435b3e4af5335775b1ee34eba8f35c3a614c94736dd85dbdaa165eb0f91",
+        "bytes": 2688290,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/gottz/ink-pen-sketch.webp",
+        "sha256": "96e9299e5de508c0f337a0f3a50488cedee634d69405e1a91173fdeb4f2cfe59",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/ink-pen-sketch/gottz__sheet__ink-pen-sketch__v01.png",
+        "sha256": "027d224ddfe32f5bdf1faf41cc793bc937cb721230484f41bee442188470f1c3",
+        "bytes": 3514747,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/gottz/mecha.webp",
+        "sha256": "b61a8723a2e16b60ed832d51e17f984adf2e6c19ff42b2c9990822bcfa43a748",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/mecha/gottz__sheet__mecha__v01.png",
+        "sha256": "861a1760197a2c362b7be517c22e581a4b00ca0fc2de8ebf248ce090e9191445",
+        "bytes": 2477972,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/gottz/rick-and-morty.webp",
+        "sha256": "f1fdca3cef0100b31f6d4734a42e55a48c82148f25c0c3181f517b1c01b3cdea",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/gottz/styles/rick-and-morty/gottz__sheet__rick-and-morty__v01.png",
+        "sha256": "6164aba5cdd13ecdb3de9bc4b3772a3d3873317687c432075ba8e941d3f2b5a2",
+        "bytes": 2144497,
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

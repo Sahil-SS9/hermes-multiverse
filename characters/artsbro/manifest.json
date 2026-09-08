@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "slug": "artsbro",
+  "display_name": "ArtsBro",
+  "aliases": [
+    "Arts Bro"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/artsbro/anime.webp",
+        "sha256": "1bba67549ba93941eff178a861fbc44cd0dc333b4b69a4d6a309a90a6db9b5c7",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/anime/artsbro__sheet__anime__v01.png",
+        "sha256": "d133199c4923e628250869725cd60e727c1cd562e638a3a2e66a5a296a245013",
+        "bytes": 2151751,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/artsbro/chibi.webp",
+        "sha256": "280daa426d3507c783feb473a35c825d3fc3df1c15d922e406bd4b2015ae99b9",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/chibi/artsbro__sheet__chibi__v01.png",
+        "sha256": "a2f894af5957e560fc590a3637987b0cef5a10283a3bec92840acf010800881e",
+        "bytes": 2175754,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/artsbro/claymation-stop-motion.webp",
+        "sha256": "16dee485610d33cd3d75f4ee41b177175f0809f4640e3599b1970fc1a28f8f60",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/claymation-stop-motion/artsbro__sheet__claymation-stop-motion__v01.png",
+        "sha256": "281dc05f5674134b136b36af0816df8f8159dcfba7bf6ab3e7cc137f4f34e995",
+        "bytes": 2865037,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/artsbro/disney.webp",
+        "sha256": "1916a5c28965685a4342d4d98979fb7b52c21e47a51ebd7033231375de5198d2",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/disney/artsbro__sheet__disney__v01.png",
+        "sha256": "ec354177a84d90013e34c8dd9ec682e957bdf18b62fc11ef71efae81cb2c2f8e",
+        "bytes": 2191995,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/artsbro/gothic.webp",
+        "sha256": "5b42e48422b56510c4dde5ce494059e36c6bd898b06b95e0f4287bcc108300ac",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/gothic/artsbro__sheet__gothic__v01.png",
+        "sha256": "ca536c1a20b2500b5afba93badb80420daccf0daae649700c4bcd0c5552c62e2",
+        "bytes": 2854934,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/artsbro/hyper-realistic.webp",
+        "sha256": "ff9a6925a31c39a6392717905d681d850327390db15318c1776046b8101d29d6",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/hyper-realistic/artsbro__sheet__hyper-realistic__v01.png",
+        "sha256": "83265772ea189ad07f0c4f4f324dccbcf9c69ee57a0a2c42273d1fe14a5fc833",
+        "bytes": 2617379,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/artsbro/ink-pen-sketch.webp",
+        "sha256": "bd7612933552958a63e8f26c9925db8e311a3453349f2cc764d0d0dbf01ed506",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/ink-pen-sketch/artsbro__sheet__ink-pen-sketch__v01.png",
+        "sha256": "fea8238f67d4529f4e4e640bfe3d552b5c156c807e3507909eaf099166d0a49c",
+        "bytes": 3755963,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/artsbro/mecha.webp",
+        "sha256": "219d77171c99720ed09537719ac396bd0cbd6b9302c54f51370095dbfacbe3d0",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/mecha/artsbro__sheet__mecha__v01.png",
+        "sha256": "63a2ab4f215ff2e2dddf848bd307e4ea209657386d5f48f41ca0edf07dc4fa05",
+        "bytes": 2418401,
+        "width": 1448,
+        "height": 1086
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/artsbro/rick-and-morty.webp",
+        "sha256": "e5d21247525ad248e29a24b0478a6bf4dc094fc72a7d178f97b94f235838fbbe",
+        "width": 960,
+        "height": 720
+      },
+      "full_resolution": {
+        "archive_path": "characters/artsbro/styles/rick-and-morty/artsbro__sheet__rick-and-morty__v01.png",
+        "sha256": "ccd31cac56143b83ece64683332ff9c8e799f1555be76b9fd608783536edda2d",
+        "bytes": 1650814,
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "slug": "fleety",
+  "display_name": "Fleety13",
+  "aliases": [
+    "Fleety",
+    "fleety13"
+  ],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/fleety/anime.webp",
+        "sha256": "6da8be35c2f498fe49f4734008feb57e079d75300ab5f12c7f48582b74d46e08",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/anime/fleety__sheet__anime__v01.png",
+        "sha256": "855da780fc431aa3e1b600a9a924ee3bb7ba7d4dce1b03bd848b99b9ab7c07ae",
+        "bytes": 432360,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/fleety/chibi.webp",
+        "sha256": "0b0a7a10c402ac46403f40656ac09b80dcd6864d8f5d1100117bedf51f82d767",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/chibi/fleety__sheet__chibi__v01.png",
+        "sha256": "64a0a184004576de08b45dd527006da9dd134ac1f56e02ebb201201d7737f09d",
+        "bytes": 394404,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/fleety/claymation-stop-motion.webp",
+        "sha256": "6b6cbfc6c332d59846494c0a83e5e1bf9b1b20834d38590808656fa92f5d3880",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/claymation-stop-motion/fleety__sheet__claymation-stop-motion__v01.png",
+        "sha256": "116457a702d70eff6ec784fd21ec5a07772bbeb41a62dd42e93749fdf6bce56d",
+        "bytes": 2879175,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/fleety/disney.webp",
+        "sha256": "5b79ed61e6bfa464dc040a4a6780bbeb79152d2dfa3d856465ba63315d3083c1",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/disney/fleety__sheet__disney__v01.png",
+        "sha256": "864b183401a30a2b708dafd87c8ea124f086c57143dcc34f7c777d1206c6b283",
+        "bytes": 401957,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/fleety/gothic.webp",
+        "sha256": "91fad610b804fad7c3b7ce3810566d01a73d75483a6866acfdb0c76db03b8d26",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/gothic/fleety__sheet__gothic__v01.png",
+        "sha256": "ac5d982b110f3a7132cf125540a955fd1c254eb8e41bbc15121856116a1290ea",
+        "bytes": 449552,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/fleety/hyper-realistic.webp",
+        "sha256": "6137c9fdcf1027512eba915981cfa5a1f7259d07ee835ebf65cd3abb030ceb4d",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/hyper-realistic/fleety__sheet__hyper-realistic__v01.png",
+        "sha256": "66082de54fcf7f459f4005a3e2fe3e85f5c7f3247028ba87a422498e2aa1af2d",
+        "bytes": 2241272,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/fleety/ink-pen-sketch.webp",
+        "sha256": "3419ca281d9ed655213314b2343f15c9178053f9f6894686d8caff3b03d6a3c7",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/ink-pen-sketch/fleety__sheet__ink-pen-sketch__v01.png",
+        "sha256": "a96380e89ab6b57fb0ca7122c5fdddee6930e90c0fe7a7563b9446c51425397c",
+        "bytes": 3612121,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/fleety/mecha.webp",
+        "sha256": "9d99668b0457b19b768963b926527ed863a0c4ac312bba64a6871c649f9d21f6",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/mecha/fleety__sheet__mecha__v01.png",
+        "sha256": "ad1443b8fec37775f2896fc1164db72e140c7e18ffea0df1e3cdbed8e2643ad6",
+        "bytes": 430688,
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/fleety/rick-and-morty.webp",
+        "sha256": "042d4a84f7ce3ad4df00030a05953de8fa8e09ff6fe2edccfe1562538cdbc9a4",
+        "width": 512,
+        "height": 512
+      },
+      "full_resolution": {
+        "archive_path": "characters/fleety/styles/rick-and-morty/fleety__sheet__rick-and-morty__v01.png",
+        "sha256": "aa3d3c4d58436adc0647417b1334f4bab7e18527187ecc6a4ff40560364f16df",
+        "bytes": 385657,
+        "width": 512,
+        "height": 512
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

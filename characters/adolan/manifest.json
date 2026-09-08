@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "slug": "adolan",
+  "display_name": "adolan",
+  "aliases": [],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/adolan/anime.webp",
+        "sha256": "2c8ace5e20bdbf12a46cb50fc52150fca66158662f2fb2eb126bef4f75f75bd1",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/anime/adolan__sheet__anime__v01.png",
+        "sha256": "9308c11b4d63251775d53a54031d8530269ab22adbc51067d45a9f88a81ad901",
+        "bytes": 2510233,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/adolan/chibi.webp",
+        "sha256": "c8c7964fb56048b97625a13746193ab5cba8d1878ef3d863009f882cfda7deec",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/chibi/adolan__sheet__chibi__v01.png",
+        "sha256": "38be21c9a70e9fc7637f0caffd7ce84a223b5fe9401f9b8d49a64e557edfade3",
+        "bytes": 2239578,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/adolan/claymation-stop-motion.webp",
+        "sha256": "210b8d261de2f0fec5a2981b34e56305ad08fed4c97939c4a8bf63d74b5cab08",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/claymation-stop-motion/adolan__sheet__claymation-stop-motion__v01.png",
+        "sha256": "9c949f83486630a1d473a69b47845170faa12c960ee448858dd4f75b8d0c748b",
+        "bytes": 2605152,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/adolan/disney.webp",
+        "sha256": "0d53a701bbfd653b150fa8e291d460d207d383bb6a983ab8a268a4d9330f2982",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/disney/adolan__sheet__disney__v01.png",
+        "sha256": "7da826eea181a5392895ac0305107f0a7d99df0f885d85811cf3e1f08d7db351",
+        "bytes": 2469408,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/adolan/gothic.webp",
+        "sha256": "b6300ce9ca47a7dfdbaafe26d208514ca8e5bab03e07a0f51f3e367e71031487",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/gothic/adolan__sheet__gothic__v01.png",
+        "sha256": "aa44414dbf2d9184d49f9305f47dd6620810b19ba0dd7eeac7be332ec4f96196",
+        "bytes": 3095520,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/adolan/hyper-realistic.webp",
+        "sha256": "dbfaf531f4bafafe3a85dc92c7f15b92338cc6ef66b6e80200c100f72b01e5b3",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/hyper-realistic/adolan__sheet__hyper-realistic__v01.png",
+        "sha256": "606612f1b122caeb7cac3cd21ec960e9094c9f9976b3639c22c05942c0049b57",
+        "bytes": 2256762,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/adolan/ink-pen-sketch.webp",
+        "sha256": "09c210fe8c050fd5d3c654fe959eda7ddb4d2bbc3e3deee77043fab155bd8ede",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/ink-pen-sketch/adolan__sheet__ink-pen-sketch__v01.png",
+        "sha256": "08a4ba029c3094b6e35330c9fb58449ccd10120b4647201cbb19ab76f6d590ee",
+        "bytes": 3035773,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/adolan/mecha.webp",
+        "sha256": "629a0dfeffa44f056b5cf0cdddf97639876b7dd49572c7357eea30cff7456caa",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/mecha/adolan__sheet__mecha__v01.png",
+        "sha256": "987565fef4deb105de4862b74e79a03b2ffdff3075c9160bd2cc3b5c1dce6fec",
+        "bytes": 2590100,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/adolan/rick-and-morty.webp",
+        "sha256": "64f1db33a18db0890c47dcc06a874d06a634e7c58a358e69cee4b99ced43758f",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/adolan/styles/rick-and-morty/adolan__sheet__rick-and-morty__v01.png",
+        "sha256": "5105e4393525ead67a794557e553553c168ff46d3aa5e12ee277dc6257efc132",
+        "bytes": 2139419,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": []
+}

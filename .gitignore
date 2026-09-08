@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+*.jsonl
+*.marker
+*.bak
+*.orig
+*.zip
+*.zip.sha256
+.DS_Store

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "slug": "witcheer",
+  "display_name": "Witcheer",
+  "aliases": [],
+  "design_status": "established",
+  "rights_status": "unknown-not-cleared",
+  "target_styles": [
+    "anime",
+    "rick-and-morty",
+    "disney",
+    "mecha",
+    "chibi",
+    "gothic",
+    "claymation-stop-motion",
+    "hyper-realistic",
+    "ink-pen-sketch"
+  ],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/witcheer/anime.webp",
+        "sha256": "f183dfcb2b8474f244e20ea6356245f8948ee992ba7bd13382217837f1eb288e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/anime/witcheer__sheet__anime__v01.png",
+        "sha256": "5f32e920ee47cdfa5fc30bfeb003de538f9317020eccb51ba89e1d98ead21d7d",
+        "bytes": 3120179,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/witcheer/chibi.webp",
+        "sha256": "7f7dd4f083c3ff117e65d69a70105c918f2d3084c07371737c0ca27764a6f2c1",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/chibi/witcheer__sheet__chibi__v01.png",
+        "sha256": "0eacc9d7872e69404f13e24b99a4890b1084232aa2227d89bf9a687865034f22",
+        "bytes": 3648888,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/witcheer/claymation-stop-motion.webp",
+        "sha256": "ab77bde73f9d78e48874082d803f865f66dc5e10a4d6c1f65af7fa0a5ac4e49e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/claymation-stop-motion/witcheer__sheet__claymation-stop-motion__v01.png",
+        "sha256": "f6efedba4f34e44df96d5092c699afcff260faa69c9a6445b14510b3d5eec13f",
+        "bytes": 2634819,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/witcheer/disney.webp",
+        "sha256": "e2397c446bdaa0fc67b9d0efa466955dd30cf68e0ffd79e10b155dd28f2b0aec",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/disney/witcheer__sheet__disney__v01.png",
+        "sha256": "1fa3d9e09831d52e32bd485ec630c2df2da2a5f633dfda944c5bc96a5504ce95",
+        "bytes": 2954251,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/witcheer/gothic.webp",
+        "sha256": "116fae809b7de0ca65e246f25403f07dfc5e144d1d3bc591fbd66fef5154053e",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/gothic/witcheer__sheet__gothic__v01.png",
+        "sha256": "d0b74966cde50cb335a06518af09647d602e4a65619df2a5fe9da884c834ea28",
+        "bytes": 3390472,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/witcheer/ink-pen-sketch.webp",
+        "sha256": "bd138f3f2aa7fbe5d2a0c5473ebaf237a38e44331e2595fcfa3679d5404304d3",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/ink-pen-sketch/witcheer__sheet__ink-pen-sketch__v01.png",
+        "sha256": "2f411aa0fc18151fdc8e1a5c927fdcdc6764db369e6bcb2970c905201fdc9db2",
+        "bytes": 3524715,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/witcheer/mecha.webp",
+        "sha256": "73323d371922fa572ab2261d264f0b8b1d48a292e9d1ea7818e12eb9a52e7016",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/mecha/witcheer__sheet__mecha__v01.png",
+        "sha256": "589ccadae8977e3016378539a160b8ed5c9fd145b58ba660d938b5afa006dcc5",
+        "bytes": 4036040,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/witcheer/rick-and-morty.webp",
+        "sha256": "cad5db9cbd360cb0e2ce1dd488dbf814b19ceb961d427e9b871b114a4cc53944",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/witcheer/styles/rick-and-morty/witcheer__sheet__rick-and-morty__v01.png",
+        "sha256": "299de3b2c9a7c79fa6b161e266ebe3ef973e03937c4097913d7e99300b5a6fbf",
+        "bytes": 2074657,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
+  "accepted_omissions": [
+    "hyper-realistic"
+  ]
+}
