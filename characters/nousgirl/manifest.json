@@ -6,7 +6,7 @@
     "Nous Girl",
     "Nous Smol"
   ],
-  "design_status": "upstream-reference-reconciliation-pending",
+  "design_status": "established",
   "rights_status": "unknown-not-cleared",
   "target_styles": [
     "anime",
@@ -165,5 +165,8 @@
       }
     }
   ],
-  "accepted_omissions": []
+  "accepted_omissions": [],
+  "identity_invariants": [
+    "large-over-ear-headphones"
+  ]
 }

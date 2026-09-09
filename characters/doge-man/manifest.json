@@ -5,7 +5,7 @@
   "aliases": [
     "DogeMan"
   ],
-  "design_status": "source-only-model-preview",
+  "design_status": "established",
   "rights_status": "unknown-not-cleared",
   "target_styles": [
     "anime",
@@ -18,7 +18,152 @@
     "hyper-realistic",
     "ink-pen-sketch"
   ],
-  "published_styles": [],
+  "published_styles": [
+    {
+      "style": "anime",
+      "preview": {
+        "path": "previews/doge-man/anime.webp",
+        "sha256": "859c8fec266a47cbd60e7e01ea16bb38b246253ceb18099e4c15ddc85a8905b3",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/anime/doge-man__sheet__anime__v01.png",
+        "sha256": "20668c4457daf583ac47895bc27174cce44ba086d4bd0ac46e1e87125361e918",
+        "bytes": 2075744,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "chibi",
+      "preview": {
+        "path": "previews/doge-man/chibi.webp",
+        "sha256": "7dab77dd8de629da9d26037fc795c025aec61ed5847ca5abf6909ff5ae61b0b4",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/chibi/doge-man__sheet__chibi__v01.png",
+        "sha256": "48fc2b0177aa0ed738578142fbfc2d7412369d45f9229e00aa16122b5e224428",
+        "bytes": 2559278,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "claymation-stop-motion",
+      "preview": {
+        "path": "previews/doge-man/claymation-stop-motion.webp",
+        "sha256": "150e40de5c89dd8cb7dfc3a332cc4ccc790ada35f75c891a0264dbabf781fe43",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/claymation-stop-motion/doge-man__sheet__claymation-stop-motion__v01.png",
+        "sha256": "3f48a867cb271bb3373ba4074b0cd47cfd10ec3579d744fbc764a5b14948ca4d",
+        "bytes": 2399764,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "disney",
+      "preview": {
+        "path": "previews/doge-man/disney.webp",
+        "sha256": "b3624090be291c5ecd0b0f41fd6487eb4054264b344dfda7324f1fc1caa0c958",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/disney/doge-man__sheet__disney__v01.png",
+        "sha256": "0e11d930b43d56431d55199741620d80ec2ddc3d7417695985687934cb6c9aae",
+        "bytes": 2260628,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "gothic",
+      "preview": {
+        "path": "previews/doge-man/gothic.webp",
+        "sha256": "27b76503dc488ecf75bcef530b3b36b443241dc1b38fd02c404ba2d30dc36329",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/gothic/doge-man__sheet__gothic__v01.png",
+        "sha256": "9e7264e513d3aede35ce1f6dc9e817dd7656fb8b78f5f006ddda0fd859623dc2",
+        "bytes": 3657993,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "hyper-realistic",
+      "preview": {
+        "path": "previews/doge-man/hyper-realistic.webp",
+        "sha256": "fac21481cafc410e0c5d865779f3c55073cbc8cb76198f79e25edd1f529ab1dc",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/hyper-realistic/doge-man__sheet__hyper-realistic__v01.png",
+        "sha256": "799e58b51007e14284541d0060f36ea7fa98a5649ce96c75c3156f3d4265ad2b",
+        "bytes": 2398132,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "ink-pen-sketch",
+      "preview": {
+        "path": "previews/doge-man/ink-pen-sketch.webp",
+        "sha256": "68808ac7cf129093eb76c71b556cf611825bcd04c4977c9c28082d50142d4a36",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/ink-pen-sketch/doge-man__sheet__ink-pen-sketch__v01.png",
+        "sha256": "66db6ce9a6753de77a29d8a018deaeb7b4f968f55a42319d23b9db096c6c6357",
+        "bytes": 3310486,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "mecha",
+      "preview": {
+        "path": "previews/doge-man/mecha.webp",
+        "sha256": "e6466c4a03dc424db6a7ddd98d2bc329a57abdfa562ba4f59f6a4b45d42c62ab",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/mecha/doge-man__sheet__mecha__v01.png",
+        "sha256": "cd28833380e8f093085e5d5bcaf4280d70c770d92ca172891730aeadadbf9b43",
+        "bytes": 2622515,
+        "width": 1536,
+        "height": 1024
+      }
+    },
+    {
+      "style": "rick-and-morty",
+      "preview": {
+        "path": "previews/doge-man/rick-and-morty.webp",
+        "sha256": "8e14eac23b97340c3ebc0fa82e6ac0f785454798d36c6b93ced4adcedeb8c748",
+        "width": 960,
+        "height": 640
+      },
+      "full_resolution": {
+        "archive_path": "characters/doge-man/styles/rick-and-morty/doge-man__sheet__rick-and-morty__v01.png",
+        "sha256": "e620fa977032e4da64cddf5f53aa0e8a222dab3f93ffb8b973c26abb2f9ba7e3",
+        "bytes": 1879584,
+        "width": 1536,
+        "height": 1024
+      }
+    }
+  ],
   "accepted_omissions": [],
   "external_models": [
     {

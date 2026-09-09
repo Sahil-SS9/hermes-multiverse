@@ -28,7 +28,9 @@ Turbo Fit also appears in the archived descriptions of [ASK HERMES](../scenes/as
 
 The updated NRCU Vault links [TurboFit-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/TurboFit-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **41,451,999 bytes** and SHA-256 `9b62d700d68c46dc8778d5cf088b3fbfc532c43d6843c49ee9e6bd6b79614cfe`.
 
-Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **15 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
+Private canonical model: `../models/rigged-models-v1/TurboFit.glb`.
 
 ## Deliberate unknowns
 

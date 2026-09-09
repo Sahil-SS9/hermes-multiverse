@@ -1,8 +1,10 @@
 # Doge Man
 
+Supporting 3D model preview
+
 [View the commit-pinned upstream model preview](https://raw.githubusercontent.com/123mikeyd/nrcu-vault/5414f1ac6e770e7048622441556bad731dcf3270/images/doge-man-model-preview.png).
 
-> **Source-only character record: a rigged-model preview exists, but no approved multi-view identity sheet or style set is present.**
+> **The upstream 3D model and direct-model five-view sheet are approved. The turnaround above is now Doge Man's canonical identity controller.**
 
 ## Catalogue status
 
@@ -10,29 +12,28 @@
 |---|---|
 | Slug | `doge-man` |
 | Alias | `DogeMan` |
-| Design status | `source-only-model-preview` |
+| Design status | `established` |
 | Rights status | `unknown-not-cleared` |
-| Target styles present | 0 of 9 |
-| Current styles | none |
-| Additional styles | none |
+| Target styles present | 9 of 9 |
+| Identity controller | Approved GLB plus canonical direct-model turnaround |
+| Sheet status | Approved and promoted byte-for-byte |
 
 ## Confirmed upstream direction
 
 The NRCU Vault describes Doge Man as a close-range brawler. His established gameplay or animation direction uses a sideways, flight-like torpedo charge: instead of firing a projectile, the character becomes one.
 
-The source explicitly leaves his origin, civilian identity, affiliations and source of abilities undefined. Those gaps are not filled here.
+The source explicitly leaves his origin, civilian identity, affiliations and source of abilities undefined. Those gaps remain open.
 
-## Visual evidence
+## Approved visual identity
 
-Direct inspection of the upstream 3D viewport preview records:
+Sahil approved the upstream model as Doge Man's identity on 2026-09-08. Direct inspection records:
 
 - an anthropomorphic Shiba Inu-like head on a muscular humanoid body;
 - a red-and-blue suit, golden-yellow cape, silver ribbed gauntlets and red boots with gold trim;
 - a white double-star chest emblem;
-- one dynamic flying or lunging pose from a front three-quarter angle;
-- a modelling-grid background and partial unrelated models at the frame edges.
+- a dynamic flying or lunging pose.
 
-This is useful identity evidence, but it is not a clean turnaround: there are no orthographic front, side or back views, neutral pose, expression range, scale reference, palette specification or isolated accessory details.
+The existing preview remains supporting evidence only because it shows one viewport angle and includes partial unrelated models at the edges. The approved turnaround now controls production identity.
 
 ## Rigged 3D model
 
@@ -44,23 +45,31 @@ The upstream [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vaul
 | SHA-256 | `c543dd6a55d18263b6aa212220458a5d2e1a8e73619c3c5436d685335aa0c2ad` |
 | Advertised contents | GLB, skeleton, skin weights, embedded textures and animation clips |
 
-The contents description is an upstream claim recorded for provenance; the ZIP has not been copied into Hermes Multiverse or independently unpacked here. The upstream content notice says no additional licence is granted.
+The package is now adopted into the private library. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **21 named skeletal animations**, with no external file dependencies. The upstream content notice grants no additional licence.
 
-## Work still needed
+Private canonical model: `../models/rigged-models-v1/DogeMan.glb`.
 
-Before style generation, Doge Man needs:
+## Canonical character sheet
 
-1. creator or curator approval of the visible model as the intended identity;
-2. an approved, isolated multi-view character sheet or equivalent model turnaround;
-3. confirmation of canonical palette, outfit details and chest emblem;
-4. an explicit decision on whether the current 3D model, a future sheet, or both control identity;
-5. rights or reuse status beyond `unknown-not-cleared`.
+The direct-model turnaround candidate now shows:
 
-The nine target styles are recorded as missing, but they are not active generation jobs until the identity-sheet gate is approved.
+1. isolated front, three-quarter, side, three-quarter-back and back views;
+2. one consistent head, body, suit, cape, gauntlets, boots and double-star emblem;
+3. neutral lighting and comparable scale across views;
+4. palette and material details;
+5. model-based action or pose references where useful.
+
+Candidate v03 passed technical and independent visual QA, was approved by Sahil and was promoted byte-for-byte to:
+
+All nine target-style sheets were generated, machine-verified, approved for promotion by Sahil, and promoted into the canonical style tree on 2026-09-08. Direct visual review remains documented as a separate follow-up because the configured cloud vision provider was quota-blocked at promotion time.
+
+## Deliberate unknowns
+
+Doge Man's origin, civilian identity, wider affiliations, ability source and formal reuse permissions remain unknown.
 
 ## Rights and provenance
 
-This is an unofficial work-in-progress catalogue record. Inclusion documents the source material; it does not grant permission to reuse, redistribute, adapt or sell the character, preview or model.
+This is an unofficial work-in-progress catalogue record. Model approval establishes the local character identity; it does not grant permission to redistribute, adapt or sell the character or rig.
 
 ## Sources
 

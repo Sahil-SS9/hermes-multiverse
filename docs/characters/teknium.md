@@ -28,7 +28,9 @@ Teknium also appears in the archived scene descriptions for [ASK HERMES](../scen
 
 The updated NRCU Vault links [Teknium-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Teknium-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **18,623,006 bytes** and SHA-256 `bb08b497b5d682cf4176c16432e491e894e8c2fd151c40563487bb65d290994b`.
 
-Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **16 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
+Private canonical model: `../models/rigged-models-v1/Teknium.glb`.
 
 ## Deliberate unknowns
 

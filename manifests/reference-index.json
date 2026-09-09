@@ -1,0 +1,5628 @@
+{
+  "schema_version": 1,
+  "release": "v0.2.0-wip",
+  "summary": {
+    "reference_assets": 299,
+    "character_mapped": 292,
+    "candidate_only": 0,
+    "scene_classified_cast_unresolved": 7,
+    "canonical_character_links": 528,
+    "candidate_character_links": 5
+  },
+  "references": [
+    {
+      "reference_id": "ref-0022ed4f3c3d8335",
+      "preview": {
+        "path": "previews/references/ref-0022ed4f3c3d8335.webp",
+        "sha256": "ec21c844ef4ee24ba3626b0dd9c5beb58efc2d98056cdc507c4b4505a901724b",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "teamwork-propaganda-poster",
+      "linked_characters": [
+        "i-sneeze-kittens",
+        "teknium",
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-048c9bd670ef986e",
+      "preview": {
+        "path": "previews/references/ref-048c9bd670ef986e.webp",
+        "sha256": "d5fb9eb6d2e3e394e981c784fc41cde470d5dad7ec411bd65f80dadf1543b15e",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "storybook-map-expedition",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-06db63b87301c3a4",
+      "preview": {
+        "path": "previews/references/ref-06db63b87301c3a4.webp",
+        "sha256": "98aa9ceddb5e183e483a85e72263ea8f4e4c156fb736b6bb40dbe935985742cf",
+        "width": 960,
+        "height": 852
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-079982e500947c21",
+      "preview": {
+        "path": "previews/references/ref-079982e500947c21.webp",
+        "sha256": "adf80ac26bf8f1192016b9b68cbac54b5cd84abfa7a1fba5e0a7a177aef0a004",
+        "width": 960,
+        "height": 714
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "suzu"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-07a6817ed1a25c0b",
+      "preview": {
+        "path": "previews/references/ref-07a6817ed1a25c0b.webp",
+        "sha256": "c2fdff893d683eb3dfa7099bc99d686222025844880fea23d42374ab7afd305d",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-081c140e88190d87",
+      "preview": {
+        "path": "previews/references/ref-081c140e88190d87.webp",
+        "sha256": "5564898b964c19e153c80792e123946d4dba7ac836059507b08b1beb3cacac7f",
+        "width": 548,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-09a3c5e1ba139ae3",
+      "preview": {
+        "path": "previews/references/ref-09a3c5e1ba139ae3.webp",
+        "sha256": "b70f9fe20b37331069b30c50ddd4a099a47ebd7a18b557900891a2e087376cce",
+        "width": 960,
+        "height": 807
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "hermes-agent-group-portrait",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-09c341460e2d3941",
+      "preview": {
+        "path": "previews/references/ref-09c341460e2d3941.webp",
+        "sha256": "561179d17899d1ec30c7fb27c369531c3596f5a730c0f6f7bf7d883177ac1d71",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-09eaa0322d8f28b8",
+      "preview": {
+        "path": "previews/references/ref-09eaa0322d8f28b8.webp",
+        "sha256": "280c11350f70133b5bbe951b7e946d57add5bbb1aca83f9e3208047e911e7f1a",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "psychedelic-pizza-feast",
+      "linked_characters": [
+        "fatcat",
+        "fleety"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-0a41c8355776fcc7",
+      "preview": {
+        "path": "previews/references/ref-0a41c8355776fcc7.webp",
+        "sha256": "0fe2061a429635241b21041094bd420272021f52c23d9d0d55372f98daf6b6af",
+        "width": 960,
+        "height": 639
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "arm-wrestling-match",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-0e67f739124abc60",
+      "preview": {
+        "path": "previews/references/ref-0e67f739124abc60.webp",
+        "sha256": "e807dbebb1afa3d80fcfbcb9117dd56f1904dde9b55560fe91585ce2bc08782f",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "noir-tax-office",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-0f13313715a66bb0",
+      "preview": {
+        "path": "previews/references/ref-0f13313715a66bb0.webp",
+        "sha256": "489a0c30accd06e0f6488d022e3dd387016a1bebd56636a83543964bd61c6e7e",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "chaotic-hermes-clinic",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-117f60523761dda3",
+      "preview": {
+        "path": "previews/references/ref-117f60523761dda3.webp",
+        "sha256": "e930ae08120e19a21a8bcfe80db8b10983b7168275b50ebb8549bf1ceca4a34e",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "scene",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-12ade71ec086a193",
+      "preview": {
+        "path": "previews/references/ref-12ade71ec086a193.webp",
+        "sha256": "5da5fd1a32bd1f264610789d42e7fb775a0a54b0f6a9dac8c290d98a671b3028",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "quiet-intimate-moment",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1317ed3ea8a9ba30",
+      "preview": {
+        "path": "previews/references/ref-1317ed3ea8a9ba30.webp",
+        "sha256": "32a7727244dc9f6deb8684a656978b7068f5a266d6df71906d9acff9db56b23c",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-133aa3f47876c962",
+      "preview": {
+        "path": "previews/references/ref-133aa3f47876c962.webp",
+        "sha256": "b1a280bcbf9d30b331c9f6f600efde595578a913c291b1463bc233a7e6811054",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-153850369fa9a728",
+      "preview": {
+        "path": "previews/references/ref-153850369fa9a728.webp",
+        "sha256": "6404b3b3baa6c8eaaf301da87c78e8053f0568b51759d69073f90b6a13ebf3ff",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "sunlit-library-gathering",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-155af608a08302c9",
+      "preview": {
+        "path": "previews/references/ref-155af608a08302c9.webp",
+        "sha256": "0bc8d09cfc1e991c53b4251301c1f2d187170c9d09df85603d0f6b861ec60264",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "armored-car-collision",
+      "linked_characters": [
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-15f54aa5126d1700",
+      "preview": {
+        "path": "previews/references/ref-15f54aa5126d1700.webp",
+        "sha256": "cda033eec0dddfccd91cdba3faaee35f372ee525eff40e6ebc57681c0b5a02a3",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "tropical-kart-race",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-15f99ce755272912",
+      "preview": {
+        "path": "previews/references/ref-15f99ce755272912.webp",
+        "sha256": "3535584d40f9961302f742f2d5aadbf666495e5f60224ae22bf83b8c04de6ed4",
+        "width": 806,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "wasteland-group-expedition",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-16402fe9a023f6dc",
+      "preview": {
+        "path": "previews/references/ref-16402fe9a023f6dc.webp",
+        "sha256": "a755b36bf5322b5c3226225ea1a757579f0bcc27f7d4813ad82a959bab1114ae",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-16e988252299c847",
+      "preview": {
+        "path": "previews/references/ref-16e988252299c847.webp",
+        "sha256": "a7062790e7f178e598cb31c03338906ccaf5a76713296791dffd5e542603e8c9",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "robot-lab-chaos",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-17d945376608cf38",
+      "preview": {
+        "path": "previews/references/ref-17d945376608cf38.webp",
+        "sha256": "789fa07c70d1c8fc7db22f3f7c20e4b32bf0fd3fc2e42b0c859cb090947fe21b",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-city-bike-ride",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1870d31d1c63b517",
+      "preview": {
+        "path": "previews/references/ref-1870d31d1c63b517.webp",
+        "sha256": "7fa72488e1655d1d911a200d6764254239466e86fefb343f701af2dba8f54ef6",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1911678ecf95a01b",
+      "preview": {
+        "path": "previews/references/ref-1911678ecf95a01b.webp",
+        "sha256": "75fe0f0d6e8e8b4a370b51079e8995e64b3f0014a01fe1795c15689be0071dd7",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "social-media-harbor-voyage",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1967821c9a0113ac",
+      "preview": {
+        "path": "previews/references/ref-1967821c9a0113ac.webp",
+        "sha256": "bf7ef884dee136b8de882782c98b038e23a08295118249729bb0685208266e94",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1ad49e19961a03de",
+      "preview": {
+        "path": "previews/references/ref-1ad49e19961a03de.webp",
+        "sha256": "697956a8c6a3bf007e4eb9982b5384477b78fdf793d890ca6698e4e5345a2d49",
+        "width": 190,
+        "height": 184
+      },
+      "asset_type": "portrait",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1b69a149f2669033",
+      "preview": {
+        "path": "previews/references/ref-1b69a149f2669033.webp",
+        "sha256": "7bf40f7f4e66c00dbc103ca452a6b132e443c6a18fd2f77037960bef9900fa60",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "art-deco-profile-lineup",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1c877c970073f4b6",
+      "preview": {
+        "path": "previews/references/ref-1c877c970073f4b6.webp",
+        "sha256": "ff150a9b6b3b57d7d9da73e52a3b62fad2cc08d3d78662de826ba0e3346352de",
+        "width": 960,
+        "height": 679
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "ee-dd"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1cffb91a8085499f",
+      "preview": {
+        "path": "previews/references/ref-1cffb91a8085499f.webp",
+        "sha256": "a36ff54a469bb8f7e314e02d668bdd190671589c90a5a3b29ba5723beea3094d",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "workshop-scooter-repair",
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1dfafe89faf1ad97",
+      "preview": {
+        "path": "previews/references/ref-1dfafe89faf1ad97.webp",
+        "sha256": "707c9b557fb6869780cfda2d6748fdee1cd1bc301aa0d3168ef79fe7175ecd50",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cosmic-entity-power-surge",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1e18f7963e7e711c",
+      "preview": {
+        "path": "previews/references/ref-1e18f7963e7e711c.webp",
+        "sha256": "b06c9a6d8328d8b779905898a2a5b8dbbff2f475e5fdac0923074ba8e706b9f4",
+        "width": 960,
+        "height": 947
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "moonlit-clifftop-duel",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-1fc5a06f7484c9ad",
+      "preview": {
+        "path": "previews/references/ref-1fc5a06f7484c9ad.webp",
+        "sha256": "a22cfb0d4049866378f2e55a975a271d4f6fec11f3404948ea46ea896ba881e9",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "adolan"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-2052ff74073abaa1",
+      "preview": {
+        "path": "previews/references/ref-2052ff74073abaa1.webp",
+        "sha256": "aad04841691bb8f331c29abeb7bf0297d8b1c3f41c6ef8da7f691c449d85eac2",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-206a6cb529849914",
+      "preview": {
+        "path": "previews/references/ref-206a6cb529849914.webp",
+        "sha256": "306df9cf977aef3ae1e1a01a33ce4872e815d0ef7bc4184da678484b59afdcb9",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-21cb1a63b57e932f",
+      "preview": {
+        "path": "previews/references/ref-21cb1a63b57e932f.webp",
+        "sha256": "0658d8ac6aae4b235fbce8e2737d8b00f108be8f3727d3c57ccd72170d12a2fd",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-21d96d16476de312",
+      "preview": {
+        "path": "previews/references/ref-21d96d16476de312.webp",
+        "sha256": "068d46ca680a89deeaad9114bbf99f345abf6a258da84c948c5a08d2b14d99ee",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "emergency-command-room",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-221d5c211cd9fcec",
+      "preview": {
+        "path": "previews/references/ref-221d5c211cd9fcec.webp",
+        "sha256": "e39ba21f26b94f7a2e653f5fbd996fb31b697b4bf40db7bf90138de108188482",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-22516b5bc1af97c8",
+      "preview": {
+        "path": "previews/references/ref-22516b5bc1af97c8.webp",
+        "sha256": "c625f61e7d4b0aa95822879753818141d0fdf0d2120bb590c92c1ec4bab004d6",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-22bcba995b490da8",
+      "preview": {
+        "path": "previews/references/ref-22bcba995b490da8.webp",
+        "sha256": "f67592183a15a84dd404ef3bac52754e7dc106a089be8dc292195466428feb16",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-22f9bcd1dc376667",
+      "preview": {
+        "path": "previews/references/ref-22f9bcd1dc376667.webp",
+        "sha256": "a9b4221c54186b90cd49d57a6c56a6b06a5bbb4fd2be9b5d859488d880eea26b",
+        "width": 778,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "lunar-cat-confrontation",
+      "linked_characters": [
+        "fatcat",
+        "fleety"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-25049055f11aa5c7",
+      "preview": {
+        "path": "previews/references/ref-25049055f11aa5c7.webp",
+        "sha256": "680ff3c5e7cae55b1722fbab362690b027110d60def5eb1586e20a00005d0338",
+        "width": 960,
+        "height": 945
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-253b773cf3ccd6fc",
+      "preview": {
+        "path": "previews/references/ref-253b773cf3ccd6fc.webp",
+        "sha256": "a9424c7c509b478c0eeeb46157420285d3fa80060f41ac2e8baf3e444270a566",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-255e3976d2cbf728",
+      "preview": {
+        "path": "previews/references/ref-255e3976d2cbf728.webp",
+        "sha256": "bd1d699fb426dd37423e7190256ba8a4ac47f6faf6a8a681c6fcfc44f1e965ed",
+        "width": 720,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-25b32f7d64519773",
+      "preview": {
+        "path": "previews/references/ref-25b32f7d64519773.webp",
+        "sha256": "f86151e67a2afe24ccaed23a74742c9b9c66a511e6cac065c6840d44bb7b9b40",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "fantasy-tapestry-adventure",
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-269ca1583b91b793",
+      "preview": {
+        "path": "previews/references/ref-269ca1583b91b793.webp",
+        "sha256": "80afa39ec019b5e7b0cc4746b53fc3064dfb41e8ec3f9418913a3acdc525739d",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "stylized-rooftop-pose",
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-291ac946639e2923",
+      "preview": {
+        "path": "previews/references/ref-291ac946639e2923.webp",
+        "sha256": "68b7366b7fbb7e0d7eb3e38b847f8e4f686a0fcea350a16fc890d0835901301a",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "purple-outage-command-center",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-29c35a8001d84410",
+      "preview": {
+        "path": "previews/references/ref-29c35a8001d84410.webp",
+        "sha256": "2b08a6b1a8d2740cfd68b08b842706c9224832c7ae742e889d0a00cfe7bf0c7e",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "portrait",
+      "descriptor": null,
+      "linked_characters": [
+        "ggb"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-2afea2b641637c09",
+      "preview": {
+        "path": "previews/references/ref-2afea2b641637c09.webp",
+        "sha256": "c3e2219fb254cfdff98cb3bffed5ad20995934fc102f2a3d0998b9fc2ce89d20",
+        "width": 960,
+        "height": 940
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-2c106e4b0c560f64",
+      "preview": {
+        "path": "previews/references/ref-2c106e4b0c560f64.webp",
+        "sha256": "841a77af2e60fbada6700aacb8e3b3546529e39f8a6484351e29aab3b15b4d4b",
+        "width": 960,
+        "height": 495
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "neon-coastal-overlook",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-2cb7d18f1ccb5475",
+      "preview": {
+        "path": "previews/references/ref-2cb7d18f1ccb5475.webp",
+        "sha256": "6ca2c4c45932751eb277d7b2fd818ac4acd6ba176eac81fac27ad377027d0831",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "robot-puppet-theater",
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-2d246f1adbcdb084",
+      "preview": {
+        "path": "previews/references/ref-2d246f1adbcdb084.webp",
+        "sha256": "ac795e7694c187ea3c51aff5cc9746f706998909feed0e71bb044bdbc585366e",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "multiverse-portal-team",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-30fb2252b524873d",
+      "preview": {
+        "path": "previews/references/ref-30fb2252b524873d.webp",
+        "sha256": "0021fb93bd154e1e04695355c1893f2b2b76ca192aa640f3e37beb777d917eba",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "data-center-liberation-team",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-31df0807cbfb54bd",
+      "preview": {
+        "path": "previews/references/ref-31df0807cbfb54bd.webp",
+        "sha256": "ab933e2a6d0ea9a4c4e071d8ccae570674b70809aea3eb1bb22cd388f880123c",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-320c3001ad952697",
+      "preview": {
+        "path": "previews/references/ref-320c3001ad952697.webp",
+        "sha256": "32eae11d97bb1e7383aad2614c672197cdde714afe6fbfb4181870f5f71c3494",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "cubist-computer-store",
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-320e067fb2fa6698",
+      "preview": {
+        "path": "previews/references/ref-320e067fb2fa6698.webp",
+        "sha256": "fa29f935bb2898774c01c79db6b85f30cf931f57b8fab846443d85af4d61f484",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "celestial-folklore-encounter",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3345bf826bc63834",
+      "preview": {
+        "path": "previews/references/ref-3345bf826bc63834.webp",
+        "sha256": "2f1469af1fa751a46ab1ea178feb15636a10d0bb2779a43a1febc00ce9b2dcce",
+        "width": 960,
+        "height": 937
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-33694986ceefe483",
+      "preview": {
+        "path": "previews/references/ref-33694986ceefe483.webp",
+        "sha256": "df081b129ec81a9d211c96b0d818378b5ee08513fafc12d8d121273062f4c09a",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "collaborative-city-building",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-34300eda5290e1ed",
+      "preview": {
+        "path": "previews/references/ref-34300eda5290e1ed.webp",
+        "sha256": "12458f5720683c1f069a0900d8deb80e38f10061e36c9ff9a2adb6d5f6c90d05",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-35f5ecbbf1ab4b06",
+      "preview": {
+        "path": "previews/references/ref-35f5ecbbf1ab4b06.webp",
+        "sha256": "de5ecd8a75ea6d5fad986d3b906541380ee1e9466fcfc84467d45c29329e90cb",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-rooftop-squad",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-38039a466a575b2b",
+      "preview": {
+        "path": "previews/references/ref-38039a466a575b2b.webp",
+        "sha256": "d16622329644581c4eea9dd3c494136d720cb282c6b7aafd7adfbcac05319aa3",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "open-source-graveyard",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-38aa1258cf959765",
+      "preview": {
+        "path": "previews/references/ref-38aa1258cf959765.webp",
+        "sha256": "da29d37935acef1a93ad301cfa958c4c3635eccc9cd464092edc8f3a419c4785",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-392cdab8982753fc",
+      "preview": {
+        "path": "previews/references/ref-392cdab8982753fc.webp",
+        "sha256": "89558e2981ac96e83c2c581d40c04bb525389b73d5412ac8e41165d44db543af",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "brooklyn-map-dispute",
+      "linked_characters": [
+        "fleety",
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3a62fb9f7c0cc193",
+      "preview": {
+        "path": "previews/references/ref-3a62fb9f7c0cc193.webp",
+        "sha256": "7b76b84558d17aa831bf0c982769423c594ac588d9d7ea1ef10cf71007dfc6e3",
+        "width": 781,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3a93f5e2aae93d6c",
+      "preview": {
+        "path": "previews/references/ref-3a93f5e2aae93d6c.webp",
+        "sha256": "d14395c81352368157c6a457cff703a810260edad491b46cd13cf8f6f9d7b6e6",
+        "width": 960,
+        "height": 928
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3a956070a22b1526",
+      "preview": {
+        "path": "previews/references/ref-3a956070a22b1526.webp",
+        "sha256": "e95fc4bc1c1cbfb8121ded60d80198055cf301d47bc44097dec2c1ca21833821",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "rainbow-squad-poster",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3c2cdc7c9b147043",
+      "preview": {
+        "path": "previews/references/ref-3c2cdc7c9b147043.webp",
+        "sha256": "26159184fc1d9781f8ad8f86d8003754417fccaa8feadbf15c8159e76785cab2",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3c3c4658d418a903",
+      "preview": {
+        "path": "previews/references/ref-3c3c4658d418a903.webp",
+        "sha256": "a49bee54ee7c06f111fae28514a7a0eba6aa03edccbaa7f36388cd2666aeac2c",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-city-team-march",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3c74958918ca6b06",
+      "preview": {
+        "path": "previews/references/ref-3c74958918ca6b06.webp",
+        "sha256": "f7f7f4cc0bd4ff0744297698b99302cdc45caf96afada76497898dead15cb1eb",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3d29af2cff70af74",
+      "preview": {
+        "path": "previews/references/ref-3d29af2cff70af74.webp",
+        "sha256": "4f4640862ab547e93336bb5ae15ca649b4b6b866cadacfafe0c65b0b130a3059",
+        "width": 960,
+        "height": 645
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3ee99d60c965897b",
+      "preview": {
+        "path": "previews/references/ref-3ee99d60c965897b.webp",
+        "sha256": "025975c7f3a9faf041df3d8a96fe87976102487217fb52fcb7a748f77d330dc0",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "sudo-nightwing"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "approval-pending-per-profile"
+    },
+    {
+      "reference_id": "ref-3f459960a494112d",
+      "preview": {
+        "path": "previews/references/ref-3f459960a494112d.webp",
+        "sha256": "4f619e65567a7602a591cd0186181dceb3f376573db6e4e22dc162e1e09c2488",
+        "width": 928,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3f49e631ac53e6af",
+      "preview": {
+        "path": "previews/references/ref-3f49e631ac53e6af.webp",
+        "sha256": "dd98cf7651c18d1556e4aa6c2e7521d8afb51ea2192dac86bea13cc7c40bdfae",
+        "width": 800,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3f56aced3e86ea48",
+      "preview": {
+        "path": "previews/references/ref-3f56aced3e86ea48.webp",
+        "sha256": "cdce25f3658f045b5941dda93ec6921a69c8e94e05c95a35a798033d0d3026ac",
+        "width": 818,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-3fa9a348e6adfb7e",
+      "preview": {
+        "path": "previews/references/ref-3fa9a348e6adfb7e.webp",
+        "sha256": "137593fe6fa0d6f2d0b2c3eaca975442f6120d5adf467486534b1969968570bd",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-403686c2047834cb",
+      "preview": {
+        "path": "previews/references/ref-403686c2047834cb.webp",
+        "sha256": "dff243a9308a9974dc748571108e0e6655b749744cac4d928035406e17158751",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "question-recycler-comic",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-41ffcd5b157a0fad",
+      "preview": {
+        "path": "previews/references/ref-41ffcd5b157a0fad.webp",
+        "sha256": "48f766fd4e286b0dda4623039d88f030d1d4bd383c6cfbebfd3c97eaf728dfd4",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4202f60ed449c93d",
+      "preview": {
+        "path": "previews/references/ref-4202f60ed449c93d.webp",
+        "sha256": "df8a2be28b948389ee98bc706af686883b3f745378857eed3b452e880b53a7d1",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cyberpunk-command-hideout",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4262d1ca9d36af6b",
+      "preview": {
+        "path": "previews/references/ref-4262d1ca9d36af6b.webp",
+        "sha256": "15c73623f283d911ee595712de54db90b645ea3b5b55256276abadf2c6cfc800",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "plush-factory-argument",
+      "linked_characters": [
+        "don-piedro",
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-426508e0ad73e935",
+      "preview": {
+        "path": "previews/references/ref-426508e0ad73e935.webp",
+        "sha256": "a7ce1da71668224839c7c39889a1502d5e0bc78129db576f808e9dedd2b8990c",
+        "width": 960,
+        "height": 721
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "agent-squad-reference",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-42ccb80c74a7c3a9",
+      "preview": {
+        "path": "previews/references/ref-42ccb80c74a7c3a9.webp",
+        "sha256": "f6cc37a4705f36606d1192838525e414f20a7db0ac934e9ea6dfce19879895ab",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "retro-gaming-plush-squad",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-433528979f232a89",
+      "preview": {
+        "path": "previews/references/ref-433528979f232a89.webp",
+        "sha256": "d4ec07e08b0bb019b24a40a159ec3f4cbcee52de0b034ef439c0722ed6682da7",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "environment-concept",
+      "descriptor": "stormbound-ai-pirate-ship",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-45ae934b8bdf5bb8",
+      "preview": {
+        "path": "previews/references/ref-45ae934b8bdf5bb8.webp",
+        "sha256": "50badb5e03fafc914a4bb302640309a88035e021b2bd4e7e2f3cd36df65c96bd",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "armored-car-impact",
+      "linked_characters": [
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-460551f33b85c2e1",
+      "preview": {
+        "path": "previews/references/ref-460551f33b85c2e1.webp",
+        "sha256": "3a784b3021a24da1c46f6801ac65b4db1caa91402700b78b360ecd68d543ee3c",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "deep-fried-ai-diner",
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-47dc7d1cef0c5f8a",
+      "preview": {
+        "path": "previews/references/ref-47dc7d1cef0c5f8a.webp",
+        "sha256": "932bf3547bda8f47f9d3a74f42f265a2deeaf920605406c1c12d4bc5799f72cb",
+        "width": 679,
+        "height": 637
+      },
+      "asset_type": "model-preview",
+      "descriptor": null,
+      "linked_characters": [
+        "doge-man"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-496485ca237082a3",
+      "preview": {
+        "path": "previews/references/ref-496485ca237082a3.webp",
+        "sha256": "5fe6a4e4f18754cb1c44b6e2a2efb3f567ae9f2a007af0c1aa11285fde341477",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-49659a50cea28be2",
+      "preview": {
+        "path": "previews/references/ref-49659a50cea28be2.webp",
+        "sha256": "a46f10bad37cea5452fe6f153e13b2237db1d6011bc33ac12ad67f59f1dc582a",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "fiery-desert-sunset",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4ad8b1dcdcfe827a",
+      "preview": {
+        "path": "previews/references/ref-4ad8b1dcdcfe827a.webp",
+        "sha256": "be479022a0a6b16a14884176c9660be3e222404ee40427be62e2fcee02949a07",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4ca6d92a7e1dee2f",
+      "preview": {
+        "path": "previews/references/ref-4ca6d92a7e1dee2f.webp",
+        "sha256": "3d56013ef9a66cce486d5ccbd62fd543bce49b85247c67acf0ed1b2e65bfb399",
+        "width": 399,
+        "height": 399
+      },
+      "asset_type": "portrait",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4d729b3e73b87e72",
+      "preview": {
+        "path": "previews/references/ref-4d729b3e73b87e72.webp",
+        "sha256": "60ad66eb29b583a11935e85ed439d3f0973f8c76b7149820630c892bef8038cd",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4ff64e3403ce9b04",
+      "preview": {
+        "path": "previews/references/ref-4ff64e3403ce9b04.webp",
+        "sha256": "f6b7df556e14b8318c410ae5e62194110bef34c7c72d258d44ea300bee7b78ea",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "rainbow-squad-silhouettes",
+      "linked_characters": [
+        "sidbin",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [
+        "tinuviel"
+      ],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-4fff1b9d9bbf0aae",
+      "preview": {
+        "path": "previews/references/ref-4fff1b9d9bbf0aae.webp",
+        "sha256": "20ffcd248f1d1bafef2f9b35500f714a3642d5df9a51f72faeba41870ce8c441",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "banana-standoff-graffiti",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-500e7665771a866e",
+      "preview": {
+        "path": "previews/references/ref-500e7665771a866e.webp",
+        "sha256": "de5472bd51782910bbf074d2e50f4fe7fa5ea535263f95df9560bc83b2564716",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "geometric-women-portraits",
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-532206daf9e62c65",
+      "preview": {
+        "path": "previews/references/ref-532206daf9e62c65.webp",
+        "sha256": "6944b28c26dc104ba183c25247fea6cb6e35a19c207fd0e81ebf031f04dd8742",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5418ce478767d7de",
+      "preview": {
+        "path": "previews/references/ref-5418ce478767d7de.webp",
+        "sha256": "09784c303dc87f4267016c34d0a1574cff0f7738e5ca515414fb1f202bf577a3",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-541ef2e689ad502c",
+      "preview": {
+        "path": "previews/references/ref-541ef2e689ad502c.webp",
+        "sha256": "41b229e260f743087a05156577586ade442585d6d69f96977ce0dd4a7a5feea7",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-agent-poster",
+      "linked_characters": [
+        "nousgirl",
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-543d14cdb5bdbeae",
+      "preview": {
+        "path": "previews/references/ref-543d14cdb5bdbeae.webp",
+        "sha256": "317bab9cba15022941009cbe502478c37fab44d3eff8da2de33214c0cd7d67c5",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "woodland-agent-squad",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-553483e2437b0dda",
+      "preview": {
+        "path": "previews/references/ref-553483e2437b0dda.webp",
+        "sha256": "84240a497b66f00280c00b775975f5878dd0bd0b2929a403abd3b286c0d37033",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "wii-boxing-showdown",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-556828cdcf639c55",
+      "preview": {
+        "path": "previews/references/ref-556828cdcf639c55.webp",
+        "sha256": "df452a26b9ea782a80f82ef914e6e7f430292356921da006a3f4c11dc6a2193c",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-rooftop-comet-ride",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5642a10872e82875",
+      "preview": {
+        "path": "previews/references/ref-5642a10872e82875.webp",
+        "sha256": "bc8c587bd2df60f9743f5b60dbc549d54d650da66e313c399aa33d6d3141be22",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-56600e5e50e23fa7",
+      "preview": {
+        "path": "previews/references/ref-56600e5e50e23fa7.webp",
+        "sha256": "c8707b1268dcbf46ad2be3460f8ea39b82afed323cfd2906080ddbc1410ea565",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "swamp-shark-fishing",
+      "linked_characters": [
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-581dad8db16d20ea",
+      "preview": {
+        "path": "previews/references/ref-581dad8db16d20ea.webp",
+        "sha256": "a41ba9cff52edb450e6840cc245d04dc8425250f4c8eb137c7fe15fa990c9a8a",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "open-source-roller-disco",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5ae5e272268ac2ee",
+      "preview": {
+        "path": "previews/references/ref-5ae5e272268ac2ee.webp",
+        "sha256": "8185cbc43e63524b55c3ed2a6bae335f2a1b4590120075f45cb724094fae4d4d",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "open-source-propaganda-city",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5c320f7677aaa8f7",
+      "preview": {
+        "path": "previews/references/ref-5c320f7677aaa8f7.webp",
+        "sha256": "04ce51ba3cecd5f31ae85d2e88f0ece429200fe445ce6e538c0565592c2f1e71",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "arcade-battle-collage",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5d379239f4a351ad",
+      "preview": {
+        "path": "previews/references/ref-5d379239f4a351ad.webp",
+        "sha256": "31e8e4329475050f5895bf4a49eb52c786930196c2dd52be2e48a0402a5ebd42",
+        "width": 809,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-5e65b5097c76b096",
+      "preview": {
+        "path": "previews/references/ref-5e65b5097c76b096.webp",
+        "sha256": "568fb06e374d2cb24be41843c970b9251f7f0921724467981fca583eb5a68f1b",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-60d746cadb1eacce",
+      "preview": {
+        "path": "previews/references/ref-60d746cadb1eacce.webp",
+        "sha256": "350c9ec36c4c454ecdd70e37757ed5ebd30dc6dd31008d1d07525b6ce4196725",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "environment-concept",
+      "descriptor": "overgrown-wasteland-expedition",
+      "linked_characters": [
+        "gottz",
+        "sidbin",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-61592fec5857d9ed",
+      "preview": {
+        "path": "previews/references/ref-61592fec5857d9ed.webp",
+        "sha256": "e52a7f1914f4b1c7a375af9d204a885566310712dd4350a55f16ae5f7dfc91b8",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-61793d293aac2a0a",
+      "preview": {
+        "path": "previews/references/ref-61793d293aac2a0a.webp",
+        "sha256": "e6e9e0a109f25c070f250334edb190c9d475fdbf4c030035caa058dc59482eae",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "underground-builder-fight-club",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "doge-man",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-624df0477ab332e4",
+      "preview": {
+        "path": "previews/references/ref-624df0477ab332e4.webp",
+        "sha256": "cfe6b08a840c7dd03e8330770209e97c686bc84060dd23233815ad788ed52c96",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "portrait",
+      "descriptor": null,
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-637c330995304b7b",
+      "preview": {
+        "path": "previews/references/ref-637c330995304b7b.webp",
+        "sha256": "8c4b7e57377b0692e0c5b157b62b5e8c502a6f61c9fde9809289c3d783a0e62f",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "retro-arcade-code-brawl",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "doge-man",
+        "nousgirl",
+        "teknium",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-63b302dfb07f69e8",
+      "preview": {
+        "path": "previews/references/ref-63b302dfb07f69e8.webp",
+        "sha256": "34f7f793800e53262b18e34c1189e14d02d0bac187e5ee5e6cba8e046a890f66",
+        "width": 960,
+        "height": 806
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-644e7f792134f643",
+      "preview": {
+        "path": "previews/references/ref-644e7f792134f643.webp",
+        "sha256": "f7803867c7186015859d24493da9c07455549fb964cb8fcc3f852369c8cb9116",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "autumn-fantasy-walk",
+      "linked_characters": [
+        "fatcat"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-64835f5c8d6eee75",
+      "preview": {
+        "path": "previews/references/ref-64835f5c8d6eee75.webp",
+        "sha256": "8ef86fcbed872294a2c5f1d6c55302c9696a2c0d30e972b3a48e5f6a18286d72",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "rainy-black-market",
+      "linked_characters": [
+        "nousgirl",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-64b811ed236186a8",
+      "preview": {
+        "path": "previews/references/ref-64b811ed236186a8.webp",
+        "sha256": "66520e2e59dd9605a9b61ee42d308078297033d07e6107d35714b5eb73b0b3f8",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-64e3d7d7759e60a3",
+      "preview": {
+        "path": "previews/references/ref-64e3d7d7759e60a3.webp",
+        "sha256": "bb653c4287f627a68a6a69f8806ea0460006b75812b0d63f2928dfd2c80c2aa3",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-655288690051afcf",
+      "preview": {
+        "path": "previews/references/ref-655288690051afcf.webp",
+        "sha256": "36561707d983d613be93da8ce433d97d8e08388f95927a0497c32768e7240c98",
+        "width": 960,
+        "height": 624
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-659c1f368ae9c046",
+      "preview": {
+        "path": "previews/references/ref-659c1f368ae9c046.webp",
+        "sha256": "089bafb510ba666ffa8b5b61222fef03e88f86e48b647ef0961bcf63d34b94ae",
+        "width": 720,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-66d6371d593bb97f",
+      "preview": {
+        "path": "previews/references/ref-66d6371d593bb97f.webp",
+        "sha256": "d6e1dcf69097024108d407c8a108d4f5d40db639e3a7a40a68d5d7a8415ae1e3",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "cthulhu"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-67c13ef9ce92cf83",
+      "preview": {
+        "path": "previews/references/ref-67c13ef9ce92cf83.webp",
+        "sha256": "be40e497ea22b3c19a84eedb828658fbf74452ccad67c4ca97f972360044c8e9",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-maze-arcade",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6800065bc8f8eaf9",
+      "preview": {
+        "path": "previews/references/ref-6800065bc8f8eaf9.webp",
+        "sha256": "eba3ad56e54ed81f72207595b4f95ca624f443d96914d6a19a2f08126ace5e0d",
+        "width": 785,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-689c2a7db80703a0",
+      "preview": {
+        "path": "previews/references/ref-689c2a7db80703a0.webp",
+        "sha256": "120b91a7de7940d5ce10186f6c596469b47617c39ad89777d6eefcfeabc436a6",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "folk-art-data-center",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-68d0cd3261ad34e4",
+      "preview": {
+        "path": "previews/references/ref-68d0cd3261ad34e4.webp",
+        "sha256": "bd9b7d029f6d1a0bb9a6da110313e82b3df4911f8abcda3cfd951ba60ecbe484",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "robot-uprising-charge",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6974eaa0bf67799e",
+      "preview": {
+        "path": "previews/references/ref-6974eaa0bf67799e.webp",
+        "sha256": "0541cce3fac28bc7207030f4229d20d5183636def5f9329d332ea369e210d5f8",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "garage-bar-beer-pong",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [
+        "sidbin"
+      ],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-69e42af7d732a609",
+      "preview": {
+        "path": "previews/references/ref-69e42af7d732a609.webp",
+        "sha256": "8704f03b1fd5023d6a60fe45618922813caa02cb55563568c3492870ff996731",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "unclassified",
+      "descriptor": "fiery-dragon-battle",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6a3f62b75a51a6d9",
+      "preview": {
+        "path": "previews/references/ref-6a3f62b75a51a6d9.webp",
+        "sha256": "a388fddc7b125acec373668f3ad9a98b48051085a5e36b04b34964eadb482025",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "retro-monster-battle",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6b1e41dd0ee598f4",
+      "preview": {
+        "path": "previews/references/ref-6b1e41dd0ee598f4.webp",
+        "sha256": "faa849cccf03d1967f0634527445f7310bd32cab81a8b7f6630123e1dbdbc3d3",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6b3859d157bdcfb0",
+      "preview": {
+        "path": "previews/references/ref-6b3859d157bdcfb0.webp",
+        "sha256": "c560bcc2b2c0cf6c98c1f4031dad4d4371b24cbabee87ed1e22ee08ab70a7d8d",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "pink-heartday-portrait",
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6c3d9c3be7bcab1c",
+      "preview": {
+        "path": "previews/references/ref-6c3d9c3be7bcab1c.webp",
+        "sha256": "847513f7621b041072276600701d5b0a2bcf83499993f98c2a81a4dcf2377e1f",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6d86f2a99444f762",
+      "preview": {
+        "path": "previews/references/ref-6d86f2a99444f762.webp",
+        "sha256": "2cf61368c63abf719fe1fe6be24af10d5dc8cc99bf4cf6d1413122185d355f66",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "retro-diner-breakfast",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6e4726ccdd0ea49e",
+      "preview": {
+        "path": "previews/references/ref-6e4726ccdd0ea49e.webp",
+        "sha256": "67996f786caa5419a4bc77f481714a4e0105d875cf28c381d07d19420501451f",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "portrait",
+      "descriptor": null,
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6fe87acf02773275",
+      "preview": {
+        "path": "previews/references/ref-6fe87acf02773275.webp",
+        "sha256": "535ebeca171d073f00c7aa3d640bb2d1c9f6c85ef0f35e6097261c8ec1807bc4",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "identity-sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "doge-man"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-6fee3d0852238d99",
+      "preview": {
+        "path": "previews/references/ref-6fee3d0852238d99.webp",
+        "sha256": "397dc083bb10a514c84e4a2568f00af13ed1c2b5a72194720f095165b2d1cd8a",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-71edecff3d11f10d",
+      "preview": {
+        "path": "previews/references/ref-71edecff3d11f10d.webp",
+        "sha256": "c33198d44564ba95006e3fc3fcb32340a52e2f5f78aaed06b269cd2367304215",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "chibi-command-center",
+      "linked_characters": [
+        "nousgirl",
+        "sidbin",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-723fc1dd132da295",
+      "preview": {
+        "path": "previews/references/ref-723fc1dd132da295.webp",
+        "sha256": "969d20eb16a06f326e0f8c9f3a125f40d24d6e27e130ba2897c98bd3f805e8c7",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "digital-question-maze",
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-732dc278b05ceae6",
+      "preview": {
+        "path": "previews/references/ref-732dc278b05ceae6.webp",
+        "sha256": "3740fde5f5675ebbf5cd10bfbb8445d38e662d948797b67027257aa459ff6211",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "tunacookie"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-746b72b93139c902",
+      "preview": {
+        "path": "previews/references/ref-746b72b93139c902.webp",
+        "sha256": "dd44951101b68d7ccb6f04c4f18cf85fd9d95d1dff61ae38362237c7591ae839",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "explosive-desert-escape",
+      "linked_characters": [
+        "don-piedro",
+        "i-sneeze-kittens",
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7675e5281121b3d8",
+      "preview": {
+        "path": "previews/references/ref-7675e5281121b3d8.webp",
+        "sha256": "43f165e44639811b8b8b500523a1ed19a1c16b1245ef9bf1e9b239c874b32fc8",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "dojo-combat-showdown",
+      "linked_characters": [
+        "teknium",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7779ee6093e4b42e",
+      "preview": {
+        "path": "previews/references/ref-7779ee6093e4b42e.webp",
+        "sha256": "7544782390eeb014feb8838eff6e15b80439c3f58428a1505a328c638d4f7d3d",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "sunset-berry-harvest",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7797ddc98ab1ae4a",
+      "preview": {
+        "path": "previews/references/ref-7797ddc98ab1ae4a.webp",
+        "sha256": "faf93161c1854953dbcc41c1a712bdc7e6f41bb1dcee383a6f71be95b09e18b3",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-77fa0f4822d92a9f",
+      "preview": {
+        "path": "previews/references/ref-77fa0f4822d92a9f.webp",
+        "sha256": "c536931422e4d8e2a636b7ceeb0e2ca4007526ce181ebce50baad762edaa942c",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7950f6b3e9bbbeb9",
+      "preview": {
+        "path": "previews/references/ref-7950f6b3e9bbbeb9.webp",
+        "sha256": "21f7b2b3b7e7b97ab178c49bdc6cc3b0d456ee9e725a6de713f1304e5b456079",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "don-piedro"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7acce532b34ba583",
+      "preview": {
+        "path": "previews/references/ref-7acce532b34ba583.webp",
+        "sha256": "65bf926690a9182ad9e3bafb06f02cc6b18f9b387737ca369a184b165ce92880",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "dessert-buffet-brawl",
+      "linked_characters": [
+        "don-piedro",
+        "tunacookie"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7ad842fcfaebdcf5",
+      "preview": {
+        "path": "previews/references/ref-7ad842fcfaebdcf5.webp",
+        "sha256": "0b752b505a0f1cb38617fefed1c30d4c898d77c4d005e287b31ad95091ba5f2f",
+        "width": 960,
+        "height": 320
+      },
+      "asset_type": "environment-concept",
+      "descriptor": "surreal-desert-racetrack",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7cdc0ddbb99c9a5f",
+      "preview": {
+        "path": "previews/references/ref-7cdc0ddbb99c9a5f.webp",
+        "sha256": "83307b17a733a169845c9212843a8d3e325bfb86e281b61eda212e26afb515e8",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "lunar-machine-yard",
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7d8879e987524f0c",
+      "preview": {
+        "path": "previews/references/ref-7d8879e987524f0c.webp",
+        "sha256": "02bd5538273c14fdeab3189dee852f33a9569efaa5ae1c4b45a5049510d8d089",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7e01b6d187a816b6",
+      "preview": {
+        "path": "previews/references/ref-7e01b6d187a816b6.webp",
+        "sha256": "2617503f6d2aebc642d6ca575a446b9ba0d54ca0d445fdce305281369dbc7fe7",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7e5d236114a69346",
+      "preview": {
+        "path": "previews/references/ref-7e5d236114a69346.webp",
+        "sha256": "5a7507a00f79fdb9d98aba59520554592b7afeb0362e29bdfb515f7f0f3f4cc1",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "shawncleta"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7f47dc36b958aaa1",
+      "preview": {
+        "path": "previews/references/ref-7f47dc36b958aaa1.webp",
+        "sha256": "ea255dc9070d14700e6f9c58e25a781885c9aeb98d8ba66ee401dc07d8ff2bf6",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-7fe47ca364bbfc02",
+      "preview": {
+        "path": "previews/references/ref-7fe47ca364bbfc02.webp",
+        "sha256": "dc533f749ca468ab7d873ed71231e155af8e8a98fb805c938c5e9245b138c52a",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "wisdom-forge-poster",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-810e692c16bfdb9a",
+      "preview": {
+        "path": "previews/references/ref-810e692c16bfdb9a.webp",
+        "sha256": "182e3311995aeda2f62b80bb325f25e3366396e0aba292c966243158cf260479",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-81b3bce5d3dbe90c",
+      "preview": {
+        "path": "previews/references/ref-81b3bce5d3dbe90c.webp",
+        "sha256": "dfcd41411562813ba8b16281c5060d87e14e9d976eb6c7f2634b8076afa24bca",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-828e12f50474656a",
+      "preview": {
+        "path": "previews/references/ref-828e12f50474656a.webp",
+        "sha256": "9c05ca3e7fc6c41e1a110a2052925fab6f9bfce087c4154af02b21d54ee7adab",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-pool-game",
+      "linked_characters": [
+        "nousgirl",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-828ff04f6f879937",
+      "preview": {
+        "path": "previews/references/ref-828ff04f6f879937.webp",
+        "sha256": "156790bab172ba45e8ea8eb5fd1b01ae11e44bafac2f88ee372738f60967069a",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cookie-market-chaos",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8368427778984e49",
+      "preview": {
+        "path": "previews/references/ref-8368427778984e49.webp",
+        "sha256": "f517afc7ddb134bdb609de20ecbe5cd2034fa43d2c5a902b8cd6135cf6866847",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "gothic-temple-approach",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-83f8e102622d33dd",
+      "preview": {
+        "path": "previews/references/ref-83f8e102622d33dd.webp",
+        "sha256": "034816b8a615f6c19ac0c55849c3bb9d1945144a9ee9e8f111f857ad3c7a390b",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-847afa505dcb8552",
+      "preview": {
+        "path": "previews/references/ref-847afa505dcb8552.webp",
+        "sha256": "63fd480b44cd1eb369dc8b37cde2e9e2134b3dbc9bf04b35eadc2f095b301da7",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "split-world-portrait",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-85002f2d21fbdb9c",
+      "preview": {
+        "path": "previews/references/ref-85002f2d21fbdb9c.webp",
+        "sha256": "88945fce86cf9e5bf9b45bf70029b64406f92f452e879a0a291ea3040dfa61b5",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "crowded-tech-festival",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-852a03b97786d035",
+      "preview": {
+        "path": "previews/references/ref-852a03b97786d035.webp",
+        "sha256": "4bd9861ec39953e66292bbaf3a5dbf7db623d09bab9780eda1e2d945e996d2dd",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-85e840fe2352ee88",
+      "preview": {
+        "path": "previews/references/ref-85e840fe2352ee88.webp",
+        "sha256": "9169ffacb12c05b340147fd2f79b5c1eca9fba8f4baf3ceff29e04911fd070b6",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8618c56719a16cee",
+      "preview": {
+        "path": "previews/references/ref-8618c56719a16cee.webp",
+        "sha256": "7578c4a14e3a44bf68b7bada8e39929aa801a123adaeaa7e040adb919d8e0a23",
+        "width": 960,
+        "height": 767
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "quark2world"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-87fb8e03016ef253",
+      "preview": {
+        "path": "previews/references/ref-87fb8e03016ef253.webp",
+        "sha256": "678a5f57cbd2fe2dc899fbd4547f5984ccb6738891d9bbdae58ea3c379e98bcf",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-88da77323c12bd2a",
+      "preview": {
+        "path": "previews/references/ref-88da77323c12bd2a.webp",
+        "sha256": "1003ec4252ead00d1e1719dd3ca9405fb98d108a9b28e7e6ef4f59cd04476f7a",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-891d1b85ca80bb4e",
+      "preview": {
+        "path": "previews/references/ref-891d1b85ca80bb4e.webp",
+        "sha256": "5ee9b13706a9775b6ef7346328da96fc8ec3bb3313ac336ea30cf91a41da9e67",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "mgf-654"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8ae8ce47e71aede5",
+      "preview": {
+        "path": "previews/references/ref-8ae8ce47e71aede5.webp",
+        "sha256": "c852f04f74e38cd3762bf8536f2d62c729184363815812afb13a2a61d85a4e50",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8af9e228d42af569",
+      "preview": {
+        "path": "previews/references/ref-8af9e228d42af569.webp",
+        "sha256": "bdc6c0f2d8030656988d4cdab5ea9bf26ba271a155bd6251dc9c3cf5247546da",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8cf50795ee939cc8",
+      "preview": {
+        "path": "previews/references/ref-8cf50795ee939cc8.webp",
+        "sha256": "a0dc4d363892c77f539f8d3b6760bbce784d227ff17fb92f37656c5af72c8156",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "night-train-coffee",
+      "linked_characters": [
+        "coffeeblender",
+        "gille"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8d6c41fb403577ed",
+      "preview": {
+        "path": "previews/references/ref-8d6c41fb403577ed.webp",
+        "sha256": "d34ce72b9ab94c1c072b6669c65907b2d390bf9f989c12b433fd792f01c66492",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "playground-dodgeball-showdown",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-8f65edc1bb2a6aac",
+      "preview": {
+        "path": "previews/references/ref-8f65edc1bb2a6aac.webp",
+        "sha256": "23340db9302ab0ac94a4e70fa0523aa211d1542f8c232b1d4f5cc3b6cfbb7670",
+        "width": 957,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-924092b0fe0a0b51",
+      "preview": {
+        "path": "previews/references/ref-924092b0fe0a0b51.webp",
+        "sha256": "d7bfdf0ac77c5273be44ed4eb9df2d50c49adc58eeab4f8187eafe879d2cb599",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-92a9b3c68dfc86ac",
+      "preview": {
+        "path": "previews/references/ref-92a9b3c68dfc86ac.webp",
+        "sha256": "492fce2a36a95f5a59498913dbcb1f6ebccd2f6a15fa87a7315ff386c5c4dff5",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "boxing-ring-faceoff",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-947f323876209656",
+      "preview": {
+        "path": "previews/references/ref-947f323876209656.webp",
+        "sha256": "2d8c9b4042ad5ef1cac9f123541be65b5bdd99f259ca125947ca5a15f90bfc03",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "arcade-floor-rest",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-94816a3e029c2463",
+      "preview": {
+        "path": "previews/references/ref-94816a3e029c2463.webp",
+        "sha256": "fc4d9975624f49f342c81122d46cfb1fb9684182fabdc67dbecf8edc5a647db5",
+        "width": 806,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-94d95e768008dc30",
+      "preview": {
+        "path": "previews/references/ref-94d95e768008dc30.webp",
+        "sha256": "dee3ce67898851c8674879b010a58aa2e09bfa34d363f1fb3874b51374d7c609",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-94f3091e379e2df2",
+      "preview": {
+        "path": "previews/references/ref-94f3091e379e2df2.webp",
+        "sha256": "c6b14e4c8bf203ccd9c67be897decc30d365ce5c63ac6449727ee605dfd8fb05",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-94f681aac0a0b815",
+      "preview": {
+        "path": "previews/references/ref-94f681aac0a0b815.webp",
+        "sha256": "82b5570ca974b20bedd09ecd96a08d851910031e15ceb33f17e241fa4f95b892",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cyberpunk-server-room-fight",
+      "linked_characters": [
+        "gottz",
+        "sudo-nightwing",
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "mixed:approval-pending-per-profile,unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-960c80fb82204ce5",
+      "preview": {
+        "path": "previews/references/ref-960c80fb82204ce5.webp",
+        "sha256": "8c66a6254f817fd9c97daba60b5b9e13c9ff704a5698aed07d03d7cd1edf90b7",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-98851fc80f69c11f",
+      "preview": {
+        "path": "previews/references/ref-98851fc80f69c11f.webp",
+        "sha256": "e159b4f8eda400404a8f8b5c8ff6bd3a45568f25276bae3957025d31c5b254ac",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cosmic-campfire-picnic",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-993ec486caff615b",
+      "preview": {
+        "path": "previews/references/ref-993ec486caff615b.webp",
+        "sha256": "88488e69518cffd6f4b315ab498e53de07ab397b05ece167269d7c4626b6418d",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "agent-squad-overlook",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-998a5204398347f5",
+      "preview": {
+        "path": "previews/references/ref-998a5204398347f5.webp",
+        "sha256": "3f36569b3b2e8a82f8606a42ec60a40cf041a991e87706a4bb6eb88d36050908",
+        "width": 948,
+        "height": 960
+      },
+      "asset_type": "scene",
+      "descriptor": null,
+      "linked_characters": [
+        "don-piedro"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9a51de798216efcd",
+      "preview": {
+        "path": "previews/references/ref-9a51de798216efcd.webp",
+        "sha256": "a63f7bf2682f653dca2d27a2a34a364005762daa356538ccc0eaefcf589e86e7",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "tdamre"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9a925d5b6976fe51",
+      "preview": {
+        "path": "previews/references/ref-9a925d5b6976fe51.webp",
+        "sha256": "13bdc916c2cbe1f56a09dfea61c95052841a4194b0ead9b909b24878b6dd5c4f",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9c6035735e4d3d11",
+      "preview": {
+        "path": "previews/references/ref-9c6035735e4d3d11.webp",
+        "sha256": "709135e56a261b93dc9d1945ca58dad5aa0781fd034875f758b04d8e6903ce34",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ask-hermes-poster",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9c85846ce80212d1",
+      "preview": {
+        "path": "previews/references/ref-9c85846ce80212d1.webp",
+        "sha256": "4d9f64b39c8237957203d267d51f3ba51fbd61d8e479413e5b0945cf479329c2",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "pixel-game-team-run",
+      "linked_characters": [
+        "i-sneeze-kittens",
+        "teknium",
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9d35e3357db46cad",
+      "preview": {
+        "path": "previews/references/ref-9d35e3357db46cad.webp",
+        "sha256": "ce86548dc28f72f2820b99dda27a80a09eab8fb46cbb25df97ed91a65c886b8d",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9e081aa8b9e57fc3",
+      "preview": {
+        "path": "previews/references/ref-9e081aa8b9e57fc3.webp",
+        "sha256": "61f19d4ce6cf204b95f64651e22f293c0116702d1ddf6c755f7d7c3defda0071",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9e5020f17d76e737",
+      "preview": {
+        "path": "previews/references/ref-9e5020f17d76e737.webp",
+        "sha256": "de20f229af469d5f5f549a45e074dc80cc92449103854f50af506829eaddbd21",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9f42389b65f4235e",
+      "preview": {
+        "path": "previews/references/ref-9f42389b65f4235e.webp",
+        "sha256": "17ca3a56765205637eb3dbb6d4da5bdcd5f14bf30f94c7233a6b82545448e531",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-9f7985f25ca3e5da",
+      "preview": {
+        "path": "previews/references/ref-9f7985f25ca3e5da.webp",
+        "sha256": "f56a6239c60b0e46a8bee4ff235a90c3ed8fea9a05ae7757886ffa0d79d4091a",
+        "width": 863,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a25d1d3f39830bae",
+      "preview": {
+        "path": "previews/references/ref-a25d1d3f39830bae.webp",
+        "sha256": "cf4b608e4d05e0c2c0a288ff0391aabadc9c70e01d1d3ac2b9eb00deffa1a544",
+        "width": 960,
+        "height": 686
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a2a6bcf9ecbb8e79",
+      "preview": {
+        "path": "previews/references/ref-a2a6bcf9ecbb8e79.webp",
+        "sha256": "dee81d2cc95b61545a09e9fd95afbff51c71115c7601b3b68e78d890a832b368",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "desert-roadside-motel",
+      "linked_characters": [
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a2aebaf83f712ad4",
+      "preview": {
+        "path": "previews/references/ref-a2aebaf83f712ad4.webp",
+        "sha256": "ce9776ff49e704db8c74cf3144750083f8611ddcd5747d226f31242641292414",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "coffeeblender"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a3aca202771383ef",
+      "preview": {
+        "path": "previews/references/ref-a3aca202771383ef.webp",
+        "sha256": "6f4cd97c1ee0b98345c23da10b85ae6aec025a0ad7fb09f76bc9ad948fe822a9",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cabin-card-game",
+      "linked_characters": [
+        "i-sneeze-kittens",
+        "realtimeuk"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a4584735cf416658",
+      "preview": {
+        "path": "previews/references/ref-a4584735cf416658.webp",
+        "sha256": "5eeb6835bb64445bcc6e9ad31e8bc425c4f0bd493747ff25313af7927357dc27",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "environment-concept",
+      "descriptor": "colossal-desert-ruins",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a595c0c99b6fdeec",
+      "preview": {
+        "path": "previews/references/ref-a595c0c99b6fdeec.webp",
+        "sha256": "653d24e333b3857c59bbddbd8dc58c0042fe879aa72bd3f24bc1dd5e84a88267",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "123321"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a676b6512fb37080",
+      "preview": {
+        "path": "previews/references/ref-a676b6512fb37080.webp",
+        "sha256": "7468cb1eee8edb23310d2412eb8709f81d358fe4ce3f5f45654f2ffa792b8eeb",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a6acef185740edbc",
+      "preview": {
+        "path": "previews/references/ref-a6acef185740edbc.webp",
+        "sha256": "6695f340d39bc3619307f95f8205544181850c7f7e0b0706d2d339d93f3bfabf",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a7f2eab4c5847768",
+      "preview": {
+        "path": "previews/references/ref-a7f2eab4c5847768.webp",
+        "sha256": "19f63737436aa035c9b21f24e4c921f70f1f21dc02973086aad1dff1f04c4767",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "salt555"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a8570042bc160412",
+      "preview": {
+        "path": "previews/references/ref-a8570042bc160412.webp",
+        "sha256": "165a679507cad7e18a57488f2f841a00cd90f76afc3b2edc70dabecc972c4eba",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "sunset-street-performance",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a8af432c8fd91da5",
+      "preview": {
+        "path": "previews/references/ref-a8af432c8fd91da5.webp",
+        "sha256": "58fe63396aa303fe7131114bdb0c9652cbdeaa87ce1f94312214d59a2f432141",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a8d1dd9ad5e2da86",
+      "preview": {
+        "path": "previews/references/ref-a8d1dd9ad5e2da86.webp",
+        "sha256": "a75e76da42465aff3943048836ea8bde32e8682664390d0a5d15e8165cf49520",
+        "width": 326,
+        "height": 544
+      },
+      "asset_type": "expression-study",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-a9cc4ed4ff9631d1",
+      "preview": {
+        "path": "previews/references/ref-a9cc4ed4ff9631d1.webp",
+        "sha256": "8adce9dc77dbc0dcb484fa138dca9a1a9008e0400f7e8fb05221e104855eb8ee",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "nuclear-desert-gathering",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-aa1bdbfb04ee403f",
+      "preview": {
+        "path": "previews/references/ref-aa1bdbfb04ee403f.webp",
+        "sha256": "614f326b1bce9831e725b342b80d7afc80ea32bcef0383713ef543a812ee2f73",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "underground-research-lineup",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-aa604d3b38040651",
+      "preview": {
+        "path": "previews/references/ref-aa604d3b38040651.webp",
+        "sha256": "e9c9f7168a38777f013e2313ff305b9c76211dd402dff1d5c7dc3e0d7ef5b191",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "mummy-hallway-chase",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ad9e711faae25fcf",
+      "preview": {
+        "path": "previews/references/ref-ad9e711faae25fcf.webp",
+        "sha256": "3b19c026758a0f06f846858a27bd9c97b079ebc3f9760137042ea23c01277fea",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ade6728c155a3ec6",
+      "preview": {
+        "path": "previews/references/ref-ade6728c155a3ec6.webp",
+        "sha256": "ee65b9b7030161d27fe4036c8fa3ae9c6f443cf62f114a5f86238b76f16f005c",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "realtimeuk"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ae1cb6a279516fda",
+      "preview": {
+        "path": "previews/references/ref-ae1cb6a279516fda.webp",
+        "sha256": "4e2f4087e010c56c9bbb1c1932b14924d797b1cf0afb1212c678d86f9141fa7f",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "pixel-arcade-brawl",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "sidbin",
+        "teknium",
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ae6c8a791611b432",
+      "preview": {
+        "path": "previews/references/ref-ae6c8a791611b432.webp",
+        "sha256": "05ab701baa8b94c39761f9acb5998bd15b76188c1be759be6f4fb8c5f03a25d7",
+        "width": 960,
+        "height": 765
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ae741cefc93c1767",
+      "preview": {
+        "path": "previews/references/ref-ae741cefc93c1767.webp",
+        "sha256": "95b98a7c0006613e8e458bbfdc75839dab7088d02785c7e42e206ba3307470a2",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "underground-sewer-cafe",
+      "linked_characters": [
+        "sudo-nightwing",
+        "tunacookie"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "mixed:approval-pending-per-profile,unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b10f9811dc86aa32",
+      "preview": {
+        "path": "previews/references/ref-b10f9811dc86aa32.webp",
+        "sha256": "daaa3f1a656cb6abfd7053bb3a5d015380bad795698e2228aeda0f4e878392c9",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-future-roadtrip",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b186f95fe9c27923",
+      "preview": {
+        "path": "previews/references/ref-b186f95fe9c27923.webp",
+        "sha256": "442edb87e864a9e37893d52bf4411dc3f7ba1cbbe786804cede605eb9eee2624",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b2129930b1167fe7",
+      "preview": {
+        "path": "previews/references/ref-b2129930b1167fe7.webp",
+        "sha256": "89bcb9245b12862dc31647dc54d586c64269e0aabeca68168087a2b2dd808b43",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b260891cd951f81e",
+      "preview": {
+        "path": "previews/references/ref-b260891cd951f81e.webp",
+        "sha256": "60d44184c43e41647d685a56fe3f47b7f00a1f366b8c6606d598d531020da974",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b4666d55426ea449",
+      "preview": {
+        "path": "previews/references/ref-b4666d55426ea449.webp",
+        "sha256": "45700a892c176b4a5741e64c01f4870e24e4d05b60f03385957e20d58bd6c8ac",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b4b5ec0483df3467",
+      "preview": {
+        "path": "previews/references/ref-b4b5ec0483df3467.webp",
+        "sha256": "8c8af1ad365c2a34dd7c6a2413fd99c0323505db39962ed20bc260bbc9db8651",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "fleety"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b7205bd3ec335c05",
+      "preview": {
+        "path": "previews/references/ref-b7205bd3ec335c05.webp",
+        "sha256": "859d2aaa8b65222e7ccca7c831d7fc5cab13a11db45be6b93b0d738d8d9785ca",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ink-wash-team-battle",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [
+        "sidbin"
+      ],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b791b7de10606ee8",
+      "preview": {
+        "path": "previews/references/ref-b791b7de10606ee8.webp",
+        "sha256": "7db70b4e5d3771da520c4bf25ac0cec97b944b002e07aa4fcada98028b8492f6",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b7c2dc4040f2d454",
+      "preview": {
+        "path": "previews/references/ref-b7c2dc4040f2d454.webp",
+        "sha256": "f693cde28bde5e44ebdb5b75d08d99a8010120f24e0cc0af07fc6eb2cf7ec2d8",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "circus-cat-performance",
+      "linked_characters": [
+        "fatcat",
+        "fleety"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b86d713037fefdb1",
+      "preview": {
+        "path": "previews/references/ref-b86d713037fefdb1.webp",
+        "sha256": "0ace8c2b0b161023eda806766e384c1d775933f13e163c96317ec3b4ad3f55cf",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "gothic-library-alchemy",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b8cd787cc60e00b1",
+      "preview": {
+        "path": "previews/references/ref-b8cd787cc60e00b1.webp",
+        "sha256": "5e91c09ff8eeb47363e14cc6c91a7432f2ac441a5325d6bc830ea716a1dabd0d",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "quota-monitor-throne",
+      "linked_characters": [
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-b9f10cca57275e04",
+      "preview": {
+        "path": "previews/references/ref-b9f10cca57275e04.webp",
+        "sha256": "3ce5b09aba350e37d3b4a3e34861da93748273aad52e9a2bbea62151da7658f8",
+        "width": 960,
+        "height": 617
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ba04749bb00aa7c8",
+      "preview": {
+        "path": "previews/references/ref-ba04749bb00aa7c8.webp",
+        "sha256": "4f383ab2a71be7dc5efae6bdb803193d94dd72b66f2a8e6a82f79fbaff6103aa",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bb7bbca7d6550966",
+      "preview": {
+        "path": "previews/references/ref-bb7bbca7d6550966.webp",
+        "sha256": "a08f87023592ca18200e9db138a44b2ecb2713f7c9894f7f7d512ed0b4960a28",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bc9cf4fff077c581",
+      "preview": {
+        "path": "previews/references/ref-bc9cf4fff077c581.webp",
+        "sha256": "35a42d752f21999948ccd4d202366588516f0d2ea7796454f7a962e909d18f89",
+        "width": 960,
+        "height": 806
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bcee55b1d6c32b0c",
+      "preview": {
+        "path": "previews/references/ref-bcee55b1d6c32b0c.webp",
+        "sha256": "f0c0b673c695dfb9a267fb32d8021f42f9a66f40a01e2c1f85a1df429b2a1b91",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "tropical-kart-race",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "sidbin",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bd2470771c42e3e0",
+      "preview": {
+        "path": "previews/references/ref-bd2470771c42e3e0.webp",
+        "sha256": "bfcacc911e392cc327e4d03f17446af06f395f1784da46fa418f524411b3c4eb",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "paired-character-reference",
+      "linked_characters": [
+        "ee-dd",
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bd3b4a8b0aa92370",
+      "preview": {
+        "path": "previews/references/ref-bd3b4a8b0aa92370.webp",
+        "sha256": "71c15783d5e7a5a179f379f72c4553971c3d607bfc915a84d857694acc54e742",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-city-rooftop",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "coffeeblender",
+        "nousgirl",
+        "sidbin",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bd6d67cd1da7dae5",
+      "preview": {
+        "path": "previews/references/ref-bd6d67cd1da7dae5.webp",
+        "sha256": "28acc77e0a8e8777c1f4a40efcefecf1120a9cb3d27220c6dc306548a3f93ec2",
+        "width": 639,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bd7c9892b70b932f",
+      "preview": {
+        "path": "previews/references/ref-bd7c9892b70b932f.webp",
+        "sha256": "5dc3edec625e079e2a903e818079b5c6d0a3e06bcd47b735bbb9662458ef3789",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "mystical-hermes-mural",
+      "linked_characters": [
+        "sidbin"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bea35570755626af",
+      "preview": {
+        "path": "previews/references/ref-bea35570755626af.webp",
+        "sha256": "b1a280bcbf9d30b331c9f6f600efde595578a913c291b1463bc233a7e6811054",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "i-sneeze-kittens"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bed8d29505bfee50",
+      "preview": {
+        "path": "previews/references/ref-bed8d29505bfee50.webp",
+        "sha256": "01acc88b52bbc17637bc72a2e29f53e86e3b1ff5486e73286b1c9e671b524e84",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "mythic-battle-poster",
+      "linked_characters": [
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-bfbc0178a1d893a4",
+      "preview": {
+        "path": "previews/references/ref-bfbc0178a1d893a4.webp",
+        "sha256": "8a5c2f7e3eb8b4ea290511f39b02687d4a01ea100f0db2b92f019cc81b1035ea",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "retro-arcade-fight",
+      "linked_characters": [
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c0ef6baf2c29e95a",
+      "preview": {
+        "path": "previews/references/ref-c0ef6baf2c29e95a.webp",
+        "sha256": "b4b21619eae64b7fa9e597e1c3c2608d14e63cab28f29f897101d19914a689e8",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c583d04d551097b7",
+      "preview": {
+        "path": "previews/references/ref-c583d04d551097b7.webp",
+        "sha256": "740050c29572b7808234bb61a82ec6ac0869cd325a56e13ad037b37e7c3223f2",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "spectral-wolf-summoning",
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c88f64bb9b0a760f",
+      "preview": {
+        "path": "previews/references/ref-c88f64bb9b0a760f.webp",
+        "sha256": "c5e8c5a99bc436e058b33bc4c1918197eaef5adfe27ab4771b63fe1e422fddc5",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "snowbound-dark-procession",
+      "linked_characters": [
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c8b4cb958c01680e",
+      "preview": {
+        "path": "previews/references/ref-c8b4cb958c01680e.webp",
+        "sha256": "1d1a4de7e96186e6b49adb45179b375f073e579e8d1e36408d52939220a17789",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "paired-character-reference",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "cthulhu"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c8f02140f111eca3",
+      "preview": {
+        "path": "previews/references/ref-c8f02140f111eca3.webp",
+        "sha256": "e76ea6ca1657e4778233cd9726fe7f26ab77815f1fc09176f1c46db6435979d7",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "single-character-reference",
+      "descriptor": "pink-cyber-eye",
+      "linked_characters": [
+        "sidbin"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c90de549fab30e4f",
+      "preview": {
+        "path": "previews/references/ref-c90de549fab30e4f.webp",
+        "sha256": "5538d17f7457d5a512899de53fabc9fa1fa223f1f77f3194825e3768cec0153f",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-c9d73754ebb72b75",
+      "preview": {
+        "path": "previews/references/ref-c9d73754ebb72b75.webp",
+        "sha256": "93b9e3c3d5a5a7e86b74caf1f65537e8f7b9bcf1430348dc90ff3ddbabd20c69",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "enchanted-casino-gathering",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-cc0bc0aad177d6e2",
+      "preview": {
+        "path": "previews/references/ref-cc0bc0aad177d6e2.webp",
+        "sha256": "de2aecf0fcb9191a394e017681292b2a690b4ded9548df86596f609f1f1186c1",
+        "width": 960,
+        "height": 222
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "multiverse-character-lineup",
+      "linked_characters": [
+        "doge-man",
+        "don-piedro",
+        "fatcat",
+        "i-sneeze-kittens",
+        "teknium",
+        "turbo-fit",
+        "witcheer"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-cd8add2bebfae095",
+      "preview": {
+        "path": "previews/references/ref-cd8add2bebfae095.webp",
+        "sha256": "8250cdcac6810305c01b39055fa90773e73e8156ad099095a52a83fd4224a451",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "psychedelic-pool-game",
+      "linked_characters": [
+        "nousgirl",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-cf06c4432892b52c",
+      "preview": {
+        "path": "previews/references/ref-cf06c4432892b52c.webp",
+        "sha256": "dc862ff0f49beec6afa877b1e113b4eddf6c6d3a8a52ab23d8838e785c7c68d0",
+        "width": 960,
+        "height": 765
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d001a9fc489a84c6",
+      "preview": {
+        "path": "previews/references/ref-d001a9fc489a84c6.webp",
+        "sha256": "d78a225441c44f620ba746b18c8e31a71dc68191a8d111ca5d57805627a2118b",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cartoon-desert-hackers",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d18478131cfc020f",
+      "preview": {
+        "path": "previews/references/ref-d18478131cfc020f.webp",
+        "sha256": "3f12ce324d44a7b4e3c6e1ec72548ff373ff4a824f75c5b7520cff0ee58e861d",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d348cbdc7aa13dc6",
+      "preview": {
+        "path": "previews/references/ref-d348cbdc7aa13dc6.webp",
+        "sha256": "807450b5b89526bf55850e490a8a60ce8c2c2e5644bba5b95519e76c416ef3e9",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-portal-chamber",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d4ceb78f45673ee5",
+      "preview": {
+        "path": "previews/references/ref-d4ceb78f45673ee5.webp",
+        "sha256": "c6aa92f05a30484ba28d4f9d90baae48fc5d5e15c71e954d91b5cb55fed692a7",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d533a2b22fcfb01d",
+      "preview": {
+        "path": "previews/references/ref-d533a2b22fcfb01d.webp",
+        "sha256": "ae41aec65abdfdc6573294892a55213636587f5e8d76787622c110dcfcb6691e",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "tavern-beer-pong",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d56ea1141fda00ce",
+      "preview": {
+        "path": "previews/references/ref-d56ea1141fda00ce.webp",
+        "sha256": "0db41f531b11ac022619b415d28b4437b230dbe5286bffdbd908fa9efbb7c1b6",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d5849ed5351df0e3",
+      "preview": {
+        "path": "previews/references/ref-d5849ed5351df0e3.webp",
+        "sha256": "b3ece9641d406777a501aeb083ad8592de5423d4c1a3f1764172ec9e858a9167",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "moody-cocktail-bar",
+      "linked_characters": [
+        "sudo-nightwing",
+        "tunacookie"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "mixed:approval-pending-per-profile,unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d5a500d377ab91f4",
+      "preview": {
+        "path": "previews/references/ref-d5a500d377ab91f4.webp",
+        "sha256": "dbb23c6ca89122481b4b7e220d55d255695f5beec18b0652ab4f0f3fa2ea9ed0",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "forest-campfire-gathering",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d62b51062a454001",
+      "preview": {
+        "path": "previews/references/ref-d62b51062a454001.webp",
+        "sha256": "07401672f4dcf2f81217aa47b0e61db12a7dc9590a510e4d788ce7faea986d67",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "gille"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d6859fcd5bd92b37",
+      "preview": {
+        "path": "previews/references/ref-d6859fcd5bd92b37.webp",
+        "sha256": "225b325ebb3a48b7b6dd21af10c4137463250767ca4742cda20f6fca258198e9",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "group-ramen-dinner",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "sidbin",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d6b42befac7d57fd",
+      "preview": {
+        "path": "previews/references/ref-d6b42befac7d57fd.webp",
+        "sha256": "74d8b815bbc53ce3f04a7489ca417a74c52a20bbc4ca44003f5352a3a6f92cea",
+        "width": 732,
+        "height": 941
+      },
+      "asset_type": "concept-study",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d71c15637383a815",
+      "preview": {
+        "path": "previews/references/ref-d71c15637383a815.webp",
+        "sha256": "be758dd665551bd76bb27c7a0b4f1705e18528704a24be259bad69b67e1bc16a",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d71e7572efc328ff",
+      "preview": {
+        "path": "previews/references/ref-d71e7572efc328ff.webp",
+        "sha256": "8a1b136c5582b5a13d59737c95c0789142363ec86395db8c9e3b5e04f53ecdae",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "energy-attack-duel",
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d7d5504f0eca9806",
+      "preview": {
+        "path": "previews/references/ref-d7d5504f0eca9806.webp",
+        "sha256": "4b57204166b82e078bba004513348987a47a073ed3296d7f76e6654280859605",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "volcanic-motorcycle-crossroads",
+      "linked_characters": [
+        "tdamre",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-d944c0534a841bd4",
+      "preview": {
+        "path": "previews/references/ref-d944c0534a841bd4.webp",
+        "sha256": "4ca1a4f396a9606d85e679aaea3d5a668b7145c4c502cbd6826874f7822f95a9",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-dada6112b723ba92",
+      "preview": {
+        "path": "previews/references/ref-dada6112b723ba92.webp",
+        "sha256": "614f238ab2b8540ced80caf7f1e268a9ef2ff7986efa29365746ba6a421d0118",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "neon-alley-standoff",
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-db2bbb763c829305",
+      "preview": {
+        "path": "previews/references/ref-db2bbb763c829305.webp",
+        "sha256": "f868dd7910daeee517ee314d19f72fa0078dbe705076693b4d0d65c991339e5b",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-dbbf79e002ad31e1",
+      "preview": {
+        "path": "previews/references/ref-dbbf79e002ad31e1.webp",
+        "sha256": "7459c94d59d6ef41b1339f49f93bbbeddfe069ad9587cb70fde884f14673720a",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ask-hermes-comic",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-dbdd48b8fdb11fde",
+      "preview": {
+        "path": "previews/references/ref-dbdd48b8fdb11fde.webp",
+        "sha256": "83cc0d950e636f1c951bd27371188ed8c4ad63ee0deb8d5c7c5db236bb3a75e3",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "stylized-character-portrait-collage",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-dd32f202ba73131a",
+      "preview": {
+        "path": "previews/references/ref-dd32f202ba73131a.webp",
+        "sha256": "8ee88a89e552b3c9fcb2b669ec0ac4852db3f1cdefb1b0a5a658b121a58b2d2a",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-de990b21775d4de9",
+      "preview": {
+        "path": "previews/references/ref-de990b21775d4de9.webp",
+        "sha256": "f496c4e6e9c0f1a820e1996cf1cc1f405a2e1eb97e26e815161e06c3924ffbcb",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "dark-fantasy-band-performance",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-dfe599e252941bcb",
+      "preview": {
+        "path": "previews/references/ref-dfe599e252941bcb.webp",
+        "sha256": "dac921d92433aeeb4e3d6a61369fc59b5d8454030816a794fab88aa43c1a08a9",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ask-hermes-desk-comic",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e03cddb146e17724",
+      "preview": {
+        "path": "previews/references/ref-e03cddb146e17724.webp",
+        "sha256": "5560144899d321eb240128569a3e724987ae6952a6ff99fdef4636e1c756b7a0",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "environment-concept",
+      "descriptor": "monochrome-monumental-city",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e068fc78a655972d",
+      "preview": {
+        "path": "previews/references/ref-e068fc78a655972d.webp",
+        "sha256": "fccd0788869c2c74ce560024437095cdec7d37deaeea43e66bb9570a5723aa50",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "four-character-portrait-grid",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "nousgirl",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e0d3f4f421a25dfb",
+      "preview": {
+        "path": "previews/references/ref-e0d3f4f421a25dfb.webp",
+        "sha256": "85e8f248b6e35de33d025b563de56ecdb32a3bedfc445ea4637de0e205557a42",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "holographic-stage-gathering",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [
+        "sidbin"
+      ],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e1259b5c567e156a",
+      "preview": {
+        "path": "previews/references/ref-e1259b5c567e156a.webp",
+        "sha256": "59041e32388dd45169869ed112ddc143e7871435a38fc97dfceda5006209ccd9",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e8e1e516488864bf",
+      "preview": {
+        "path": "previews/references/ref-e8e1e516488864bf.webp",
+        "sha256": "ed7012af63251428295804b83de63b075fcbaf88d06192ed64b100f19a48c566",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-e9290e87d2e88cc8",
+      "preview": {
+        "path": "previews/references/ref-e9290e87d2e88cc8.webp",
+        "sha256": "59d7bca67436baea78543963196fc473990fc5921bd5a6c88b160dd873a8fe6c",
+        "width": 490,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "three-women-ink-study",
+      "linked_characters": [
+        "brooklyn-heartbreaker"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ec9b2a747276dda1",
+      "preview": {
+        "path": "previews/references/ref-ec9b2a747276dda1.webp",
+        "sha256": "9c2035f35b020547178c0f788086c0faf3990b2bfc82ce6c0be950a24f3d8210",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ed0fec410088aa0a",
+      "preview": {
+        "path": "previews/references/ref-ed0fec410088aa0a.webp",
+        "sha256": "43a3c176e57a31f170f1ccc648bef8512f69c927cc87f4a73d9ba465d58efa98",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "pixel-art-petting-zoo",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ee3b489e56456a51",
+      "preview": {
+        "path": "previews/references/ref-ee3b489e56456a51.webp",
+        "sha256": "3c3fa8184e29c301d9e2ae817ea9e76ec532ccd0679d6b967119f28aaa3b1cba",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ef52a3edb1be2021",
+      "preview": {
+        "path": "previews/references/ref-ef52a3edb1be2021.webp",
+        "sha256": "a07aec77e66602a1398580b71aba6890fdcf4bb9e0197b2099a5d01b4fd8d640",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "minecraft-crystal-night",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-efef2d69cb9ca1e7",
+      "preview": {
+        "path": "previews/references/ref-efef2d69cb9ca1e7.webp",
+        "sha256": "d33429304a8f30174c7d04cd69112c05f9887710763acd0b831a633c1cf44e95",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-effed583d241d71f",
+      "preview": {
+        "path": "previews/references/ref-effed583d241d71f.webp",
+        "sha256": "e1366aeddb9b2a766c18a784e22e4104e6816fb2cf7238a1f3f4af4027bc6c9c",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "agent-squad-silhouettes",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f21b71279f9a7c44",
+      "preview": {
+        "path": "previews/references/ref-f21b71279f9a7c44.webp",
+        "sha256": "3268bfe0e6e21539e43d5822420e635c356c478b16e8a18108a98cd0402fc26a",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-reference",
+      "descriptor": "ornate-golden-wanderer",
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f23b4befaf0c8dba",
+      "preview": {
+        "path": "previews/references/ref-f23b4befaf0c8dba.webp",
+        "sha256": "0e8ee935a4662fb90ac2409903d1501e4617ff823063768573b32aea675371d6",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "nousgirl"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f2a01a2186e8cedc",
+      "preview": {
+        "path": "previews/references/ref-f2a01a2186e8cedc.webp",
+        "sha256": "f6a17862f2df4f3112aa71fcd6a6b2d9695f6d570f24ede8947ec265ab0b56c7",
+        "width": 960,
+        "height": 720
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "cybernetic-animal-control-room",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f2d331574a397701",
+      "preview": {
+        "path": "previews/references/ref-f2d331574a397701.webp",
+        "sha256": "4b891b1dd72fae94532543a6e2fac09c4a9984815093922592c01ba166378597",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ai-subscription-bazaar",
+      "linked_characters": [
+        "sahil"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f4a5d4fa9387814c",
+      "preview": {
+        "path": "previews/references/ref-f4a5d4fa9387814c.webp",
+        "sha256": "7523470cae766a5e1281fdc1b7bcabe67dfc23bd3c38441a30e03acb6d794d82",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f645a880936082f4",
+      "preview": {
+        "path": "previews/references/ref-f645a880936082f4.webp",
+        "sha256": "ec7d931fc266b40ddc830ba9226cb58bb00872a6dd72bfa180ee36714e65bf92",
+        "width": 960,
+        "height": 768
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f789be9570b63919",
+      "preview": {
+        "path": "previews/references/ref-f789be9570b63919.webp",
+        "sha256": "cf98ee5060e0f021c963b2bdbdc130b72a4b2d8eb6141041333ccc40a9f7361c",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "single-character-scene",
+      "descriptor": "rock-drummer-performance",
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f829b0bc094aa607",
+      "preview": {
+        "path": "previews/references/ref-f829b0bc094aa607.webp",
+        "sha256": "bc47ad11a0969c4424430b350b964a8ef40cc3faa338ad7f9d9c0ccdb6502a90",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f8b248b3dc5179b1",
+      "preview": {
+        "path": "previews/references/ref-f8b248b3dc5179b1.webp",
+        "sha256": "13507023b63b13072ee445e7b452a04ef1c62a529c3c266fe6615c0d3b1094f8",
+        "width": 960,
+        "height": 619
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "noir-research-conspiracy",
+      "linked_characters": [],
+      "candidate_characters": [],
+      "mapping_status": "scene-classified-cast-unresolved",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-f9e0cd38d8619780",
+      "preview": {
+        "path": "previews/references/ref-f9e0cd38d8619780.webp",
+        "sha256": "9258e12a033ca693f76cac724cc9ce7c5b9424bfbe9fd574e3c8276c2fc2ba5b",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fa4d84dffd638f96",
+      "preview": {
+        "path": "previews/references/ref-fa4d84dffd638f96.webp",
+        "sha256": "461284b42410e3162902646eb63058233b868725a5d5053b061fa228351b66fe",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "reference-composite",
+      "descriptor": "surreal-double-exposure-portraits",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "tdamre",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fa9eeed3da8ff124",
+      "preview": {
+        "path": "previews/references/ref-fa9eeed3da8ff124.webp",
+        "sha256": "09a31d6b32ca23ae73114e15077640a0a61248b4ca47c4aac3c69092a90d6b15",
+        "width": 960,
+        "height": 500
+      },
+      "asset_type": "scene",
+      "descriptor": null,
+      "linked_characters": [
+        "123321"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fad3be9382678c00",
+      "preview": {
+        "path": "previews/references/ref-fad3be9382678c00.webp",
+        "sha256": "2370a7a5b3f980903c920fb732457bca567ca430a55312d27d0bee1209a05e73",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "sheet",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fb43ec227c3db234",
+      "preview": {
+        "path": "previews/references/ref-fb43ec227c3db234.webp",
+        "sha256": "f01d5fe5b0ba7094ac64b433eb089a2e2856f9e6a42a1fa1838c3ab699504dc0",
+        "width": 960,
+        "height": 540
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "ai-election-rally",
+      "linked_characters": [
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fc814463ccf62d01",
+      "preview": {
+        "path": "previews/references/ref-fc814463ccf62d01.webp",
+        "sha256": "d3fd040f6c67a4a656d68951dc775fed8a35298ca7ba4f438f14839915b3bbf1",
+        "width": 640,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fd0a9e2c052cd2c4",
+      "preview": {
+        "path": "previews/references/ref-fd0a9e2c052cd2c4.webp",
+        "sha256": "d01518499c964b38f2ba5d4595026b57e1636202cec53b200f04758944503987",
+        "width": 540,
+        "height": 960
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fd0d5a9454c27ea6",
+      "preview": {
+        "path": "previews/references/ref-fd0d5a9454c27ea6.webp",
+        "sha256": "eb2737c9a6dc3ee2c9f41f75a2fe4c8429403296e46508e61c2f15482ca128fe",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "framed-group-portrait",
+      "linked_characters": [
+        "brooklyn-heartbreaker",
+        "teknium",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fd3759368f2bcd6a",
+      "preview": {
+        "path": "previews/references/ref-fd3759368f2bcd6a.webp",
+        "sha256": "07bf441f84f9e98f853bf193615dc9fe47b3a2539c5893a29c6519eb96bf4e7e",
+        "width": 768,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "teamwork-propaganda-poster",
+      "linked_characters": [
+        "i-sneeze-kittens",
+        "nousgirl",
+        "teknium"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fd5b189acc8c201c",
+      "preview": {
+        "path": "previews/references/ref-fd5b189acc8c201c.webp",
+        "sha256": "bb1239015e0882cfcdc21a6a0961a31f82e093064c7e7f53b8846476c49f9afc",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "tinuviel"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fdc6fba91808fbcb",
+      "preview": {
+        "path": "previews/references/ref-fdc6fba91808fbcb.webp",
+        "sha256": "d7655210fa7ccd09337bac196c3ca48b03501e9acb37b339f9c2f5a866e14181",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "source-evidence",
+      "descriptor": null,
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "source-established",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-fe6764f1dd9c82dd",
+      "preview": {
+        "path": "previews/references/ref-fe6764f1dd9c82dd.webp",
+        "sha256": "11b77ee6750729e834147a0f6fca3a9c0c607142ae50679bc3c9034323fc5f5a",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "stormy-monster-confrontation",
+      "linked_characters": [
+        "sidbin"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "low",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-feb7f8a57634f401",
+      "preview": {
+        "path": "previews/references/ref-feb7f8a57634f401.webp",
+        "sha256": "c755931e55848527bde030f7eb46d0c646d86dd43b668bab20bf892e64ab5ade",
+        "width": 960,
+        "height": 960
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "open-source-barrel-battle",
+      "linked_characters": [
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "medium",
+      "rights_status": "unknown-not-cleared"
+    },
+    {
+      "reference_id": "ref-ff607426ddcc9aaf",
+      "preview": {
+        "path": "previews/references/ref-ff607426ddcc9aaf.webp",
+        "sha256": "a1e86557d759a0e4b31b62d8ae7dd8f95826a4ab903111b91a906f466e61ed94",
+        "width": 960,
+        "height": 640
+      },
+      "asset_type": "co-character-scene",
+      "descriptor": "retro-futurist-jet-formation",
+      "linked_characters": [
+        "nousgirl",
+        "sidbin",
+        "teknium",
+        "tinuviel",
+        "turbo-fit"
+      ],
+      "candidate_characters": [],
+      "mapping_status": "character-mapped",
+      "mapping_confidence": "high",
+      "rights_status": "unknown-not-cleared"
+    }
+  ]
+}

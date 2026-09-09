@@ -1,10 +1,11 @@
 # NousGirl
 
-- Design status: `upstream-reference-reconciliation-pending`
+- Design status: `established`
 - Rights status: `unknown-not-cleared`
 - Published styles: 9
 - [Character profile](../../docs/characters/nousgirl.md)
 - [Public manifest](manifest.json)
+- Identity invariants: large-over-ear-headphones
 
 ## Previews
 

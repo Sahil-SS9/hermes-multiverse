@@ -270,7 +270,41 @@ This gallery contains sanitised previews. Full-resolution files are release asse
 
 ## [Doge Man](docs/characters/doge-man.md)
 
-Source-only; no approved style sheets are published.
+### anime
+
+![Doge Man — anime](previews/doge-man/anime.webp)
+
+### chibi
+
+![Doge Man — chibi](previews/doge-man/chibi.webp)
+
+### claymation-stop-motion
+
+![Doge Man — claymation-stop-motion](previews/doge-man/claymation-stop-motion.webp)
+
+### disney
+
+![Doge Man — disney](previews/doge-man/disney.webp)
+
+### gothic
+
+![Doge Man — gothic](previews/doge-man/gothic.webp)
+
+### hyper-realistic
+
+![Doge Man — hyper-realistic](previews/doge-man/hyper-realistic.webp)
+
+### ink-pen-sketch
+
+![Doge Man — ink-pen-sketch](previews/doge-man/ink-pen-sketch.webp)
+
+### mecha
+
+![Doge Man — mecha](previews/doge-man/mecha.webp)
+
+### rick-and-morty
+
+![Doge Man — rick-and-morty](previews/doge-man/rick-and-morty.webp)
 
 ## [Don Piedro](docs/characters/don-piedro.md)
 

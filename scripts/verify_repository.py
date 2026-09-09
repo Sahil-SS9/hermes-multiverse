@@ -70,19 +70,18 @@ TARGET_STYLES = [
 EXPECTED_COUNTS = {
     "characters": 34,
     "profiles": 34,
-    "repository_files": 402,
-    "style_sheets": 277,
+    "style_sheets": 286,
     "target_styles": 9,
-    "characters_with_all_target_styles": 29,
+    "characters_with_all_target_styles": 30,
     "documentation_only_characters": 2,
-    "source_only_characters": 1,
+    "source_only_characters": 0,
     "scene_documents": 4,
     "music_video_documents": 3,
     "reference_documents": 1,
 }
 DOCUMENTATION_ONLY = ["emozilla", "ggb"]
-SOURCE_ONLY = {"doge-man": "source-only-model-preview"}
-REFERENCE_RECONCILIATION = {"nousgirl": "upstream-reference-reconciliation-pending"}
+SOURCE_ONLY: dict[str, str] = {}
+EXPECTED_IDENTITY_INVARIANTS = {"nousgirl": ["large-over-ear-headphones"]}
 PROVISIONAL = ["gille", "quark2world", "suzu"]
 PROVISIONAL_STATUS = "provisional-sheet-conflicts-with-legacy-unknown-status"
 RIGHTS_PENDING = "sudo-nightwing"
@@ -101,13 +100,13 @@ MUSIC_VIDEO_DOCUMENTS = [
     "thank-you-nous-research-arts-bro",
 ]
 REFERENCE_DOCUMENTS = ["3d-character-lineup"]
-EXPECTED_FILE_COUNT = 402
 REQUIRED_ROOT_FILES = {
     ".gitattributes",
     ".gitignore",
     "ATTRIBUTION.md",
     "CONTRIBUTING.md",
     "GALLERY.md",
+    "REFERENCE-GALLERY.md",
     "LICENSE-CODE",
     "NOTICE.md",
     "README.md",
@@ -115,6 +114,7 @@ REQUIRED_ROOT_FILES = {
     "STATUS.md",
     "manifests/export-manifest.json",
     "manifests/pending.json",
+    "manifests/reference-index.json",
     "manifests/release-asset.sha256",
     "scripts/verify_repository.py",
     ".github/workflows/validate.yml",
@@ -131,6 +131,7 @@ PUBLIC_MANIFEST_KEYS = {
     "published_styles",
     "accepted_omissions",
     "external_models",
+    "identity_invariants",
 }
 EXTERNAL_MODEL_KEYS = {
     "name",
@@ -190,6 +191,10 @@ EXPECTED_EXTERNAL_MODELS: dict[str, list[dict[str, object]]] = {
 STYLE_RECORD_KEYS = {"style", "preview", "full_resolution"}
 PREVIEW_KEYS = {"path", "sha256", "width", "height"}
 FULL_RESOLUTION_KEYS = {"archive_path", "sha256", "bytes", "width", "height"}
+REFERENCE_RECORD_KEYS = {
+    "reference_id", "preview", "asset_type", "descriptor", "linked_characters",
+    "candidate_characters", "mapping_status", "mapping_confidence", "rights_status",
+}
 TEXT_SUFFIXES = {"", ".md", ".json", ".py", ".yml", ".yaml", ".txt", ".sha256", ".gitignore", ".gitattributes"}
 FORBIDDEN_PATH_COMPONENTS = {
     "_" + "registry",
@@ -254,13 +259,14 @@ def expected_styles_for_slug(slug: str) -> set[str]:
     return target | set(ADDITIONAL_STYLES.get(slug, []))
 
 
-def expected_repository_paths() -> set[str]:
+def expected_repository_paths(reference_ids: list[str]) -> set[str]:
     paths = set(REQUIRED_ROOT_FILES)
     for slug in EXPECTED_SLUGS:
         paths.update(
             {
                 f"characters/{slug}/README.md",
                 f"characters/{slug}/manifest.json",
+                f"characters/{slug}/references.md",
                 f"docs/characters/{slug}.md",
             }
         )
@@ -268,11 +274,156 @@ def expected_repository_paths() -> set[str]:
     paths.update(f"docs/scenes/{name}.md" for name in SCENE_DOCUMENTS)
     paths.update(f"docs/music-videos/{name}.md" for name in MUSIC_VIDEO_DOCUMENTS)
     paths.update(f"docs/references/{name}.md" for name in REFERENCE_DOCUMENTS)
-    if len(paths) != EXPECTED_FILE_COUNT:
-        raise RuntimeError(
-            f"internal expected-path contract mismatch: {len(paths)} != {EXPECTED_FILE_COUNT}"
-        )
+    paths.update(f"previews/references/{reference_id}.webp" for reference_id in reference_ids)
     return paths
+
+
+def expected_counts(reference_count: int) -> dict[str, int]:
+    return {
+        **EXPECTED_COUNTS,
+        "repository_files": 447 + reference_count,
+        "supporting_references": reference_count,
+        "character_reference_pages": len(EXPECTED_SLUGS),
+    }
+
+
+def reference_title(record: dict[str, object]) -> str:
+    descriptor = record.get("descriptor")
+    if isinstance(descriptor, str) and descriptor:
+        return descriptor.replace("-", " ").title()
+    return str(record.get("asset_type", "reference")).replace("-", " ").title()
+
+
+def expected_reference_gallery(records: list[dict[str, object]]) -> str:
+    lines = [
+        "# Supporting-reference gallery", "",
+        "These are metadata-stripped previews of canonical non-style references. Candidate identity links are explicitly non-canonical.", "",
+    ]
+    for record in records:
+        preview = record["preview"]
+        assert isinstance(preview, dict)
+        lines.extend([
+            f"## {reference_title(record)}", "", f"![{reference_title(record)}]({preview['path']})", "",
+            f"- Reference ID: `{record['reference_id']}`", f"- Type: `{record['asset_type']}`",
+            f"- Mapping: `{record['mapping_status']}` (`{record['mapping_confidence']}`)",
+            f"- Rights: `{record['rights_status']}`",
+            f"- Canonical character links: {', '.join(f'[`{slug}`](characters/{slug}/references.md)' for slug in record['linked_characters']) or 'none'}",
+            f"- Candidate character links — **not canonical**: {', '.join(f'[`{slug}`](characters/{slug}/references.md)' for slug in record['candidate_characters']) or 'none'}", "",
+        ])
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def expected_character_references(slug: str, display_name: str, records: list[dict[str, object]]) -> str:
+    linked = [record for record in records if slug in record["linked_characters"]]
+    candidates = [record for record in records if slug in record["candidate_characters"]]
+    lines = [
+        f"# {display_name} — supporting references", "",
+        "Shared references remain single-copy previews in the central reference gallery.", "",
+        f"- Canonical reference links: {len(linked)}", f"- Candidate links (not canonical): {len(candidates)}", "",
+        "## Canonical references", "",
+    ]
+    if not linked:
+        lines.extend(["No canonical reference links.", ""])
+    for record in linked:
+        lines.extend([
+            f"### {reference_title(record)}", "", f"![{reference_title(record)}](../../{record['preview']['path']})", "",
+            f"- Reference ID: `{record['reference_id']}`", f"- Type: `{record['asset_type']}`",
+            f"- Mapping confidence: `{record['mapping_confidence']}`", f"- Rights: `{record['rights_status']}`", "",
+        ])
+    lines.extend(["## Candidate references — not canonical", ""])
+    if not candidates:
+        lines.extend(["No candidate reference links.", ""])
+    for record in candidates:
+        lines.extend([
+            f"### {reference_title(record)}", "", "**NOT CANONICAL — candidate identity link only.**", "",
+            f"![{reference_title(record)}](../../{record['preview']['path']})", "",
+            f"- Reference ID: `{record['reference_id']}`", f"- Type: `{record['asset_type']}`",
+            f"- Mapping confidence: `{record['mapping_confidence']}`", f"- Rights: `{record['rights_status']}`", "",
+        ])
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def validate_references(root: Path, errors: list[str]) -> list[dict[str, object]]:
+    raw = load_json(root / "manifests" / "reference-index.json", errors)
+    if not isinstance(raw, dict):
+        return []
+    if set(raw) != {"schema_version", "release", "summary", "references"}:
+        errors.append("reference index has unexpected fields")
+    if raw.get("schema_version") != 1 or raw.get("release") != "v0.2.0-wip":
+        errors.append("reference index schema/release mismatch")
+    records = raw.get("references")
+    if not isinstance(records, list):
+        errors.append("reference index records must be a list")
+        return []
+    seen_ids: set[str] = set()
+    allowed_slugs = set(EXPECTED_SLUGS)
+    valid: list[dict[str, object]] = []
+    for index, record in enumerate(records):
+        label = f"references[{index}]"
+        if not isinstance(record, dict) or set(record) != REFERENCE_RECORD_KEYS:
+            errors.append(f"public reference fields are not allowlisted in {label}")
+            continue
+        reference_id = record.get("reference_id")
+        if not isinstance(reference_id, str) or re.fullmatch(r"ref-[0-9a-f]{16}", reference_id) is None or reference_id in seen_ids:
+            errors.append(f"invalid or duplicate reference ID in {label}")
+            continue
+        seen_ids.add(reference_id)
+        preview = record.get("preview")
+        if not isinstance(preview, dict) or set(preview) != PREVIEW_KEYS:
+            errors.append(f"invalid reference preview fields in {label}")
+            continue
+        expected_path = f"previews/references/{reference_id}.webp"
+        if safe_relative_path(preview.get("path"), f"{label}.preview.path", errors) != expected_path:
+            errors.append(f"reference preview path mismatch for {reference_id}")
+        linked = record.get("linked_characters")
+        candidates = record.get("candidate_characters")
+        if not isinstance(linked, list) or not all(isinstance(item, str) for item in linked) or linked != sorted(set(linked)):
+            errors.append(f"invalid canonical character links for {reference_id}")
+            linked = []
+        if not isinstance(candidates, list) or not all(isinstance(item, str) for item in candidates) or candidates != sorted(set(candidates)):
+            errors.append(f"invalid candidate character links for {reference_id}")
+            candidates = []
+        if (set(linked) | set(candidates)) - allowed_slugs or set(linked) & set(candidates):
+            errors.append(f"invalid or overlapping reference character links for {reference_id}")
+        status = record.get("mapping_status")
+        if status not in {"character-mapped", "candidate-only", "scene-classified-cast-unresolved"}:
+            errors.append(f"invalid mapping status for {reference_id}")
+        if status == "candidate-only" and (linked or not candidates):
+            errors.append(f"candidate-only reference is presented canonically: {reference_id}")
+        if not all(isinstance(record.get(key), str) and record.get(key) for key in ("asset_type", "mapping_confidence", "rights_status")):
+            errors.append(f"invalid public descriptor field for {reference_id}")
+        if record.get("descriptor") is not None and (not isinstance(record.get("descriptor"), str) or not record.get("descriptor")):
+            errors.append(f"invalid reference descriptor for {reference_id}")
+        preview_file = root / expected_path
+        if preview_file.is_file():
+            if preview.get("sha256") != sha256_file(preview_file):
+                errors.append(f"reference preview hash mismatch for {reference_id}")
+            try:
+                with Image.open(preview_file) as image:
+                    image.load()
+                    if image.format != "WEBP": errors.append(f"reference preview is not WebP: {reference_id}")
+                    if [image.width, image.height] != [preview.get("width"), preview.get("height")]: errors.append(f"reference preview dimensions mismatch for {reference_id}")
+                    blocked = {key for key in image.info if any(part in key.lower() for part in BLOCKED_METADATA_PARTS)}
+                    if blocked: errors.append(f"blocked reference preview metadata for {reference_id}: {sorted(blocked)}")
+            except Exception as exc:
+                errors.append(f"reference preview decode failed for {reference_id}: {exc}")
+        valid.append(record)
+    if [record["reference_id"] for record in valid] != sorted(seen_ids):
+        errors.append("reference records are not sorted by stable ID")
+    summary = {
+        "reference_assets": len(valid),
+        "character_mapped": sum(record["mapping_status"] == "character-mapped" for record in valid),
+        "candidate_only": sum(record["mapping_status"] == "candidate-only" for record in valid),
+        "scene_classified_cast_unresolved": sum(record["mapping_status"] == "scene-classified-cast-unresolved" for record in valid),
+        "canonical_character_links": sum(len(record["linked_characters"]) for record in valid),
+        "candidate_character_links": sum(len(record["candidate_characters"]) for record in valid),
+    }
+    if raw.get("summary") != summary:
+        errors.append("reference index summary is inaccurate")
+    gallery = root / "REFERENCE-GALLERY.md"
+    if gallery.is_file() and gallery.read_text(encoding="utf-8") != expected_reference_gallery(valid):
+        errors.append("reference gallery does not match reference index")
+    return valid
 
 
 def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, object]:
@@ -289,21 +440,7 @@ def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, objec
                 "reason": "documentation-only; excluded from style generation in this release",
             },
         ],
-        "source_only": [
-            {
-                "slug": "doge-man",
-                "design_status": manifests.get("doge-man", {}).get("design_status"),
-                "missing_styles": TARGET_STYLES,
-                "reason": "3D model preview and source record exist; no approved multi-view identity sheet or style set",
-            }
-        ],
-        "reference_reconciliation": [
-            {
-                "slug": "nousgirl",
-                "design_status": manifests.get("nousgirl", {}).get("design_status"),
-                "reason": "new upstream selected portrait and studies must be reconciled with the current canonical multi-view sheet",
-            }
-        ],
+        "source_only": [],
         "rights_pending": [
             {
                 "slug": RIGHTS_PENDING,
@@ -324,8 +461,7 @@ def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, objec
         ],
         "summary": {
             "documentation_only": 2,
-            "source_only": 1,
-            "reference_reconciliation": 1,
+            "source_only": 0,
             "rights_pending_characters": 1,
             "rights_pending_styles": 3,
             "accepted_omissions": 1,
@@ -334,7 +470,7 @@ def expected_pending(manifests: dict[str, dict[str, object]]) -> dict[str, objec
     }
 
 
-def validate_inventory(root: Path, errors: list[str]) -> list[Path]:
+def validate_inventory(root: Path, reference_ids: list[str], errors: list[str]) -> list[Path]:
     files: list[Path] = []
     for path in sorted(root.rglob("*")):
         relative = path.relative_to(root)
@@ -359,7 +495,7 @@ def validate_inventory(root: Path, errors: list[str]) -> list[Path]:
         if path.stat().st_size > MAX_GIT_FILE_BYTES:
             errors.append(f"file exceeds 100 MiB Git limit: {relative_posix}")
         if len(relative.parts) >= 2 and relative.parts[0] == "characters":
-            if len(relative.parts) != 3 or relative.parts[2] not in {"README.md", "manifest.json"}:
+            if len(relative.parts) != 3 or relative.parts[2] not in {"README.md", "manifest.json", "references.md"}:
                 errors.append(f"forbidden character asset path: {relative_posix}")
         if path.suffix.lower() == ".png":
             errors.append(f"full-resolution image committed to repository: {relative_posix}")
@@ -399,10 +535,10 @@ def validate_inventory(root: Path, errors: list[str]) -> list[Path]:
             if any(pattern.search(data) for pattern in TOKEN_RES):
                 errors.append(f"credential-shaped token in {relative_posix}")
     actual_paths = {path.relative_to(root).as_posix() for path in files}
-    expected_paths = expected_repository_paths()
-    if len(actual_paths) != EXPECTED_FILE_COUNT:
+    expected_paths = expected_repository_paths(reference_ids)
+    if len(actual_paths) != len(expected_paths):
         errors.append(
-            f"repository file count: expected {EXPECTED_FILE_COUNT}, found {len(actual_paths)}"
+            f"repository file count: expected {len(expected_paths)}, found {len(actual_paths)}"
         )
     for relative in sorted(expected_paths - actual_paths):
         errors.append(f"missing repository file: {relative}")
@@ -452,7 +588,11 @@ def validate_manifests(
     manifest_paths = sorted((root / "characters").glob("*/manifest.json"))
     profile_paths = sorted((root / "docs" / "characters").glob("*.md"))
     readme_paths = sorted((root / "characters").glob("*/README.md"))
-    preview_paths = sorted((root / "previews").glob("*/*.webp"))
+    preview_paths = sorted(
+        path
+        for slug in EXPECTED_SLUGS
+        for path in (root / "previews" / slug).glob("*.webp")
+    )
     if len(manifest_paths) != EXPECTED_COUNTS["characters"]:
         errors.append(
             f"character manifest count: expected {EXPECTED_COUNTS['characters']}, found {len(manifest_paths)}"
@@ -464,7 +604,9 @@ def validate_manifests(
             f"character README count: expected {EXPECTED_COUNTS['characters']}, found {len(readme_paths)}"
         )
     if len(preview_paths) != EXPECTED_COUNTS["style_sheets"]:
-        errors.append(f"preview count: expected 277, found {len(preview_paths)}")
+        errors.append(
+            f"preview count: expected {EXPECTED_COUNTS['style_sheets']}, found {len(preview_paths)}"
+        )
     scene_count = len(list((root / "docs" / "scenes").glob("*.md")))
     music_count = len(list((root / "docs" / "music-videos").glob("*.md")))
     reference_count = len(list((root / "docs" / "references").glob("*.md")))
@@ -503,7 +645,7 @@ def validate_manifests(
             continue
         manifests[slug] = manifest
         actual_keys = set(manifest)
-        required_keys = PUBLIC_MANIFEST_KEYS - {"companions", "external_models"}
+        required_keys = PUBLIC_MANIFEST_KEYS - {"companions", "external_models", "identity_invariants"}
         if not required_keys.issubset(actual_keys) or not actual_keys.issubset(PUBLIC_MANIFEST_KEYS):
             errors.append(f"public manifest fields are not allowlisted for {slug}: {sorted(actual_keys)}")
         if manifest.get("schema_version") != 1:
@@ -566,6 +708,13 @@ def validate_manifests(
                             errors.append(f"invalid external model {field} in {label}")
         if manifest.get("external_models", []) != EXPECTED_EXTERNAL_MODELS.get(slug, []):
             errors.append(f"approved external model metadata mismatch for {slug}")
+        identity_invariants = manifest.get("identity_invariants", [])
+        if not isinstance(identity_invariants, list) or not all(
+            isinstance(item, str) and item for item in identity_invariants
+        ):
+            errors.append(f"identity invariants must be a string list for {slug}")
+        if identity_invariants != EXPECTED_IDENTITY_INVARIANTS.get(slug, []):
+            errors.append(f"approved identity invariants mismatch for {slug}")
         expected_omissions = ACCEPTED_OMISSIONS.get(slug, [])
         if manifest.get("accepted_omissions") != expected_omissions:
             errors.append(f"accepted omissions mismatch for {slug}")
@@ -641,9 +790,14 @@ def validate_manifests(
             errors.append(f"published style set is inaccurate for {slug}")
 
     if published_total != EXPECTED_COUNTS["style_sheets"]:
-        errors.append(f"published style total: expected 277, found {published_total}")
+        errors.append(
+            f"published style total: expected {EXPECTED_COUNTS['style_sheets']}, found {published_total}"
+        )
     if full_target_count != EXPECTED_COUNTS["characters_with_all_target_styles"]:
-        errors.append(f"all-target-style character count: expected 29, found {full_target_count}")
+        errors.append(
+            "all-target-style character count: expected "
+            f"{EXPECTED_COUNTS['characters_with_all_target_styles']}, found {full_target_count}"
+        )
     if sorted(declared_previews) != preview_relative:
         errors.append("manifest-declared previews do not exactly match repository previews")
     if len(source_hashes) != len(set(source_hashes)):
@@ -662,9 +816,6 @@ def validate_manifests(
             errors.append(f"source-only design status is inaccurate for {slug}")
         if manifest.get("published_styles") != []:
             errors.append(f"source-only character has published styles: {slug}")
-    for slug, status in REFERENCE_RECONCILIATION.items():
-        if manifests.get(slug, {}).get("design_status") != status:
-            errors.append(f"reference-reconciliation status is inaccurate for {slug}")
     return manifests, source_hashes, declared_previews, archive_records
 
 
@@ -673,9 +824,10 @@ def validate_previews(root: Path, errors: list[str]) -> None:
     for path in sorted((root / "previews").glob("*/*.webp")):
         relative = path.relative_to(root).as_posix()
         digest = sha256_file(path)
-        if digest in hashes:
+        is_reference_preview = relative.startswith("previews/references/")
+        if not is_reference_preview and digest in hashes:
             errors.append(f"duplicate preview hash: {relative} and {hashes[digest]}")
-        else:
+        elif not is_reference_preview:
             hashes[digest] = relative
         try:
             with Image.open(path) as image:
@@ -735,7 +887,7 @@ def validate_checksums(root: Path, files: list[Path], errors: list[str]) -> None
             errors.append(f"repository checksum mismatch: {relative}")
 
 
-def validate_export_manifest(root: Path, files: list[Path], errors: list[str]) -> dict[str, object] | None:
+def validate_export_manifest(root: Path, files: list[Path], reference_count: int, errors: list[str]) -> dict[str, object] | None:
     path = root / "manifests" / "export-manifest.json"
     raw = load_json(path, errors)
     if not isinstance(raw, dict):
@@ -744,7 +896,7 @@ def validate_export_manifest(root: Path, files: list[Path], errors: list[str]) -
         errors.append("export manifest has unexpected fields")
     if raw.get("schema_version") != 1 or raw.get("release") != "v0.2.0-wip":
         errors.append("export manifest schema/release mismatch")
-    if raw.get("counts") != EXPECTED_COUNTS:
+    if raw.get("counts") != expected_counts(reference_count):
         errors.append("export manifest frozen counts mismatch")
     if raw.get("target_styles") != TARGET_STYLES:
         errors.append("export manifest target styles mismatch")
@@ -838,7 +990,10 @@ def validate_release_bundle(
                 errors.append("release ZIP has duplicate entry names")
             image_names = [name for name in names if name != "SHA256SUMS"]
             if len(image_names) != EXPECTED_COUNTS["style_sheets"] or "SHA256SUMS" not in names:
-                errors.append("release ZIP must contain exactly 277 images plus SHA256SUMS")
+                errors.append(
+                    "release ZIP must contain exactly "
+                    f"{EXPECTED_COUNTS['style_sheets']} images plus SHA256SUMS"
+                )
             if sorted(image_names) != sorted(archive_records):
                 errors.append("release ZIP images do not exactly match public manifest archive paths")
             for info in archive.infolist():
@@ -912,16 +1067,29 @@ def validate(
         errors.append("detached checksum requires --release-bundle")
     if not root.is_dir() or root.is_symlink():
         return [f"repository root is not a regular directory: {root}"]
-    files = validate_inventory(root, errors)
+    references = validate_references(root, errors)
+    reference_ids = [str(record["reference_id"]) for record in references]
+    files = validate_inventory(root, reference_ids, errors)
     relative_files = {path.relative_to(root).as_posix() for path in files}
     missing = sorted(REQUIRED_ROOT_FILES - relative_files)
     if missing:
         errors.append(f"missing required repository files: {missing}")
     validate_markdown_links(root, files, errors)
     manifests, _source_hashes, _declared_previews, archive_records = validate_manifests(root, errors)
+    for slug in EXPECTED_SLUGS:
+        page = root / "characters" / slug / "references.md"
+        display_name = manifests.get(slug, {}).get("display_name")
+        if page.is_file() and isinstance(display_name, str):
+            try:
+                actual_page = page.read_text(encoding="utf-8")
+            except (OSError, UnicodeError) as exc:
+                errors.append(f"cannot read character reference page for {slug}: {exc}")
+            else:
+                if actual_page != expected_character_references(slug, display_name, references):
+                    errors.append(f"character reference page does not match reference index: {slug}")
     validate_previews(root, errors)
     validate_pending(root, manifests, errors)
-    export_manifest = validate_export_manifest(root, files, errors)
+    export_manifest = validate_export_manifest(root, files, len(references), errors)
     validate_checksums(root, files, errors)
     if release_bundle is not None:
         validate_release_bundle(

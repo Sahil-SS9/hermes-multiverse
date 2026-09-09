@@ -26,7 +26,9 @@ The sheet labels Witcheer a compact "Luck Merchant" aligned with a fictional "Ho
 
 The updated NRCU Vault links [Witcheer-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Witcheer-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **21,751,189 bytes** and SHA-256 `b319cd50ab8c14f5bd96892b194d816213251691d291e155f1030bd605c5f61c`.
 
-Upstream describes a GLB with skeleton, skin weights, embedded textures and animation clips. Hermes Multiverse records that claim and the verified release metadata but does not duplicate or independently certify the model ZIP. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **8 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+
+Private canonical model: `../models/rigged-models-v1/Witcheer.glb`.
 
 ## Accepted style omission
 

@@ -22,7 +22,7 @@ Nous Research, Hermes Agent, linked creators, and third-party properties remain 
 | [Brooklyn / Heartbreaker](docs/characters/brooklyn-heartbreaker.md) | `brooklyn-heartbreaker` | `established` | `unknown-not-cleared` | [record](characters/brooklyn-heartbreaker/README.md) |
 | [coffeeblender](docs/characters/coffeeblender.md) | `coffeeblender` | `established` | `unknown-not-cleared` | [record](characters/coffeeblender/README.md) |
 | [Cthulhu](docs/characters/cthulhu.md) | `cthulhu` | `established` | `unknown-not-cleared` | [record](characters/cthulhu/README.md) |
-| [Doge Man](docs/characters/doge-man.md) | `doge-man` | `source-only-model-preview` | `unknown-not-cleared` | [record](characters/doge-man/README.md) |
+| [Doge Man](docs/characters/doge-man.md) | `doge-man` | `established` | `unknown-not-cleared` | [record](characters/doge-man/README.md) |
 | [Don Piedro](docs/characters/don-piedro.md) | `don-piedro` | `established` | `unknown-not-cleared` | [record](characters/don-piedro/README.md) |
 | [ee.dd](docs/characters/ee-dd.md) | `ee-dd` | `established` | `unknown-not-cleared` | [record](characters/ee-dd/README.md) |
 | [Jeffrey Quesnelle / Emozilla](docs/characters/emozilla.md) | `emozilla` | `excluded-by-user` | `third-party-association-not-reusable` | [record](characters/emozilla/README.md) |
@@ -34,7 +34,7 @@ Nous Research, Hermes Agent, linked creators, and third-party properties remain 
 | [I Sneeze Kittens](docs/characters/i-sneeze-kittens.md) | `i-sneeze-kittens` | `established` | `unknown-not-cleared` | [record](characters/i-sneeze-kittens/README.md) |
 | [MGF.654](docs/characters/mgf-654.md) | `mgf-654` | `established` | `unknown-not-cleared` | [record](characters/mgf-654/README.md) |
 | [Noctis](docs/characters/noctis.md) | `noctis` | `established` | `unknown-not-cleared` | [record](characters/noctis/README.md) |
-| [NousGirl](docs/characters/nousgirl.md) | `nousgirl` | `upstream-reference-reconciliation-pending` | `unknown-not-cleared` | [record](characters/nousgirl/README.md) |
+| [NousGirl](docs/characters/nousgirl.md) | `nousgirl` | `established` | `unknown-not-cleared` | [record](characters/nousgirl/README.md) |
 | [quark2world](docs/characters/quark2world.md) | `quark2world` | `provisional-sheet-conflicts-with-legacy-unknown-status` | `unknown-not-cleared` | [record](characters/quark2world/README.md) |
 | [realtimeuk](docs/characters/realtimeuk.md) | `realtimeuk` | `established` | `unknown-not-cleared` | [record](characters/realtimeuk/README.md) |
 | [Sahil](docs/characters/sahil.md) | `sahil` | `established` | `unknown-not-cleared` | [record](characters/sahil/README.md) |

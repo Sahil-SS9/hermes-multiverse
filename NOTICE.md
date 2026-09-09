@@ -2,7 +2,7 @@
 
 Hermes Multiverse is an unofficial, fan-made community project. Artwork labels and fan-fictional descriptions are not biographical claims. Inclusion is not a reuse or commercial licence, and unknown rights remain labelled unknown.
 
-Emozilla is documentation-only; the associated third-party Minion reference is not reusable and is not published. GGB is documentation-only in this release. Doge Man is source-only, NousGirl has an open reference-reconciliation record, and sudo-nightwing remains approval-pending.
+Emozilla is documentation-only; the associated third-party Minion reference is not reusable and is not published. GGB is documentation-only in this release. Doge Man's canonical identity sheet is approved but its style set is pending; NousGirl's headphone invariant is locked; sudo-nightwing remains approval-pending.
 
 ## Content-rights issue route
 

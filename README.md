@@ -1,6 +1,6 @@
 # Hermes Multiverse — NRCU Community Character Archive
 
-> Work in progress: 34 evidence-bounded character records and 277 approved style-sheet previews.
+> Work in progress: 34 evidence-bounded character records and 286 approved style-sheet previews.
 
 ![Sahil anime style-sheet preview](previews/sahil/anime.webp)
 
@@ -13,7 +13,7 @@ This collection builds on the evolving documentation foundation of **[123mikeyd'
 ## Release snapshot
 
 - 34 character documentation records
-- 277 approved style-sheet previews
+- 286 approved style-sheet previews
 - 9 target styles, with explicitly documented pending work and omissions
 - 4 scene documents, 3 music-video documents, and 1 shared-reference document
 
@@ -27,6 +27,7 @@ Only sanitised WebP previews are stored in Git. The 277 byte-identical full-reso
 ## Browse
 
 - [Gallery](GALLERY.md)
+- [Supporting-reference gallery](REFERENCE-GALLERY.md)
 - [Status and coverage](STATUS.md)
 - [Pending work](manifests/pending.json)
 - [Scenes](docs/scenes/ask-hermes.md)
