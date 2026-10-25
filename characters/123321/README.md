@@ -1,7 +1,7 @@
 # Hermes User 123321
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/123321.md)
 - [Public manifest](manifest.json)

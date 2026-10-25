@@ -1,7 +1,7 @@
 # Tinuviel — The Starry Wanderer
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/tinuviel.md)
 - [Public manifest](manifest.json)

@@ -7,7 +7,7 @@
 | Slug | `don-piedro` |
 | Aliases | `DonPiedro` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ Don Piedro's public identity, role, affiliation, abilities, backstory, team memb
 
 ## Rights and provenance
 
-The profile carries forward NRCU documentation and current catalogue assets. Rights remain `unknown-not-cleared`; neither the fan-video appearance nor the local files grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+The profile carries forward NRCU documentation and current catalogue assets. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

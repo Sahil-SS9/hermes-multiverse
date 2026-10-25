@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-a595c0c99b6fdeec`
 - Type: `sheet`
 - Mapping confidence: `source-established`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Scene
 
@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-fa9eeed3da8ff124`
 - Type: `scene`
 - Mapping confidence: `source-established`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ## Candidate references — not canonical
 

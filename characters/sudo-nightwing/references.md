@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-94f681aac0a0b815`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `mixed:approval-pending-per-profile,unknown-not-cleared`
+- Rights: `mixed:approval-pending-per-profile,community-use`
 
 ### Underground Sewer Cafe
 
@@ -32,7 +32,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-ae741cefc93c1767`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `mixed:approval-pending-per-profile,unknown-not-cleared`
+- Rights: `mixed:approval-pending-per-profile,community-use`
 
 ### Moody Cocktail Bar
 
@@ -41,7 +41,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-d5849ed5351df0e3`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `mixed:approval-pending-per-profile,unknown-not-cleared`
+- Rights: `mixed:approval-pending-per-profile,community-use`
 
 ## Candidate references — not canonical
 

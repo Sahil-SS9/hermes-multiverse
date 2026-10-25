@@ -7,7 +7,7 @@
 | Slug | `turbo-fit` |
 | Aliases | `Sovthpaw`, `Turbo Fit` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ Turbo Fit also appears in the archived descriptions of [ASK HERMES](../scenes/as
 
 The updated NRCU Vault links [TurboFit-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/TurboFit-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **41,451,999 bytes** and SHA-256 `9b62d700d68c46dc8778d5cf088b3fbfc532c43d6843c49ee9e6bd6b79614cfe`.
 
-Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **15 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **15 named skeletal animations**, with no external file dependencies. This validates package structure, not perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
 
 Private canonical model: `../models/rigged-models-v1/TurboFit.glb`.
 
@@ -38,7 +38,7 @@ The catalogue does not establish Sovthpaw's public identity, real-world role, eq
 
 ## Rights and provenance
 
-The source sheet, nine current styles, and NRCU records are retained for reference. Rights remain `unknown-not-cleared`; inclusion does not grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+The source sheet, nine current styles, and NRCU records are retained for reference. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

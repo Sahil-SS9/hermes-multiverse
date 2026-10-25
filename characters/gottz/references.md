@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-60d746cadb1eacce`
 - Type: `environment-concept`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Cyberpunk Server Room Fight
 
@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-94f681aac0a0b815`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `mixed:approval-pending-per-profile,unknown-not-cleared`
+- Rights: `mixed:approval-pending-per-profile,community-use`
 
 ## Candidate references — not canonical
 

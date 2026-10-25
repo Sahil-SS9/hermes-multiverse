@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-4262d1ca9d36af6b`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Explosive Desert Escape
 
@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-746b72b93139c902`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Sheet
 
@@ -32,7 +32,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-7950f6b3e9bbbeb9`
 - Type: `sheet`
 - Mapping confidence: `source-established`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Dessert Buffet Brawl
 
@@ -41,7 +41,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-7acce532b34ba583`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Scene
 
@@ -50,7 +50,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-998a5204398347f5`
 - Type: `scene`
 - Mapping confidence: `source-established`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Multiverse Character Lineup
 
@@ -59,7 +59,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-cc0bc0aad177d6e2`
 - Type: `reference-composite`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ## Candidate references — not canonical
 

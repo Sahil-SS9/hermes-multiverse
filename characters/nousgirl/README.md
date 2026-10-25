@@ -1,7 +1,7 @@
 # NousGirl
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/nousgirl.md)
 - [Public manifest](manifest.json)

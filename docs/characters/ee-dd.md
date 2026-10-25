@@ -7,7 +7,7 @@
 | Slug | `ee-dd` |
 | Aliases | `eedd` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ The catalogue does not document ee.dd's public identity, current moderator statu
 
 ## Rights and provenance
 
-Rights to the identity and current artwork remain `unknown-not-cleared`. The third-party meme-style cameo is reference evidence only. Inclusion grants no right to reuse or sell any asset; see the [content notice](../../NOTICE.md).
+Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. The third-party meme-style cameo is reference evidence only. The meme cameo stays third-party and is not covered../../NOTICE.md).
 
 ## Public provenance
 

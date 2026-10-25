@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-09eaa0322d8f28b8`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Lunar Cat Confrontation
 
@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-22f9bcd1dc376667`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Autumn Fantasy Walk
 
@@ -32,7 +32,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-644e7f792134f643`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Circus Cat Performance
 
@@ -41,7 +41,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-b7c2dc4040f2d454`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Multiverse Character Lineup
 
@@ -50,7 +50,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-cc0bc0aad177d6e2`
 - Type: `reference-composite`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ## Candidate references — not canonical
 

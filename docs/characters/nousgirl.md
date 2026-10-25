@@ -9,7 +9,7 @@
 | Slug | `nousgirl` |
 | Aliases | `Nous Girl`, `Nous Smol` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Identity master | Existing multi-view canonical sheet |
 | Mandatory invariant | Large over-ear headphones |
@@ -47,7 +47,7 @@ The sources do not establish NousGirl's exact role, abilities, affiliation, team
 
 ## Rights and provenance
 
-Rights remain `unknown-not-cleared`. Canonical identity approval does not grant reuse, redistribution or commercial permission.
+Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator.
 
 ## Public provenance
 

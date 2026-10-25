@@ -9,7 +9,7 @@
 | Slug | `tunacookie` |
 | Aliases | `Tunacookie` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -30,7 +30,7 @@ The archive does **not** yet establish TunaCookie's role, affiliation, abilities
 
 ## Rights and provenance
 
-This is a work-in-progress catalogue record. Its manifest currently records rights as `unknown-not-cleared`. Inclusion in Hermes Multiverse documents the material; it does not grant permission to reuse, redistribute or sell the character, name or artwork. Source claims are retained in public citations above and in the project attribution record.
+This is a work-in-progress catalogue record. Its manifest records rights as `community-use`: the character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. Source claims are retained in public citations above and in the project attribution record.
 
 ## Public provenance
 

@@ -1,7 +1,7 @@
 # GGB — Gummy Bee
 
 - Design status: `excluded-by-user`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 0
 - [Character profile](../../docs/characters/ggb.md)
 - [Public manifest](manifest.json)

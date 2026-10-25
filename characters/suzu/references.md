@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-079982e500947c21`
 - Type: `sheet`
 - Mapping confidence: `source-established`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ## Candidate references — not canonical
 

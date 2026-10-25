@@ -13,7 +13,7 @@ Supporting 3D model preview
 | Slug | `doge-man` |
 | Alias | `DogeMan` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Identity controller | Approved GLB plus canonical direct-model turnaround |
 | Sheet status | Approved and promoted byte-for-byte |
@@ -65,11 +65,11 @@ All nine target-style sheets were generated, machine-verified, approved for prom
 
 ## Deliberate unknowns
 
-Doge Man's origin, civilian identity, wider affiliations, ability source and formal reuse permissions remain unknown.
+Doge Man's origin, civilian identity, wider affiliations, ability source remain unknown.
 
 ## Rights and provenance
 
-This is an unofficial work-in-progress catalogue record. Model approval establishes the local character identity; it does not grant permission to redistribute, adapt or sell the character or rig.
+This is an unofficial work-in-progress catalogue record. Model approval establishes the local character identity; the character and rig are open for the community to use, adapt and share, with credit.
 
 ## Sources
 

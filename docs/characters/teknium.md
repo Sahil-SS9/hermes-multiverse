@@ -7,7 +7,7 @@
 | Slug | `teknium` |
 | Aliases | none recorded |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch`, `punk` |
 | Additional styles | `punk` |
@@ -28,7 +28,7 @@ Teknium also appears in the archived scene descriptions for [ASK HERMES](../scen
 
 The updated NRCU Vault links [Teknium-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Teknium-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **18,623,006 bytes** and SHA-256 `bb08b497b5d682cf4176c16432e491e894e8c2fd151c40563487bb65d290994b`.
 
-Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **16 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **16 named skeletal animations**, with no external file dependencies. This validates package structure, not perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
 
 Private canonical model: `../models/rigged-models-v1/Teknium.glb`.
 
@@ -38,7 +38,7 @@ The catalogue does not establish Teknium's public biography, exact real-world ro
 
 ## Rights and provenance
 
-Source portraits, sheets, ten current styles, and NRCU descriptions are preserved for reference. Rights remain `unknown-not-cleared`; established design status does not grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+Source portraits, sheets, ten current styles, and NRCU descriptions are preserved for reference. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

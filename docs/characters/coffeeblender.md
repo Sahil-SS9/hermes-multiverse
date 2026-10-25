@@ -7,7 +7,7 @@
 | Slug | `coffeeblender` |
 | Aliases | `CoffeeBlender` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ No public identity, role, affiliation, backstory, abilities, relationship to Gil
 
 ## Rights and provenance
 
-The source sheet, generated styles, and NRCU scene description are retained as catalogue evidence. Rights remain `unknown-not-cleared`; no reuse or commercial permission follows from inclusion. See the [content notice](../../NOTICE.md).
+The source sheet, generated styles, and NRCU scene description are retained as catalogue evidence. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

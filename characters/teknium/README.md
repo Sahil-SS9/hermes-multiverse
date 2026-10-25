@@ -1,7 +1,7 @@
 # Teknium
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 10
 - [Character profile](../../docs/characters/teknium.md)
 - [Public manifest](manifest.json)

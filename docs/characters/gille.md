@@ -7,7 +7,7 @@
 | Slug | `gille` |
 | Aliases | none recorded |
 | Design status | `provisional-sheet-conflicts-with-legacy-unknown-status` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ Gille's current title, public identity, detailed backstory, equipment, icon, tea
 
 ## Rights and provenance
 
-The NRCU text, video appearance record, and provisional visual set are preserved for documentation. Rights remain `unknown-not-cleared`; local storage and display do not grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+The NRCU text, video appearance record, and provisional visual set are preserved for documentation. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

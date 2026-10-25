@@ -7,7 +7,7 @@
 | Slug | `sidbin` |
 | Aliases | `Sidbin`, `Mirror Shade` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ No public identity, real-world role, creator approval, original source sheet, fi
 
 ## Rights and provenance
 
-The current style set and NRCU lore are catalogue records. Rights remain `unknown-not-cleared`; established design status does not provide a reuse licence or convert fan lore into official canon. See the [content notice](../../NOTICE.md).
+The current style set and NRCU lore are catalogue records. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

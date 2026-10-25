@@ -1,6 +1,6 @@
 # Rights and project notice
 
-Hermes Multiverse is an unofficial, fan-made community project. Artwork labels and fan-fictional descriptions are not biographical claims. Inclusion is not a reuse or commercial licence, and unknown rights remain labelled unknown.
+Hermes Multiverse is an unofficial, fan-made community project. Artwork labels and fan-fictional descriptions are not biographical claims. The characters and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. Third-party properties are not covered by this permission and stay with their owners.
 
 Emozilla is documentation-only; the associated third-party Minion reference is not reusable and is not published. GGB is documentation-only in this release. Doge Man's canonical identity sheet is approved but its style set is pending; NousGirl's headphone invariant is locked; sudo-nightwing remains approval-pending.
 

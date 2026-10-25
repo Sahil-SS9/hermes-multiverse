@@ -7,7 +7,7 @@
 | Slug | `witcheer` |
 | Aliases | none recorded |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 8 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -26,7 +26,7 @@ The sheet labels Witcheer a compact "Luck Merchant" aligned with a fictional "Ho
 
 The updated NRCU Vault links [Witcheer-rigged.zip](https://github.com/123mikeyd/nrcu-vault/releases/download/rigged-models-v1/Witcheer-rigged.zip) from its [`rigged-models-v1` release](https://github.com/123mikeyd/nrcu-vault/releases/tag/rigged-models-v1). GitHub reports **21,751,189 bytes** and SHA-256 `b319cd50ab8c14f5bd96892b194d816213251691d291e155f1030bd605c5f61c`.
 
-Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **8 named skeletal animations**, with no external file dependencies. This validates package structure, not reuse rights or perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
+Hermes Multiverse now preserves the exact package privately. Structural verification confirms one self-contained GLB with one mesh, one skin, embedded texture data and **8 named skeletal animations**, with no external file dependencies. This validates package structure, not perfect parity with every style sheet. See the [shared 3D lineup record](../references/3d-character-lineup.md).
 
 Private canonical model: `../models/rigged-models-v1/Witcheer.glb`.
 
@@ -40,7 +40,7 @@ The catalogue does not establish a public handle, real-world role, in-universe s
 
 ## Rights and provenance
 
-Two source sheets, eight current styles, and the NRCU appearance record are retained as catalogue evidence. Rights remain `unknown-not-cleared`; established design status and local storage do not grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+Two source sheets, eight current styles, and the NRCU appearance record are retained as catalogue evidence. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

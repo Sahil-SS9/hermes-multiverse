@@ -7,7 +7,7 @@
 | Slug | `quark2world` |
 | Aliases | none recorded |
 | Design status | `provisional-sheet-conflicts-with-legacy-unknown-status` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -28,7 +28,7 @@ The catalogue does not establish quark2world's public identity, current role, af
 
 ## Rights and provenance
 
-The NRCU attribution, public project links, video record, and provisional visual assets are retained for documentation. Rights remain `unknown-not-cleared`; inclusion does not grant reuse or commercial permission. See the [content notice](../../NOTICE.md).
+The NRCU attribution, public project links, video record, and provisional visual assets are retained for documentation. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

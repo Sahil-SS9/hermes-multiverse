@@ -1,7 +1,7 @@
 # ArtsBro
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/artsbro.md)
 - [Public manifest](manifest.json)

@@ -7,7 +7,7 @@
 | Slug | `brooklyn-heartbreaker` |
 | Aliases | `Brooklyn`, `Heartbreaker` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -30,7 +30,7 @@ The catalogue does not establish Brooklyn's public identity, actual community ro
 
 ## Rights and provenance
 
-The profile combines current catalogue assets with descriptions carried from the NRCU Vault. Rights remain `unknown-not-cleared`. Inclusion and display do not grant permission to reuse, adapt, or sell the identity or artwork; see the [content notice](../../NOTICE.md).
+The profile combines current catalogue assets with descriptions carried from the NRCU Vault. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator../../NOTICE.md).
 
 ## Public provenance
 

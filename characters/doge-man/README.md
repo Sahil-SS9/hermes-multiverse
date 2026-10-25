@@ -1,7 +1,7 @@
 # Doge Man
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/doge-man.md)
 - [Public manifest](manifest.json)

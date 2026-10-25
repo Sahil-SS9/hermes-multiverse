@@ -14,7 +14,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-2d246f1adbcdb084`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Data Center Liberation Team
 
@@ -23,7 +23,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-30fb2252b524873d`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Collaborative City Building
 
@@ -32,7 +32,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-33694986ceefe483`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Neon Rooftop Squad
 
@@ -41,7 +41,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-35f5ecbbf1ab4b06`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Open Source Graveyard
 
@@ -50,7 +50,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-38039a466a575b2b`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Rainbow Squad Poster
 
@@ -59,7 +59,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-3a956070a22b1526`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Neon City Team March
 
@@ -68,7 +68,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-3c3c4658d418a903`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Agent Squad Reference
 
@@ -77,7 +77,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-426508e0ad73e935`
 - Type: `reference-composite`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Rainbow Squad Silhouettes
 
@@ -86,7 +86,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-4ff64e3403ce9b04`
 - Type: `co-character-scene`
 - Mapping confidence: `low`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Neon Rooftop Comet Ride
 
@@ -95,7 +95,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-556828cdcf639c55`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Open Source Roller Disco
 
@@ -104,7 +104,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-581dad8db16d20ea`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Overgrown Wasteland Expedition
 
@@ -113,7 +113,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-60d746cadb1eacce`
 - Type: `environment-concept`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Retro Diner Breakfast
 
@@ -122,7 +122,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-6d86f2a99444f762`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Chibi Command Center
 
@@ -131,7 +131,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-71edecff3d11f10d`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Sunset Berry Harvest
 
@@ -140,7 +140,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-7779ee6093e4b42e`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Cosmic Campfire Picnic
 
@@ -149,7 +149,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-98851fc80f69c11f`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Sunset Street Performance
 
@@ -158,7 +158,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-a8570042bc160412`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Pixel Arcade Brawl
 
@@ -167,7 +167,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-ae1cb6a279516fda`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Tropical Kart Race
 
@@ -176,7 +176,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-bcee55b1d6c32b0c`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Neon City Rooftop
 
@@ -185,7 +185,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-bd3b4a8b0aa92370`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Mystical Hermes Mural
 
@@ -194,7 +194,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-bd7c9892b70b932f`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Pink Cyber Eye
 
@@ -203,7 +203,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-c8f02140f111eca3`
 - Type: `single-character-reference`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Neon Portal Chamber
 
@@ -212,7 +212,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-d348cbdc7aa13dc6`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Tavern Beer Pong
 
@@ -221,7 +221,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-d533a2b22fcfb01d`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Forest Campfire Gathering
 
@@ -230,7 +230,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-d5a500d377ab91f4`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Group Ramen Dinner
 
@@ -239,7 +239,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-d6859fcd5bd92b37`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Stormy Monster Confrontation
 
@@ -248,7 +248,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-fe6764f1dd9c82dd`
 - Type: `co-character-scene`
 - Mapping confidence: `low`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Retro Futurist Jet Formation
 
@@ -257,7 +257,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-ff607426ddcc9aaf`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ## Candidate references — not canonical
 
@@ -270,7 +270,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-6974eaa0bf67799e`
 - Type: `co-character-scene`
 - Mapping confidence: `high`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Ink Wash Team Battle
 
@@ -281,7 +281,7 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-b7205bd3ec335c05`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`
 
 ### Holographic Stage Gathering
 
@@ -292,4 +292,4 @@ Shared references remain single-copy previews in the central reference gallery.
 - Reference ID: `ref-e0d3f4f421a25dfb`
 - Type: `co-character-scene`
 - Mapping confidence: `medium`
-- Rights: `unknown-not-cleared`
+- Rights: `community-use`

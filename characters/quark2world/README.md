@@ -1,7 +1,7 @@
 # quark2world
 
 - Design status: `provisional-sheet-conflicts-with-legacy-unknown-status`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 9
 - [Character profile](../../docs/characters/quark2world.md)
 - [Public manifest](manifest.json)

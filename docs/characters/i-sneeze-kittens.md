@@ -7,7 +7,7 @@
 | Slug | `i-sneeze-kittens` |
 | Aliases | `ISneezeKittens`, `ISneezeKIttens` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -30,7 +30,7 @@ The catalogue does not establish the handle owner's public identity, community r
 
 ## Rights and provenance
 
-Two source sheets and the complete nine-style set are catalogued. Rights remain `unknown-not-cleared`; neither the files nor the video links grant permission to reuse, adapt, or sell the identity or artwork. See the [content notice](../../NOTICE.md).
+Two source sheets and the complete nine-style set are catalogued. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

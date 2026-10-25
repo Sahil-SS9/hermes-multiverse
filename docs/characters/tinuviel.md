@@ -7,7 +7,7 @@
 | Slug | `tinuviel` |
 | Aliases | `Tinuviel` |
 | Design status | `established` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -30,7 +30,7 @@ No public identity, real-world role, creator-approved canon, confirmed alliance,
 
 ## Rights and provenance
 
-The source sheet, nine current styles, and NRCU descriptions are held as catalogue evidence. Rights remain `unknown-not-cleared`; display does not grant permission to reuse, adapt, or sell the identity or artwork. See the [content notice](../../NOTICE.md).
+The source sheet, nine current styles, and NRCU descriptions are held as catalogue evidence. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

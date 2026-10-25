@@ -7,7 +7,7 @@
 | Slug | `suzu` |
 | Aliases | none recorded |
 | Design status | `provisional-sheet-conflicts-with-legacy-unknown-status` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 9 of 9 |
 | Current styles | `anime`, `rick-and-morty`, `disney`, `mecha`, `chibi`, `gothic`, `claymation-stop-motion`, `hyper-realistic`, `ink-pen-sketch` |
 | Additional styles | none |
@@ -32,7 +32,7 @@ Suzu's public identity, role, affiliation, abilities, team membership, age, scal
 
 ## Rights and provenance
 
-The page preserves NRCU text, a video appearance record, and the provisional visual set. Rights remain `unknown-not-cleared`; local files do not grant permission to reuse, adapt, or sell the identity or artwork. See the [content notice](../../NOTICE.md).
+The page preserves NRCU text, a video appearance record, and the provisional visual set. Rights: `community-use`. The character and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

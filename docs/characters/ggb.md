@@ -7,7 +7,7 @@
 | Slug | `ggb` |
 | Aliases | `GGB`, `Gummy Bee` |
 | Design status | `excluded-by-user` |
-| Rights status | `unknown-not-cleared` |
+| Rights status | `community-use` |
 | Target styles present | 0 of 9 |
 | Current styles | none |
 | Additional styles | none |
@@ -32,7 +32,7 @@ The archive does not establish GGB's hive, origin, affiliations, pronouns, wider
 
 ## Rights and provenance
 
-The portrait and video citation preserve provenance; they do not grant reuse rights. Status remains `unknown-not-cleared`, and exclusion from design work remains in force. See the [content notice](../../NOTICE.md).
+The portrait and video citation preserve provenance; they do not grant reuse rights. Status remains `community-use`, and exclusion from design work remains in force. See the [content notice](../../NOTICE.md).
 
 ## Public provenance
 

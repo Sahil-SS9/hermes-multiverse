@@ -1,7 +1,7 @@
 # Witcheer
 
 - Design status: `established`
-- Rights status: `unknown-not-cleared`
+- Rights status: `community-use`
 - Published styles: 8
 - [Character profile](../../docs/characters/witcheer.md)
 - [Public manifest](manifest.json)

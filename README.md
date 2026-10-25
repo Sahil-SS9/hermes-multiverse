@@ -37,4 +37,4 @@ Only sanitised WebP previews are stored in Git. The 277 byte-identical full-reso
 - [Attribution](ATTRIBUTION.md)
 - [Contributing](CONTRIBUTING.md)
 
-Inclusion does not grant a reuse or commercial licence. See [NOTICE.md](NOTICE.md) before using any artwork or character material.
+The characters and artwork are open for the community to use, adapt and share, with credit to Hermes Multiverse and the character's creator. See [NOTICE.md](NOTICE.md) for the few third-party exceptions.
